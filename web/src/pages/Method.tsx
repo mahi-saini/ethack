@@ -103,13 +103,13 @@ export default function Method() {
         </article>
 
         <article className="fun-card">
-          <div className="emoji" aria-hidden="true">💬</div>
-          <h3>The advisor</h3>
+          <div className="emoji" aria-hidden="true">🧮</div>
+          <h3>The calculator</h3>
           <ul>
-            <li>Ask in your own words.</li>
-            <li>It reads the <strong>same scores</strong> as the rest of the site.</li>
-            <li>Try the $1 billion net-zero question. 💸</li>
-            <li>Or: “What should 3M change first?”</li>
+            <li>Ask in your own words. The <strong>numbers never invent themselves</strong>.</li>
+            <li>It only reads the <em>same scores</em> as the rest of the site.</li>
+            <li>Try the $1 billion net-zero split. 💸</li>
+            <li>Not a chatbot. Arithmetic you can check.</li>
           </ul>
         </article>
 

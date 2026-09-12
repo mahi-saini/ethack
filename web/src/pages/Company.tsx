@@ -50,7 +50,7 @@ export default function CompanyPage() {
               Compare
             </Link>
             <Link className="btn ghost" to={`/advisor?q=${encodeURIComponent("What should " + company.name + " change first?")}`}>
-              Ask the advisor
+              Ask the calculator
             </Link>
           </div>
         </div>
