@@ -6,7 +6,7 @@ const links = [
   ["/rankings", "Rankings"],
   ["/compare", "Compare"],
   ["/studio", "Charts"],
-  ["/advisor", "Advisor"],
+  ["/advisor", "Calculator"],
   ["/method", "How it works"],
 ] as const;
 

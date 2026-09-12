@@ -152,7 +152,7 @@ function describePortfolio(holdings: Holding[]): string {
     .map(([name, amt]) => `• ${name}: ${dollars(amt)} (${Math.round((amt / MONEY) * 100)}%)`)
     .join("\n");
   return [
-    "If the world commits to net-zero tomorrow, we would not simply buy the companies that talk the most about climate.",
+    "If the world commits to net-zero tomorrow, this is arithmetic on the Green Liquid scores — not a stock pick, not a forecast.",
     "We would pay for proof, for companies that can afford the work, and for the businesses that help everyone else switch.",
     "",
     `A $1 billion fund, ${holdings.length} companies, no single name above 3.5%, no sector above 18%.`,
@@ -276,9 +276,10 @@ export function answer(dataset: Dataset, input: string): AgentReply {
   }
 
   return {
-    title: "I can look that up",
+    title: "I only calculate what is already here",
     body: [
-      "Ask in everyday language. I read the same Green Liquid scores that power the rest of the site.",
+      "This is a calculator. I will not invent a company, a number, or next year’s price.",
+      "Ask in everyday language. I only read the Green Liquid scores.",
       "Try:",
       "• The world just committed to net-zero. Allocate my $1 billion.",
       "• Compare Apple and Microsoft.",

@@ -23,6 +23,7 @@ export default function App() {
             <Route path="/compare" element={<Compare />} />
             <Route path="/studio" element={<Studio />} />
             <Route path="/advisor" element={<Advisor />} />
+            <Route path="/calculator" element={<Navigate to="/advisor" replace />} />
             <Route path="/method" element={<Method />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>
