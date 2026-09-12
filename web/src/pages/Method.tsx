@@ -20,6 +20,8 @@ export default function Method() {
         <span>🙊 Catch the gap</span>
         <span className="arrow" aria-hidden="true">→</span>
         <span>🎛️ You set the mix</span>
+        <span className="arrow" aria-hidden="true">→</span>
+        <span>🗞️ News confirms, it does not grade</span>
       </div>
 
       <div className="fun-grid">
@@ -110,6 +112,17 @@ export default function Method() {
             <li>It only reads the <em>same scores</em> as the rest of the site.</li>
             <li>Try the $1 billion net-zero split. 💸</li>
             <li>Not a chatbot. Arithmetic you can check.</li>
+          </ul>
+        </article>
+
+        <article className="fun-card">
+          <div className="emoji" aria-hidden="true">🗞️</div>
+          <h3>News is a flashlight</h3>
+          <ul>
+            <li>We do <strong>not</strong> let a headline move the score.</li>
+            <li>Only a <em>confirmation set</em>: AP, Reuters, PR wires, Bloomberg, WSJ, NYT, WaPo, NPR, FT.</li>
+            <li>Same story, two desks = <strong>one event</strong>.</li>
+            <li>One desk = a lead, not a fact. 🔦</li>
           </ul>
         </article>
 

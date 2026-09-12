@@ -9,6 +9,7 @@ import {
 } from "recharts";
 import { useDataset } from "../dataset";
 import { PillarBars, ScoreMark } from "../components/Widgets";
+import RecentSignals from "../components/RecentSignals";
 import { gapTone, gradeFromScore, vsTypical, withScores } from "../lib/scoring";
 
 export default function CompanyPage() {
@@ -151,6 +152,8 @@ export default function CompanyPage() {
           </div>
         </section>
       ) : null}
+
+      <RecentSignals name={company.name} ticker={company.ticker} />
 
       <section style={{ marginTop: 22 }}>
         <h3>Others in {company.sector}</h3>

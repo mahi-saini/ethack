@@ -365,6 +365,25 @@ input[type="range"]::-webkit-slider-thumb {
   padding: 40px;
 }
 
+.news-list {
+  list-style: none;
+  padding: 0;
+  margin: 14px 0 0;
+  display: grid;
+  gap: 12px;
+}
+.news-list li {
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  gap: 10px;
+  align-items: start;
+}
+.news-list a {
+  color: var(--forest);
+  font-weight: 700;
+  text-decoration: none;
+}
+.news-list a:hover { text-decoration: underline; }
 .radar-wrap, .chart-wrap { width: 100%; height: 360px; }
 .compare-pick { display: flex; gap: 8px; flex-wrap: wrap; }
 
