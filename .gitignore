@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+sec_company_tickers.json
+web/node_modules/
+web/dist/
