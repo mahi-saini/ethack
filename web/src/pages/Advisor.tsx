@@ -36,16 +36,20 @@ export default function Advisor() {
       asked.current = true;
       ask(preset);
     }
-  }, [preset]); // ask is stable enough for a one-time preset question
+  }, [preset]);
 
   return (
     <div className="page">
-      <p className="kicker">Advisor</p>
-      <h1>Ask in your own words</h1>
+      <p className="kicker">🧮 Calculator</p>
+      <h1>Ask in your own words. The numbers stay honest.</h1>
       <p className="lede">
-        This guide has read the Green Liquid scores. It can allocate a billion-dollar net-zero fund, compare peers, or
-        suggest what a company should change.
+        This is a <strong>calculator</strong>, not a chatbot. It only reads Green Liquid scores — so a $1 billion split
+        is arithmetic, <em>not a guess</em>. No model is inventing companies in the background.
       </p>
+      <div className="card" style={{ marginBottom: 16 }}>
+        <strong>What it will do:</strong> look up a name, compare two companies, rank a sector, or allocate $1B from the
+        scores. <em>What it will not do:</em> hallucinate a number, or pretend to know next year’s stock price.
+      </div>
       <div className="prompts">
         {PROMPTS.map((p) => (
           <button key={p} className="chip" onClick={() => ask(p)}>
@@ -96,11 +100,11 @@ export default function Advisor() {
           className="search"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask anything — companies, sectors, or the $1B fund"
-          aria-label="Ask the advisor"
+          placeholder="Ask a company, a sector, or the $1B fund"
+          aria-label="Ask the calculator"
         />
         <button className="btn" type="submit">
-          Ask
+          Calculate
         </button>
       </form>
     </div>
