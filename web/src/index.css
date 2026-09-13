@@ -494,11 +494,23 @@ input[type="range"]::-webkit-slider-thumb {
   color: var(--charcoal);
   font-size: 13px;
 }
-.recs h2 { margin-bottom: 10px; }
-.recs p { color: var(--charcoal); margin: 0 0 10px; max-width: 62ch; }
+.fact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 12px;
+}
+.fact-grid strong {
+  display: block;
+  font-family: var(--display);
+  font-size: 22px;
+  color: var(--forest);
+  line-height: 1.15;
+  margin: 4px 0 6px;
+}
 
 @media (max-width: 900px) {
-  .hero, .grid-4, .grid-3, .grid-2, .mixer, .fun-grid, .method-hero, .netzero-layout { grid-template-columns: 1fr; }
+  .hero, .grid-4, .grid-3, .grid-2, .mixer, .fun-grid, .method-hero, .netzero-layout, .fact-grid { grid-template-columns: 1fr; }
   .shell-header { flex-direction: column; align-items: flex-start; }
   .madlib-select { max-width: 100%; }
 }

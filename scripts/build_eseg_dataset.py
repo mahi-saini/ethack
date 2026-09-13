@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
 """Build the Green Liquid company-level ESEG dataset from 10-K disclosures.
 
-The current source is SEC 10-K sustainability passages plus the S&P 500
-constituent list (name, sector, industry). Factor columns can later be
-overridden by dropping a CSV at data/eseg_overrides.csv with columns:
-    ticker,factor_id,value,source
+The current source is SEC 10-K sustainability passages, the S&P 500
+constituent list, Net Zero Tracker + SBTi targets, and the climate master
+workbook (Climate TRACE inventories + CA100 assessments).
 """
 
 from __future__ import annotations
@@ -21,19 +20,32 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 DISCLOSURE_CSV = ROOT / "sp500_sustainability_disclosures.csv"
 CONSTITUENTS_CSV = ROOT / "data" / "sp500_constituents.csv"
+NZT_SBTI_CSV = ROOT / "data" / "sp500_nzt_sbti_unified_final.csv"
+CLIMATE_XLSX = ROOT / "data" / "climate_master_esg_emissions.xlsx"
 OVERRIDES_CSV = ROOT / "data" / "eseg_overrides.csv"
 OUT_JSON = ROOT / "data" / "eseg_master.json"
 OUT_CSV = ROOT / "data" / "eseg_master.csv"
 
 MISSING_Z = -0.75
 SCORE_SCALE = 12.0  # score = 50 + 12z, clipped to 0-100
+HIGH_CARBON_SECTORS = {"Energy", "Materials", "Utilities", "Industrials"}
+PLEDGE_TYPES = {
+    "net zero",
+    "carbon neutral(ity)",
+    "carbon neutral",
+    "climate neutral",
+    "zero emissions",
+    "carbon negative",
+    "zero carbon",
+    "ghg neutral(ity)",
+}
 
 FACTORS = [
     {
         "id": "carbonFootprint",
         "pillar": "environmental",
         "label": "Carbon Footprint",
-        "plain": "How clearly they measure and talk about greenhouse gases.",
+        "plain": "Whether they actually account for Scope 1, 2, and 3 greenhouse gases.",
         "higher_is_better": True,
         "positive": [
             r"scope\s*[123]",
@@ -53,7 +65,7 @@ FACTORS = [
         "id": "climatePromise",
         "pillar": "environmental",
         "label": "Climate Promise Score",
-        "plain": "The strength of their climate targets and net-zero pledges.",
+        "plain": "How credible the climate target is — Net Zero Tracker + Science Based Targets.",
         "higher_is_better": True,
         "positive": [
             r"net[- ]zero",
@@ -581,6 +593,297 @@ def load_overrides() -> dict[str, dict[str, float]]:
     return out
 
 
+def parse_year(value: object) -> int | None:
+    if value is None:
+        return None
+    if isinstance(value, float) and math.isnan(value):
+        return None
+    match = re.search(r"(20\d{2})", str(value))
+    return int(match.group(1)) if match else None
+
+
+def blank(value: object) -> str | None:
+    if value is None:
+        return None
+    if isinstance(value, float) and math.isnan(value):
+        return None
+    text = str(value).strip()
+    return text or None
+
+
+def scope_points(value: object) -> float | None:
+    text = blank(value)
+    if text is None:
+        return None
+    key = text.lower()
+    if key == "yes":
+        return 2.0
+    if key == "partial":
+        return 1.0
+    if key in {"not specified", "n/a"}:
+        return 0.5
+    if key == "no":
+        return 0.0
+    return None
+
+
+def name_key(value: str) -> str:
+    cleaned = re.sub(
+        r"\b(inc|corp|corporation|ltd|limited|co|company|the|plc|sa|ag|group|holdings|n\.?v\.?)\b",
+        "",
+        value.lower(),
+    )
+    return re.sub(r"[^a-z0-9]+", " ", cleaned).strip()
+
+
+def load_nzt_sbti() -> dict[str, dict]:
+    out: dict[str, dict] = {}
+    with NZT_SBTI_CSV.open(newline="", encoding="utf-8") as f:
+        for row in csv.DictReader(f):
+            ticker = normalize_ticker(row["Ticker"])
+            cred = row.get("Target Credibility Score") or ""
+            try:
+                score = float(cred)
+            except ValueError:
+                score = None
+            out[ticker] = {
+                "credibilityScore": score,
+                "credibilityTier": blank(row.get("Target Credibility Tier")),
+                "nztMatch": blank(row.get("NZT Match")),
+                "sbtiMatch": blank(row.get("SBTi Match")),
+                "nztTargetType": blank(row.get("NZT Target Type")),
+                "nztTargetYear": parse_year(row.get("NZT Target Year")),
+                "nztInterimYear": parse_year(row.get("NZT Interim Year")),
+                "scope1": blank(row.get("Scope 1 Coverage")),
+                "scope2": blank(row.get("Scope 2 Coverage")),
+                "scope3": blank(row.get("Scope 3 Coverage")),
+                "sbtiNearTerm": blank(row.get("SBTi Near-Term Status")),
+                "sbtiNearClass": blank(row.get("SBTi Near-Term Classification")),
+                "sbtiNearYear": parse_year(row.get("SBTi Near-Term Year")),
+                "sbtiLongTerm": blank(row.get("SBTi Long-Term Status")),
+                "sbtiNetZero": blank(row.get("SBTi Net-Zero Status")),
+                "sbtiNetZeroYear": parse_year(row.get("SBTi Net-Zero Year")),
+            }
+    return out
+
+
+def load_climate_master(constituents: dict[str, dict]) -> tuple[dict[str, dict], dict[str, dict]]:
+    import ast
+
+    import pandas as pd
+
+    emissions: dict[str, dict] = {}
+    ca100: dict[str, dict] = {}
+    if not CLIMATE_XLSX.exists():
+        return emissions, ca100
+
+    em = pd.read_excel(
+        CLIMATE_XLSX,
+        sheet_name="CT_CompanyEmissions",
+        usecols=["tickerHint", "periodEnd", "value", "companyName", "boundary"],
+    )
+    em["ticker"] = em["tickerHint"].astype(str).map(normalize_ticker)
+    em["year"] = pd.to_datetime(em["periodEnd"], errors="coerce").dt.year
+    em = em.dropna(subset=["year", "value"])
+    for ticker, grp in em.groupby("ticker"):
+        ordered = grp.sort_values("year")
+        positive = ordered[ordered["value"] > 0]
+        if positive.empty:
+            continue
+        latest = positive.iloc[-1]
+        first = positive.iloc[0]
+        change = None
+        if len(positive) >= 2 and float(first["value"]) > 0:
+            change = (float(latest["value"]) - float(first["value"])) / float(first["value"])
+        emissions[str(ticker)] = {
+            "tco2e": float(latest["value"]),
+            "year": int(latest["year"]),
+            "changePct": None if change is None else round(change * 100, 2),
+            "companyName": blank(latest["companyName"]),
+        }
+
+    summ = pd.read_excel(CLIMATE_XLSX, sheet_name="ESG_Summary")
+    latest_month = summ["assessment_month"].max()
+    last = summ[summ["assessment_month"] == latest_month].copy()
+    companies = pd.read_excel(
+        CLIMATE_XLSX,
+        sheet_name="Companies",
+        usecols=["currentTickers", "name", "aliases", "tickerHint"],
+    )
+
+    name_to_tickers: dict[str, set[str]] = defaultdict(set)
+    sp_tickers = set(constituents)
+    for _, row in companies.iterrows():
+        ticks: list[str] = []
+        raw = row.get("currentTickers")
+        try:
+            parsed = ast.literal_eval(raw) if isinstance(raw, str) else raw
+            if isinstance(parsed, list):
+                ticks = [normalize_ticker(str(t)) for t in parsed]
+        except (SyntaxError, ValueError):
+            ticks = []
+        hint = blank(row.get("tickerHint"))
+        if hint:
+            ticks.append(normalize_ticker(hint))
+        ticks = [t for t in ticks if t in sp_tickers]
+        names = [str(row.get("name") or "")]
+        try:
+            aliases = ast.literal_eval(row["aliases"]) if isinstance(row.get("aliases"), str) else row.get("aliases")
+            if isinstance(aliases, list):
+                names.extend(str(a) for a in aliases)
+        except (SyntaxError, ValueError):
+            pass
+        for name in names:
+            if name:
+                name_to_tickers[name_key(name)].update(ticks)
+
+    for ticker, meta in constituents.items():
+        name_to_tickers[name_key(meta["name"])].add(ticker)
+
+    for _, row in last.iterrows():
+        name = str(row.get("company_name") or "")
+        ticks = name_to_tickers.get(name_key(name), set()) & sp_tickers
+        if not ticks:
+            continue
+        pack = {
+            "rate": None if pd.isna(row.get("positive_or_partial_rate")) else float(row["positive_or_partial_rate"]),
+            "yes": None if pd.isna(row.get("yes_count")) else int(row["yes_count"]),
+            "partial": None if pd.isna(row.get("partial_count")) else int(row["partial_count"]),
+            "no": None if pd.isna(row.get("no_count")) else int(row["no_count"]),
+            "round": blank(row.get("round")),
+            "name": name,
+        }
+        for ticker in ticks:
+            ca100[ticker] = pack
+    return emissions, ca100
+
+
+def measured_pack(nzt: dict | None, ct: dict | None, ca: dict | None) -> dict:
+    return {
+        "credibilityScore": None if not nzt else nzt.get("credibilityScore"),
+        "credibilityTier": None if not nzt else nzt.get("credibilityTier"),
+        "nztTargetType": None if not nzt else nzt.get("nztTargetType"),
+        "nztTargetYear": None if not nzt else nzt.get("nztTargetYear"),
+        "nztInterimYear": None if not nzt else nzt.get("nztInterimYear"),
+        "sbtiNearTerm": None if not nzt else nzt.get("sbtiNearTerm"),
+        "sbtiNearClass": None if not nzt else nzt.get("sbtiNearClass"),
+        "sbtiNetZero": None if not nzt else nzt.get("sbtiNetZero"),
+        "scope1": None if not nzt else nzt.get("scope1"),
+        "scope2": None if not nzt else nzt.get("scope2"),
+        "scope3": None if not nzt else nzt.get("scope3"),
+        "emissionsTco2e": None if not ct else ct.get("tco2e"),
+        "emissionsYear": None if not ct else ct.get("year"),
+        "emissionsChangePct": None if not ct else ct.get("changePct"),
+        "ca100Rate": None if not ca else ca.get("rate"),
+        "ca100Round": None if not ca else ca.get("round"),
+    }
+
+
+def apply_measured(company: dict, nzt: dict | None, ct: dict | None, ca: dict | None) -> None:
+    """Replace NLP proxies with measured climate facts where we have them."""
+    company["measured"] = measured_pack(nzt, ct, ca)
+    factors = company["factors"]
+
+    if nzt:
+        points = [scope_points(nzt.get(k)) for k in ("scope1", "scope2", "scope3")]
+        present = [p for p in points if p is not None]
+        klass = (nzt.get("sbtiNearClass") or "").lower()
+        if present:
+            raw = sum(present)
+            if ct and company["sector"] in HIGH_CARBON_SECTORS and ct.get("tco2e"):
+                raw += max(-8.0, min(8.0, 6.0 - math.log10(max(ct["tco2e"], 1.0))))
+                if ct.get("changePct") is not None:
+                    raw += 2.0 if ct["changePct"] < 0 else -2.0
+            factors["carbonFootprint"]["raw"] = raw
+            factors["carbonFootprint"]["missing"] = False
+            factors["carbonFootprint"]["hits"] = max(factors["carbonFootprint"]["hits"], 1)
+            company["overrideFactors"].append("carbonFootprint")
+        else:
+            factors["carbonFootprint"]["raw"] = None
+            factors["carbonFootprint"]["missing"] = True
+            company["overrideFactors"].append("carbonFootprint")
+
+        cred = nzt.get("credibilityScore")
+        if cred is not None:
+            promise = float(cred)
+            year = nzt.get("nztTargetYear")
+            if year and year <= 2030:
+                promise += 25
+            elif year and year <= 2040:
+                promise += 12
+            if "1.5" in klass:
+                promise += 12
+            elif "well-below" in klass:
+                promise += 6
+            if nzt.get("sbtiNetZero") == "Targets set":
+                promise += 10
+            if ca and ca.get("rate") is not None:
+                promise += 20 * ca["rate"]
+            factors["climatePromise"]["raw"] = promise
+            factors["climatePromise"]["missing"] = False
+            factors["climatePromise"]["hits"] = max(factors["climatePromise"]["hits"], 1)
+            company["overrideFactors"].append("climatePromise")
+
+        clean_bonus = 0.0
+        if "1.5" in klass:
+            clean_bonus += 10
+        if nzt.get("sbtiNearTerm") == "Targets set":
+            clean_bonus += 6
+        if clean_bonus:
+            base = factors["cleanEnergy"]["raw"] or 0.0
+            factors["cleanEnergy"]["raw"] = float(base) + clean_bonus
+            factors["cleanEnergy"]["missing"] = False
+            factors["cleanEnergy"]["hits"] = max(factors["cleanEnergy"]["hits"], 1)
+            company["overrideFactors"].append("cleanEnergy")
+
+        trans_bonus = sum(1 for p in present if p and p >= 2) * 4
+        if nzt.get("sbtiNearTerm") == "Targets set":
+            trans_bonus += 8
+        if trans_bonus:
+            base = factors["transparency"]["raw"] or 0.0
+            factors["transparency"]["raw"] = float(base) + trans_bonus
+            factors["transparency"]["missing"] = False
+            factors["transparency"]["hits"] = max(factors["transparency"]["hits"], 1)
+            company["overrideFactors"].append("transparency")
+
+        say_m = 0.0
+        target_type = (nzt.get("nztTargetType") or "").lower()
+        if target_type in PLEDGE_TYPES:
+            say_m += 4
+        elif target_type and target_type not in {"no target"}:
+            say_m += 2
+        if nzt.get("nztTargetYear") and nzt["nztTargetYear"] >= 2045:
+            say_m += 2
+        if nzt.get("sbtiNearTerm") == "Committed":
+            say_m += 1
+
+        do_m = 0.0
+        if nzt.get("sbtiNearTerm") == "Targets set":
+            do_m += 5
+        elif nzt.get("sbtiNearTerm") == "Committed":
+            do_m += 1
+        elif nzt.get("sbtiNearTerm") == "Commitment removed":
+            do_m -= 3
+        if nzt.get("sbtiLongTerm") == "Targets set":
+            do_m += 2
+        if nzt.get("sbtiNetZero") == "Targets set":
+            do_m += 3
+        elif nzt.get("sbtiNetZero") == "Commitment removed":
+            do_m -= 2
+        do_m += sum(1 for p in present if p and p >= 2)
+        if ct and ct.get("changePct") is not None:
+            do_m += 3 if ct["changePct"] < 0 else -2
+
+        company["sayRaw"] = round(company["sayRaw"] + say_m * 8, 3)
+        company["doRaw"] = round(max(0.0, company["doRaw"] + do_m * 8), 3)
+
+    if ca and ca.get("rate") is not None:
+        factors["envTrackRecord"]["raw"] = 100.0 * ca["rate"]
+        factors["envTrackRecord"]["missing"] = False
+        factors["envTrackRecord"]["hits"] = max(factors["envTrackRecord"]["hits"], 1)
+        company["overrideFactors"].append("envTrackRecord")
+
+
 def score_text(text: str) -> tuple[dict[str, dict], int, int]:
     tallies: dict[str, dict] = {}
     for factor in FACTORS:
@@ -625,6 +928,8 @@ def pick_excerpt(passages: list[dict], kind: str) -> dict | None:
 def main() -> None:
     constituents = load_constituents()
     overrides = load_overrides()
+    nzt_by_ticker = load_nzt_sbti()
+    ct_by_ticker, ca100_by_ticker = load_climate_master(constituents)
 
     by_ticker: dict[str, dict] = defaultdict(
         lambda: {
@@ -718,6 +1023,14 @@ def main() -> None:
                 "hits": hits,
                 "missing": missing,
             }
+
+        apply_measured(
+            company,
+            nzt_by_ticker.get(ticker),
+            ct_by_ticker.get(ticker),
+            ca100_by_ticker.get(ticker),
+        )
+        company["overrideFactors"] = sorted(set(company["overrideFactors"]))
 
         if rec:
             for kind in ("promise", "proof", "risk"):
@@ -926,11 +1239,14 @@ def main() -> None:
         "source": {
             "disclosures": str(DISCLOSURE_CSV.name),
             "constituents": str(CONSTITUENTS_CSV.name),
+            "nztSbti": str(NZT_SBTI_CSV.name),
+            "climateMaster": str(CLIMATE_XLSX.name),
             "overrides": OVERRIDES_CSV.exists(),
             "note": (
-                "Factor scores are built from latest 10-K sustainability passages. "
-                "Silence is treated as a risk: missing factors receive a negative z-score. "
-                "Add measured values in data/eseg_overrides.csv to replace a proxy."
+                "Climate promise, scopes, and say-do start from Net Zero Tracker + SBTi. "
+                "CA100 assessments and Climate TRACE inventories overlay where we can match an S&P 500 name. "
+                "People, money, and trust still read the latest 10-K. "
+                "Silence is treated as a risk: missing factors receive a negative z-score."
             ),
         },
         "pillars": list(PILLARS.values()),
@@ -1015,6 +1331,7 @@ def main() -> None:
 
     print(f"Wrote {len(companies)} companies -> {OUT_JSON}")
     print(f"Wrote spreadsheet -> {OUT_CSV}")
+    print("NZT/SBTi rows:", len(nzt_by_ticker), "Climate TRACE:", len(ct_by_ticker), "CA100 matched:", len(ca100_by_ticker))
     print("Top 8:", [(c["ticker"], c["equalWeightScore"]) for c in companies[:8]])
     print("Bottom 5:", [(c["ticker"], c["equalWeightScore"]) for c in companies[-5:]])
 

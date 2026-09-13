@@ -223,8 +223,8 @@ export default function NetZero() {
         <p className="kicker">Holdings</p>
         <h2>Where the money would go</h2>
         <p className="tiny">
-          Not investment advice. Names come from the same 10-K scores as the rest of the site. Silence still counts as
-          a risk.
+          Not investment advice. Names come from the same scores as the rest of the site — 10-Ks plus the climate
+          ledgers. Silence still counts as a risk.
         </p>
         <div className="card" style={{ marginTop: 14, padding: 0, overflow: "auto" }}>
           <table>

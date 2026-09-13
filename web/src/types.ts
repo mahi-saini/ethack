@@ -49,6 +49,24 @@ export type Company = {
   ideal: Record<string, number>;
   excerpts: Excerpt[];
   overrideFactors: string[];
+  measured?: {
+    credibilityScore: number | null;
+    credibilityTier: string | null;
+    nztTargetType: string | null;
+    nztTargetYear: number | null;
+    nztInterimYear: number | null;
+    sbtiNearTerm: string | null;
+    sbtiNearClass: string | null;
+    sbtiNetZero: string | null;
+    scope1: string | null;
+    scope2: string | null;
+    scope3: string | null;
+    emissionsTco2e: number | null;
+    emissionsYear: number | null;
+    emissionsChangePct: number | null;
+    ca100Rate: number | null;
+    ca100Round: string | null;
+  };
 };
 
 export type FactorMeta = {
@@ -66,6 +84,8 @@ export type Dataset = {
   source: {
     disclosures: string;
     constituents: string;
+    nztSbti?: string;
+    climateMaster?: string;
     overrides: boolean;
     note: string;
   };

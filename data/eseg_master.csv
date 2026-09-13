@@ -1,504 +1,504 @@
 ticker,name,sector,industry,rank,equalWeightScore,netZeroFitness,sayDoGap,sayDoLabel,completeness,distanceToIdeal,passages,environmental,social,economic,governance,carbonFootprint,climatePromise,cleanEnergy,resourceEfficiency,envTrackRecord,leadershipDiversity,workerWellbeing,payFairness,customerTrust,fairLabor,peopleScore,financialStability,growthInnovation,profitability,futureInvestment,jobWageImpact,boardIndependence,execAccountability,ethicsRecord,transparency,ownershipFairness
-CMI,Cummins,Industrials,Construction Machinery & Heavy Transportation Equipment,1,76,55,2.8032,Says more than it does,0.857,17.76,111,84,75,71,76,95,81,77,87,79,87,90,49,48,89,89,37,83,89,66,81,49,48,98,84,99
-F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,2,72,55,2.5044,Says more than it does,0.714,17.33,94,88,72,67,60,94,91,90,85,81,97,84,45,12,97,97,94,80,99,24,37,49,50,64,89,50
-BKR,Baker Hughes,Energy,Oil & Gas Equipment & Services,3,71,67,-0.0974,Walks about even with the talk,0.762,17.52,90,74,81,63,65,55,67,98,67,83,88,88,98,76,40,98,52,98,38,40,86,48,48,98,83,50
-WM,Waste Management,Industrials,Environmental & Facilities Services,4,71,52,1.8308,Says more than it does,0.857,23.05,291,61,79,65,78,98,5,99,99,4,92,94,49,48,93,99,4,71,55,99,94,49,98,97,98,49
-ALGN,Align Technology,Health Care,Health Care Supplies,5,70,69,-0.2384,Walks about even with the talk,0.714,21.76,46,80,73,62,64,76,47,93,92,92,58,89,49,72,86,86,5,83,71,51,99,49,47,91,81,50
-DOW,Dow Inc.,Materials,Commodity Chemicals,6,70,53,2.1078,Says more than it does,0.762,16.57,172,71,75,68,66,98,90,60,94,14,98,92,50,94,28,90,38,88,80,88,46,48,96,72,66,50
-J,Jacobs Solutions,Industrials,Construction & Engineering,7,70,57,1.5685,Says more than it does,0.81,23.38,79,79,87,67,47,78,98,83,65,70,98,96,49,98,85,95,49,67,74,66,81,49,48,5,84,49
-RSG,Republic Services,Industrials,Environmental & Facilities Services,8,70,71,-1.0621,Does more than it promises,0.714,23.9,239,78,68,71,65,99,96,95,98,2,81,83,49,21,77,96,42,76,98,99,39,49,48,81,98,49
-STE,Steris,Health Care,Health Care Equipment,9,70,53,2.2914,Says more than it does,0.762,21.81,48,76,65,76,63,97,92,48,84,58,58,97,49,41,95,51,86,39,84,81,92,49,47,69,99,50
-WY,Weyerhaeuser,Real Estate,Timber REITs,10,70,60,1.329,Says more than it does,0.714,18.86,137,83,70,78,47,98,88,95,92,42,92,50,47,62,93,78,78,90,98,72,50,2,50,95,37,50
-NEM,Newmont,Materials,Gold,11,69,41,3.939,Says more than it does,0.857,18.1,206,72,67,51,86,82,84,90,66,38,94,42,50,48,70,98,6,6,62,88,94,98,96,92,94,50
-GS,Goldman Sachs,Financials,Investment Banking & Brokerage,12,68,57,2.042,Says more than it does,0.714,26.24,97,91,71,63,49,86,88,97,92,93,95,32,51,78,83,88,99,12,37,75,90,49,48,3,95,49
-VTRS,Viatris,Health Care,Pharmaceuticals,13,68,70,-1.7338,Does more than it promises,0.714,22.33,92,77,86,63,47,86,47,93,92,69,99,89,49,91,98,92,1,92,84,93,45,49,47,8,81,50
-PFE,Pfizer,Health Care,Pharmaceuticals,14,67,51,2.4023,Says more than it does,0.619,25.1,68,79,63,83,42,95,98,48,84,69,58,72,49,86,98,16,86,99,84,99,45,49,47,32,33,50
-EQIX,Equinix,Real Estate,Data Center REITs,15,66,65,0.3569,Walks about even with the talk,0.714,21.76,81,86,81,47,50,95,97,98,73,65,95,87,97,68,42,97,52,98,3,30,50,48,50,10,93,50
-HON,Honeywell Technologies,Industrials,Industrial Conglomerates,16,66,51,1.9384,Says more than it does,0.667,28.57,102,71,67,73,51,89,92,67,77,28,92,99,49,39,36,89,74,90,29,92,81,49,48,81,28,49
-CHD,Church & Dwight,Consumer Staples,Household Products,17,65,63,-0.1562,Walks about even with the talk,0.714,27.71,60,70,67,59,63,65,50,81,74,79,51,81,50,54,69,96,51,54,62,38,90,50,49,69,96,49
-KLAC,KLA Corporation,Information Technology,Semiconductor Materials & Equipment,18,65,54,2.0234,Says more than it does,0.714,25.95,59,85,68,56,52,99,98,97,61,71,60,86,47,86,88,42,95,65,38,77,7,50,47,80,32,50
-TT,Trane Technologies,Industrials,Building Products,19,65,52,1.8012,Says more than it does,0.619,29.57,59,69,60,82,49,66,94,30,87,70,72,43,49,75,36,83,89,99,74,66,81,49,48,30,67,49
-AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,20,64,57,0.8282,Says more than it does,0.714,28.52,36,66,49,65,74,62,32,83,61,92,8,11,47,99,88,42,83,75,79,43,47,50,97,99,74,50
-AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,21,64,46,2.7993,Says more than it does,0.524,30.19,43,73,60,63,62,91,88,98,45,45,88,32,51,68,39,85,55,45,80,92,45,49,48,76,88,49
-BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings,22,64,81,-4.9662,Does more than it promises,0.667,30.9,77,94,55,65,44,98,99,91,92,88,88,76,51,4,39,70,43,90,5,97,90,49,48,34,41,49
-CMS,CMS Energy,Utilities,Multi-Utilities,23,64,65,-0.0191,Walks about even with the talk,0.714,25.71,243,79,59,57,60,68,60,98,98,71,82,32,47,26,77,89,40,87,60,55,42,94,48,34,74,50
-FSLR,First Solar,Information Technology,Semiconductors,24,64,65,0.6892,Walks about even with the talk,0.762,29.38,111,90,33,80,51,81,94,99,99,77,8,97,47,37,8,2,74,55,95,96,82,50,47,74,32,50
-HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",25,63,52,1.2034,Says more than it does,0.714,27.86,77,66,83,46,56,75,71,31,93,60,97,95,47,71,97,90,7,95,3,77,47,50,47,59,74,50
-LOW,Lowe's,Consumer Discretionary,Home Improvement Retail,26,63,65,-0.0057,Walks about even with the talk,0.619,26.71,58,80,60,57,54,84,82,96,99,38,84,28,45,61,95,47,67,9,45,85,79,49,50,73,46,50
-MU,Micron Technology,Information Technology,Semiconductors,27,63,59,0.5474,Walks about even with the talk,0.762,28.43,42,69,62,50,72,62,32,83,75,92,60,91,47,45,99,28,34,40,79,8,89,50,97,89,74,50
-TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,28,63,48,1.8594,Says more than it does,0.619,27.86,55,64,79,60,48,98,94,31,89,6,99,97,47,45,92,94,34,95,38,88,47,50,47,21,74,50
-ADI,Analog Devices,Information Technology,Semiconductors,29,62,54,1.1562,Says more than it does,0.619,29.76,39,70,62,49,65,33,71,95,61,92,75,47,47,37,82,86,34,75,79,8,47,50,47,85,95,50
-EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,30,62,64,-0.7301,Walks about even with the talk,0.571,27.71,82,72,52,71,52,74,98,76,19,95,43,24,48,33,88,74,64,69,38,98,86,48,48,67,45,50
-EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,31,62,63,-3.2472,Does more than it promises,0.762,30.43,53,45,60,51,92,9,50,81,60,26,81,44,50,54,69,65,60,96,79,16,3,99,99,96,65,99
-FTNT,Fortinet,Information Technology,Systems Software,32,62,55,1.0394,Says more than it does,0.714,28.57,66,73,75,57,45,75,84,31,96,77,92,78,47,96,62,77,5,75,79,77,47,50,47,2,74,50
-GM,General Motors,Consumer Discretionary,Automobile Manufacturers,33,62,67,-1.6624,Does more than it promises,0.667,26.76,74,75,66,56,52,99,47,71,85,73,61,98,45,73,51,69,5,90,87,61,37,49,50,64,46,50
-GPC,Genuine Parts Company,Consumer Discretionary,Distributors,34,62,54,0.6475,Walks about even with the talk,0.619,26.67,47,57,67,65,60,72,47,71,59,38,61,84,45,61,71,79,89,80,93,24,37,49,50,64,89,50
-KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,35,62,63,-0.2253,Walks about even with the talk,0.667,29.38,52,74,70,63,40,94,99,83,82,10,99,99,47,86,31,61,74,97,92,43,7,50,47,21,32,50
-KMB,Kimberly-Clark,Consumer Staples,Household Products,36,62,58,0.5906,Walks about even with the talk,0.619,31.0,55,71,64,47,64,65,93,35,85,79,99,44,50,54,69,65,72,75,29,16,41,50,49,88,82,49
-L,Loews Corporation,Financials,Multi-line Insurance,37,62,59,0.4593,Walks about even with the talk,0.571,32.86,73,72,67,55,53,99,95,78,88,2,79,99,51,68,39,66,48,45,37,99,45,49,48,76,41,49
-MET,MetLife,Financials,Life & Health Insurance,38,62,56,1.1278,Says more than it does,0.476,33.43,70,73,46,68,63,30,95,95,45,98,52,32,51,74,39,25,86,45,70,92,45,49,48,76,93,49
-VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,39,62,58,-0.779,Does more than it promises,0.714,27.14,125,50,65,65,67,50,10,69,38,83,43,57,48,76,98,67,98,38,38,64,86,48,48,93,95,50
-CARR,Carrier Global,Industrials,Building Products,40,61,58,0.6917,Walks about even with the talk,0.714,32.95,110,80,71,56,36,60,85,90,97,70,72,90,49,88,36,89,5,98,2,92,81,49,48,8,28,49
-DOV,Dover Corporation,Industrials,Industrial Machinery & Supplies & Components,41,61,58,0.5128,Walks about even with the talk,0.714,33.67,104,65,44,82,54,72,5,97,87,65,13,43,49,63,36,61,66,94,89,81,81,49,48,56,67,49
-IDXX,Idexx Laboratories,Health Care,Health Care Equipment,42,61,52,0.7834,Says more than it does,0.524,29.81,75,55,78,50,62,86,47,48,92,1,75,89,49,86,95,73,31,87,35,51,45,49,47,91,71,50
-TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,43,61,53,0.7643,Says more than it does,0.571,28.38,42,57,60,82,44,14,47,99,85,38,95,28,95,2,71,69,97,96,79,61,79,49,50,27,46,50
-DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,44,61,57,0.7193,Walks about even with the talk,0.476,28.1,22,71,64,52,57,85,92,40,96,42,40,48,50,98,85,60,69,15,92,42,44,48,50,88,50,50
-AOS,A. O. Smith,Industrials,Building Products,45,60,71,-2.4339,Does more than it promises,0.667,35.71,61,86,38,61,54,83,81,86,93,86,45,9,49,31,77,14,46,64,89,66,39,49,48,30,94,49
-ARES,Ares Management,Financials,Asset Management & Custody Banks,46,60,59,0.125,Walks about even with the talk,0.524,33.71,58,68,68,39,67,72,41,86,45,98,99,32,51,48,94,85,24,12,37,32,90,49,48,93,98,49
-AIZ,Assurant,Financials,Multi-line Insurance,47,60,52,0.6042,Walks about even with the talk,0.571,34.29,57,52,68,60,61,30,41,45,98,45,88,76,99,12,39,94,1,96,80,32,90,49,48,85,74,49
-BXP,"BXP, Inc.",Real Estate,Office REITs,48,60,49,0.6087,Walks about even with the talk,0.667,27.81,65,40,60,75,67,77,47,27,47,2,80,17,47,78,42,97,93,63,73,55,93,98,50,42,93,50
-CCL,Carnival Corporation,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",49,60,65,-1.2565,Does more than it promises,0.81,29.57,84,73,48,67,52,97,96,71,96,3,16,90,45,35,87,18,94,66,79,61,37,98,50,54,9,50
-D,Dominion Energy,Utilities,Multi-Utilities,50,60,63,-1.2258,Does more than it promises,0.714,29.57,142,71,64,53,50,98,95,73,40,48,8,73,47,85,92,76,53,47,89,34,42,45,48,34,74,50
-GRMN,Garmin,Consumer Discretionary,Consumer Electronics,51,60,67,-1.5595,Does more than it promises,0.524,29.48,36,79,51,66,44,79,47,85,85,98,84,28,45,44,21,86,50,80,45,76,79,49,50,27,46,50
-HSY,Hershey Company (The),Consumer Staples,Packaged Foods & Meats,52,60,67,-2.5626,Does more than it promises,0.619,33.24,64,69,40,80,51,93,50,94,16,94,9,44,99,24,26,40,99,91,87,81,41,50,49,41,65,49
-MCHP,Microchip Technology,Information Technology,Semiconductors,53,60,62,0.1722,Walks about even with the talk,0.667,30.67,56,81,63,50,48,94,71,83,93,66,32,47,47,77,95,80,99,7,38,99,7,50,47,21,74,50
-NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals",54,60,63,-1.0926,Does more than it promises,0.619,31.9,53,73,62,56,47,90,32,90,61,92,92,78,47,86,5,66,34,75,79,43,47,99,47,6,32,50
-NI,NiSource,Utilities,Multi-Utilities,55,60,45,1.8526,Says more than it does,0.762,28.86,109,59,73,56,50,53,98,26,56,63,82,55,47,94,77,85,71,71,60,76,2,45,48,76,31,50
-REG,Regency Centers,Real Estate,Retail REITs,56,60,46,1.4765,Says more than it does,0.667,28.86,41,53,61,70,54,88,8,82,60,28,32,93,47,27,93,72,78,63,73,85,50,48,50,42,80,50
-SOLV,Solventum,Health Care,Health Care Technology,57,60,60,-0.023,Walks about even with the talk,0.619,32.1,50,65,53,74,47,86,47,48,75,69,14,99,49,41,42,73,73,77,95,81,45,49,47,4,86,50
-SO,Southern Company,Utilities,Electric Utilities,58,60,64,-2.6155,Does more than it promises,0.667,29.48,163,59,51,76,54,79,48,58,34,76,92,6,47,71,37,55,85,71,89,95,42,45,48,94,31,50
-TPL,Texas Pacific Land Corporation,Energy,Oil & Gas Exploration & Production,59,60,63,-2.9209,Does more than it promises,0.762,29.76,105,47,42,84,66,2,21,93,88,33,43,57,48,19,40,48,93,86,98,55,86,98,48,67,69,50
-WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,60,60,55,0.5128,Walks about even with the talk,0.619,35.62,53,58,42,68,70,60,45,67,65,55,45,9,49,57,36,55,83,90,89,38,39,99,48,85,67,49
-ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,61,59,60,0.3624,Walks about even with the talk,0.571,33.95,42,78,50,53,54,87,93,81,37,94,29,88,50,94,26,13,66,91,29,38,41,50,49,57,65,49
-BAC,Bank of America,Financials,Diversified Banks,62,59,48,1.9414,Says more than it does,0.571,36.19,61,74,58,62,41,91,88,99,45,45,30,32,51,91,83,59,93,45,37,92,45,49,98,2,7,49
-BG,Bunge Global,Consumer Staples,Agricultural Products & Services,63,59,53,1.8975,Says more than it does,0.762,34.14,74,86,35,53,63,99,99,99,69,62,9,10,50,85,4,54,34,35,9,99,90,50,49,69,99,49
-FLEX,Flex Ltd.,Information Technology,Electronic Manufacturing Services,64,59,62,-0.3894,Walks about even with the talk,0.762,32.43,86,75,54,58,49,86,71,70,89,60,8,11,47,71,95,95,83,75,38,88,7,50,47,1,98,50
-MRVL,Marvell Technology,Information Technology,Semiconductors,65,59,52,0.5002,Walks about even with the talk,0.619,32.1,47,51,65,55,66,62,71,31,20,71,84,47,47,71,62,77,66,75,1,43,89,50,47,96,87,50
-MA,Mastercard,Financials,Transaction & Payment Processing Services,66,59,58,-1.0672,Does more than it promises,0.571,35.05,61,59,85,38,53,72,41,45,92,45,79,95,51,93,99,91,7,80,63,32,7,49,48,76,41,49
-RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,67,59,47,1.1278,Says more than it does,0.524,35.1,33,50,70,63,53,30,41,91,45,45,52,76,51,95,83,66,91,12,93,75,45,49,48,76,41,49
-CRM,Salesforce,Information Technology,Application Software,68,59,39,1.8122,Says more than it does,0.619,31.86,45,35,68,86,47,33,32,31,46,34,32,11,97,96,82,92,83,84,99,77,89,50,47,13,74,50
-AEE,Ameren,Utilities,Multi-Utilities,69,58,53,0.4905,Walks about even with the talk,0.667,31.38,142,59,62,65,45,47,82,76,40,48,95,90,47,47,37,55,95,16,73,98,42,2,48,94,31,50
-AWK,American Water Works,Utilities,Water Utilities,70,58,54,-2.9146,Does more than it promises,0.762,30.38,431,25,77,85,44,3,32,5,81,2,53,90,47,98,77,98,89,98,60,82,97,45,48,5,74,50
-BSX,Boston Scientific,Health Care,Health Care Equipment,71,58,61,-0.3984,Walks about even with the talk,0.667,32.38,37,73,75,44,42,81,47,93,84,58,82,89,99,2,86,92,3,63,95,14,45,49,47,32,33,50
-CRH,CRH plc,Materials,Construction Materials,72,58,56,0.1321,Walks about even with the talk,0.714,28.48,99,60,60,69,44,46,84,12,74,86,62,70,50,58,60,62,46,82,94,30,94,48,46,58,18,50
-DE,Deere & Company,Industrials,Agricultural & Farm Machinery,73,58,59,-0.1194,Walks about even with the talk,0.619,35.81,57,67,60,48,58,60,45,83,51,94,13,73,49,75,96,55,22,86,29,66,39,49,48,60,84,49
-DPZ,Domino's,Consumer Discretionary,Restaurants,74,58,39,2.9853,Says more than it does,0.571,30.67,77,66,62,68,37,79,96,31,33,90,16,28,95,67,71,97,32,66,45,99,99,49,50,27,9,50
-EXE,Expand Energy,Energy,Oil & Gas Exploration & Production,75,58,55,0.4867,Walks about even with the talk,0.667,31.71,88,63,50,56,61,17,76,76,98,50,43,57,48,55,40,60,64,38,69,71,36,93,48,67,45,50
-FDX,FedEx,Industrials,Air Freight & Logistics,76,58,58,0.6917,Walks about even with the talk,0.571,35.71,82,81,62,53,37,96,97,92,77,43,45,43,49,90,77,68,57,49,29,38,94,49,48,10,28,49
-FERG,Ferguson Enterprises,Industrials,Trading Companies & Distributors,77,58,53,0.2922,Walks about even with the talk,0.571,36.0,40,51,62,59,60,20,45,30,65,94,87,73,49,57,98,7,74,30,29,66,98,49,48,60,94,49
-IRM,Iron Mountain,Real Estate,Other Specialized REITs,78,58,62,-0.6802,Walks about even with the talk,0.667,30.86,47,76,62,43,49,55,97,75,98,53,62,75,47,62,42,85,35,95,3,30,50,48,50,85,10,50
-JCI,Johnson Controls,Industrials,Building Products,79,58,53,0.5128,Walks about even with the talk,0.524,36.19,104,61,69,65,35,86,94,30,93,3,99,43,49,94,36,92,74,86,29,96,39,49,48,1,28,49
-TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,80,58,60,-1.2022,Does more than it promises,0.524,29.76,29,63,79,44,48,85,44,40,48,98,81,94,50,69,85,94,6,77,2,42,92,48,50,44,50,50
-TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",81,58,53,0.7643,Says more than it does,0.571,31.1,47,66,62,49,55,79,82,71,59,38,84,98,45,19,37,86,61,38,45,24,79,49,50,80,46,50
-V,Visa Inc.,Financials,Transaction & Payment Processing Services,82,58,52,0.7936,Says more than it does,0.476,36.95,29,59,56,58,59,72,41,45,92,45,67,32,51,68,83,33,24,96,37,88,45,49,48,76,74,49
-APH,Amphenol,Information Technology,Electronic Components,83,57,67,-5.0509,Does more than it promises,0.571,34.19,52,55,56,64,53,90,32,31,41,83,32,86,47,77,31,66,34,84,99,96,7,50,47,21,99,50
-APO,Apollo Global Management,Financials,Asset Management & Custody Banks,84,57,64,-3.3954,Does more than it promises,0.476,38.1,39,59,52,62,54,72,88,45,45,45,30,76,51,85,39,33,71,70,93,32,45,99,48,34,41,49
-BMY,Bristol Myers Squibb,Health Care,Pharmaceuticals,85,57,39,1.4297,Says more than it does,0.619,33.62,35,30,73,73,53,8,47,48,42,5,75,58,49,97,86,73,81,94,84,14,92,49,47,86,33,50
-ED,Consolidated Edison,Utilities,Multi-Utilities,86,57,53,0.5239,Walks about even with the talk,0.81,33.0,134,53,34,68,74,68,10,89,92,5,8,73,47,15,37,24,81,47,95,34,85,94,48,85,92,50
-DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",87,57,52,0.9922,Says more than it does,0.524,35.14,54,65,45,64,54,75,32,31,96,92,8,47,47,49,91,28,95,55,79,43,47,50,47,89,32,50
-EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,88,57,54,0.3895,Walks about even with the talk,0.571,31.62,118,63,63,63,39,90,88,5,93,40,12,93,48,93,40,90,86,38,69,86,36,48,48,36,14,50
-EIX,Edison International,Utilities,Electric Utilities,89,57,42,2.146,Says more than it does,0.714,32.05,102,57,61,51,59,74,60,44,24,81,45,32,97,76,37,79,81,47,27,5,97,45,48,76,74,50
-ETR,Entergy,Utilities,Electric Utilities,90,57,56,0.402,Walks about even with the talk,0.619,31.71,237,68,62,50,48,56,66,82,81,55,98,32,47,5,98,95,98,16,8,87,42,45,48,66,31,50
-INTC,Intel,Information Technology,Semiconductors,91,57,62,-1.4901,Does more than it promises,0.524,34.71,59,66,53,52,57,86,32,31,98,83,60,47,47,37,98,28,34,98,38,43,47,1,47,96,91,50
-KVUE,Kenvue,Consumer Staples,Personal Care Products,92,57,47,-0.903,Does more than it promises,0.667,33.9,80,20,83,61,64,9,50,35,6,1,91,96,50,99,99,65,46,54,99,16,90,50,49,81,93,49
-MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,93,57,35,3.1007,Says more than it does,0.714,34.9,56,56,68,62,43,79,6,35,79,79,51,99,1,74,82,99,81,99,29,59,41,50,49,1,65,49
-MCO,Moody's Corporation,Financials,Financial Exchanges & Data,94,57,50,0.6042,Walks about even with the talk,0.381,36.86,50,53,72,51,53,30,98,45,45,45,95,32,51,78,83,95,55,45,80,32,45,49,48,76,41,49
-OMC,Omnicom Group,Communication Services,Advertising,95,57,55,0.382,Walks about even with the talk,0.381,32.76,26,64,54,51,58,94,98,40,48,42,98,48,50,19,85,21,79,46,42,42,44,48,50,44,98,50
-PCG,PG&E Corporation,Utilities,Multi-Utilities,96,57,55,-0.5448,Walks about even with the talk,0.714,33.0,129,48,45,69,65,61,40,53,66,21,73,6,47,35,37,71,92,87,45,34,85,45,48,85,98,50
-TJX,TJX Companies,Consumer Discretionary,Apparel Retail,97,57,51,-0.0196,Walks about even with the talk,0.524,31.33,35,45,79,54,49,39,47,31,70,38,84,84,95,73,84,56,89,38,45,61,37,49,50,49,46,50
-XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,98,57,64,-1.7897,Does more than it promises,0.762,36.62,155,75,60,51,43,78,89,67,96,43,45,73,49,39,77,80,1,90,99,66,1,49,48,3,67,49
-ZTS,Zoetis,Health Care,Pharmaceuticals,99,57,42,1.8605,Says more than it does,0.571,35.1,96,50,50,67,61,66,47,48,42,46,14,72,49,41,42,80,99,97,2,93,45,49,47,72,86,50
-AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,100,56,66,-1.9345,Does more than it promises,0.762,34.19,220,77,32,60,54,82,71,95,76,63,45,73,47,26,2,2,2,87,81,45,85,45,48,98,31,50
-ABNB,Airbnb,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",101,56,60,-1.5595,Does more than it promises,0.476,33.0,34,61,55,44,66,90,86,31,59,38,84,28,45,95,51,27,32,38,45,24,79,49,50,83,96,50
-AXP,American Express,Financials,Consumer Finance,102,56,50,0.125,Walks about even with the talk,0.476,39.24,58,41,59,65,57,30,41,45,45,45,30,76,51,98,83,14,43,96,63,32,90,49,48,98,41,49
-AMT,American Tower,Real Estate,Telecom Tower REITs,103,56,51,0.2702,Walks about even with the talk,0.524,32.76,42,49,55,65,54,67,47,62,27,42,62,17,47,98,42,62,78,23,35,95,93,48,50,85,37,50
-ADSK,Autodesk,Information Technology,Application Software,104,56,57,0.5002,Walks about even with the talk,0.381,35.86,31,75,44,62,44,94,94,90,61,34,32,47,47,28,31,82,74,65,38,43,89,50,47,40,32,50
-BDX,Becton Dickinson,Health Care,Health Care Equipment,105,56,57,-0.7738,Does more than it promises,0.476,35.43,52,56,56,57,56,95,47,4,42,92,58,82,49,65,42,40,86,69,35,51,45,49,47,99,33,50
-CVS,CVS Health,Health Care,Health Care Services,106,56,55,-0.0784,Walks about even with the talk,0.571,36.29,46,56,52,62,52,8,47,93,42,92,88,82,49,4,42,44,56,58,71,81,45,49,47,81,33,50
-EMR,Emerson Electric,Industrials,Electrical Components & Equipment,107,56,58,-0.4892,Walks about even with the talk,0.667,38.38,45,59,45,61,61,52,85,77,65,15,13,73,49,69,36,28,42,97,59,66,39,49,48,94,67,49
-FTV,Fortive,Industrials,Industrial Machinery & Supplies & Components,108,56,53,0.0178,Walks about even with the talk,0.524,38.71,40,51,54,68,49,52,45,30,51,79,72,43,49,75,36,47,83,64,74,38,81,49,48,72,28,49
-FCX,Freeport-McMoRan,Materials,Copper,109,56,56,-0.8756,Does more than it promises,0.667,30.48,239,54,65,64,42,40,54,84,82,10,32,70,50,48,98,94,30,62,98,82,46,48,46,46,18,50
-LYB,LyondellBasell,Materials,Specialty Chemicals,110,56,62,-1.2597,Does more than it promises,0.667,30.0,78,72,64,38,52,78,54,46,86,96,90,42,50,66,70,68,2,28,62,54,46,48,46,98,18,50
-MRK,Merck & Co.,Health Care,Pharmaceuticals,111,56,51,1.1097,Says more than it does,0.571,35.76,70,69,48,64,44,99,98,48,98,3,97,12,49,79,42,8,93,96,35,51,45,49,47,3,71,50
-MSFT,Microsoft,Information Technology,Systems Software,112,56,46,0.9922,Says more than it does,0.524,34.81,37,48,67,58,51,6,84,31,86,34,32,47,47,99,88,90,66,55,38,43,89,50,47,21,87,50
-MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,113,56,58,-1.3788,Does more than it promises,0.571,32.71,40,57,54,62,50,48,47,27,73,88,87,17,47,62,42,72,58,23,92,85,50,48,50,92,10,50
-NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",114,56,49,0.6337,Walks about even with the talk,0.524,33.0,37,49,59,60,57,56,47,71,33,38,16,68,45,81,51,91,52,99,87,24,37,49,50,89,46,50
-PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,115,56,54,0.3002,Walks about even with the talk,0.619,36.95,68,62,54,43,63,65,50,35,99,62,66,93,50,54,12,47,3,85,29,59,41,50,49,84,82,49
-PWR,Quanta Services,Industrials,Construction & Engineering,116,56,49,0.5665,Walks about even with the talk,0.619,37.52,100,47,62,57,60,40,45,96,14,40,45,9,49,85,96,86,74,9,74,87,39,49,48,89,67,49
-RDDT,Reddit,Communication Services,Interactive Media & Services,117,56,58,-2.7865,Does more than it promises,0.333,33.43,25,43,55,49,77,40,44,40,48,42,88,48,50,10,35,98,40,77,42,42,44,98,50,88,50,98
-RMD,ResMed|,Health Care,Health Care Equipment,118,56,56,-1.2047,Does more than it promises,0.619,35.95,40,50,54,77,42,66,47,4,42,92,82,72,49,65,2,51,73,69,71,81,92,49,47,32,33,50
-SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,119,56,52,0.5355,Walks about even with the talk,0.571,33.19,43,61,58,48,55,29,88,57,38,95,76,24,48,67,88,48,52,86,38,26,36,48,48,83,45,50
-SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,120,56,57,-0.1194,Walks about even with the talk,0.571,38.14,56,63,51,44,67,78,45,67,41,86,45,43,49,69,84,14,37,49,29,66,39,49,48,92,98,49
-UAL,United Airlines Holdings,Industrials,Passenger Airlines,121,56,59,-0.9128,Does more than it promises,0.571,39.0,64,62,49,48,63,96,92,77,14,31,45,43,49,92,36,28,57,64,29,10,81,49,48,85,84,49
-WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",122,56,62,-1.9821,Does more than it promises,0.571,35.62,44,66,53,53,52,62,84,70,20,92,60,47,47,22,76,66,10,75,38,96,47,50,47,40,74,50
-WDAY,"Workday, Inc.",Information Technology,Application Software,123,56,53,-1.3734,Does more than it promises,0.524,35.29,40,38,70,74,40,33,71,31,20,34,60,91,47,93,31,99,90,88,95,8,89,50,47,21,32,50
-EBAY,eBay Inc.,Consumer Discretionary,Broadline Retail,124,56,45,1.4175,Says more than it does,0.524,33.67,31,55,59,44,64,56,91,31,59,38,84,68,45,67,51,37,32,80,45,24,37,49,50,83,89,50
-GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services,125,55,53,0.0447,Walks about even with the talk,0.333,34.57,23,52,54,58,55,40,44,85,48,42,40,48,50,79,71,33,40,77,42,88,44,48,50,79,50,50
-GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services,126,55,53,0.0447,Walks about even with the talk,0.333,34.57,23,52,54,58,55,40,44,85,48,42,40,48,50,79,71,33,40,77,42,88,44,48,50,79,50,50
-BLK,BlackRock,Financials,Asset Management & Custody Banks,127,55,49,0.125,Walks about even with the talk,0.476,38.86,46,41,67,47,66,30,41,45,45,45,9,91,51,78,94,81,13,90,93,32,7,49,48,89,95,49
-CSCO,Cisco,Information Technology,Communications Equipment,128,55,52,0.3362,Walks about even with the talk,0.571,36.33,43,54,58,54,55,62,84,70,20,34,60,91,47,15,82,50,83,16,79,43,47,50,47,96,32,50
-FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,129,55,58,-0.8494,Does more than it promises,0.524,33.62,35,63,47,59,51,48,80,75,60,53,32,75,47,40,42,48,93,63,35,55,50,48,50,42,63,50
-GILD,Gilead Sciences,Health Care,Biotechnology,130,55,50,0.5679,Walks about even with the talk,0.524,36.86,26,55,55,62,47,66,92,48,42,28,97,72,49,8,42,61,73,74,35,81,45,49,97,8,33,50
-DOC,Healthpeak Properties,Real Estate,Health Care REITs,131,55,57,-0.0682,Walks about even with the talk,0.571,33.86,46,65,44,67,45,82,88,27,73,53,62,17,47,53,42,40,65,90,73,55,50,48,50,42,37,50
-HWM,Howmet Aerospace,Industrials,Aerospace & Defense,132,55,62,-1.545,Does more than it promises,0.476,39.95,35,69,42,67,41,40,81,77,77,70,45,43,49,21,77,20,92,49,74,81,39,49,48,30,28,49
-IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,133,55,53,0.4293,Walks about even with the talk,0.667,38.81,51,60,56,61,44,40,45,88,77,48,92,9,49,13,77,98,92,80,29,66,39,49,48,8,67,49
-NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",134,55,47,1.4314,Says more than it does,0.619,34.71,57,65,49,53,52,94,88,71,70,3,61,68,45,61,51,7,61,38,45,85,37,49,50,64,46,50
-RTX,RTX Corporation,Industrials,Aerospace & Defense,135,55,47,0.8409,Says more than it does,0.476,39.1,44,48,56,63,54,52,45,30,65,48,45,43,49,63,89,47,98,49,29,38,99,49,48,94,28,49
-TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,136,55,59,0.382,Walks about even with the talk,0.571,34.33,29,84,57,28,50,98,92,94,96,42,8,48,50,90,98,48,40,15,42,42,2,48,50,96,4,50
-APP,AppLovin,Communication Services,Advertising,137,54,55,-0.8649,Does more than it promises,0.238,35.62,31,52,52,63,48,40,44,40,48,88,40,48,50,54,35,83,40,98,42,42,92,48,50,44,50,50
-BX,Blackstone Inc.,Financials,Asset Management & Custody Banks,138,54,54,-0.3986,Walks about even with the talk,0.381,40.9,35,51,51,53,61,30,41,45,45,93,52,32,51,24,83,66,64,45,37,75,45,49,98,34,74,49
-CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,139,54,52,-0.3103,Walks about even with the talk,0.476,40.57,47,45,48,57,65,72,45,30,65,15,13,43,49,63,36,86,22,71,74,38,81,49,48,85,92,49
-COF,Capital One,Financials,Consumer Finance,140,54,47,1.1278,Says more than it does,0.429,41.29,55,57,47,60,51,72,41,82,45,45,30,32,51,62,39,70,55,90,80,32,45,49,48,66,41,49
-CNC,Centene Corporation,Health Care,Managed Health Care,141,54,48,0.3525,Walks about even with the talk,0.524,37.24,36,41,58,52,67,38,47,48,42,28,58,12,49,89,42,96,56,27,71,14,92,49,47,96,91,50
-CB,Chubb Limited,Financials,Property & Casualty Insurance,142,54,53,-0.3986,Walks about even with the talk,0.476,40.86,72,54,63,53,44,91,41,45,1,93,79,91,51,57,39,59,55,70,63,32,45,49,48,34,41,49
-CIEN,Ciena,Information Technology,Communications Equipment,143,54,52,0.1722,Walks about even with the talk,0.429,37.95,35,50,42,70,54,33,32,31,61,92,32,47,47,90,31,8,95,40,79,88,47,50,47,92,32,50
-KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages,144,54,54,-0.1562,Walks about even with the talk,0.619,37.86,74,55,58,57,47,34,50,35,93,62,81,10,50,68,47,93,10,79,96,59,41,50,49,24,65,49
-COHR,Coherent Corp.,Information Technology,Electronic Components,145,54,56,-0.3199,Walks about even with the talk,0.571,37.52,40,63,54,55,44,81,32,90,20,92,8,91,47,57,62,61,83,55,38,8,89,50,47,40,32,50
-STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,146,54,53,0.5906,Walks about even with the talk,0.571,38.81,54,71,52,48,43,54,50,81,90,79,51,44,50,79,26,65,96,19,29,16,81,50,49,41,26,49
-HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",147,54,52,-0.1086,Walks about even with the talk,0.476,37.0,62,50,62,52,52,6,32,70,75,66,75,47,47,86,76,42,34,99,38,43,47,50,47,40,74,50
-LITE,Lumentum,Information Technology,Communications Equipment,148,54,51,0.1722,Walks about even with the talk,0.476,37.76,50,50,51,71,44,33,32,31,89,63,32,91,47,28,82,28,95,75,6,88,89,50,47,40,32,50
-PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,149,54,53,0.9781,Says more than it does,0.476,41.52,35,74,30,62,49,91,89,30,65,94,45,43,49,1,36,7,83,76,74,38,39,49,48,72,28,49
-VICI,Vici Properties,Real Estate,Hotel & Resort REITs,150,54,47,1.2856,Says more than it does,0.571,34.24,51,62,56,44,54,72,47,62,88,42,87,17,47,78,42,65,98,23,35,55,8,48,50,42,80,50
-VMRK,Vivmark Residential,Real Estate,Multi-Family Residential REITs,151,54,48,0.1227,Walks about even with the talk,0.381,34.0,33,41,66,62,45,27,47,27,27,75,98,87,47,40,42,85,2,83,92,85,50,48,50,42,37,50
-WST,West Pharmaceutical Services,Health Care,Health Care Supplies,152,54,60,-0.2938,Walks about even with the talk,0.524,38.33,20,75,43,44,53,92,47,93,75,69,14,72,49,8,42,73,31,27,35,81,45,49,47,87,33,50
-AMCR,Amcor,Materials,Paper & Plastic Packaging Products & Materials,153,53,44,1.3273,Says more than it does,0.667,34.29,60,56,55,58,42,22,78,46,74,60,68,42,50,32,90,46,88,88,62,4,46,48,46,20,48,50
-ACGL,Arch Capital Group,Financials,Property & Casualty Insurance,154,53,48,1.1278,Says more than it does,0.524,42.48,62,62,41,53,56,72,88,7,98,45,79,32,51,48,2,33,71,45,37,32,80,49,48,34,99,49
-CI,Cigna,Health Care,Health Care Services,155,53,56,-0.2938,Walks about even with the talk,0.333,39.1,38,64,44,53,51,38,47,99,42,92,37,37,49,92,42,8,96,39,35,51,45,49,47,75,33,50
-DD,DuPont,Industrials,Industrial Conglomerates,156,53,49,-0.6264,Walks about even with the talk,0.619,41.0,123,37,62,48,64,52,45,30,33,26,45,73,49,69,77,61,8,94,1,96,39,49,48,89,84,49
-FAST,Fastenal,Industrials,Trading Companies & Distributors,157,53,51,-2.4218,Does more than it promises,0.429,40.05,48,29,71,60,53,40,45,30,14,15,45,83,49,63,89,96,22,49,95,38,98,49,48,92,28,49
-FDXF,FedEx Freight,Industrials,Cargo Ground Transportation,158,53,52,0.2922,Walks about even with the talk,0.524,41.14,44,61,62,42,46,83,45,30,51,94,45,83,49,85,36,75,46,60,59,38,5,49,48,56,28,49
-HD,Home Depot (The),Consumer Discretionary,Home Improvement Retail,159,53,49,-0.3976,Walks about even with the talk,0.524,35.62,58,40,72,60,39,39,47,31,1,81,61,28,95,97,93,56,32,90,45,95,37,49,50,2,46,50
-HBAN,Huntington Bancshares,Financials,Regional Banks,160,53,40,2.1307,Says more than it does,0.381,42.19,49,57,48,62,44,30,41,78,92,45,30,32,51,97,39,41,64,70,97,32,45,49,48,34,41,49
-MSCI,MSCI,Financials,Financial Exchanges & Data,161,53,45,1.1278,Says more than it does,0.476,42.29,92,51,51,48,61,30,88,45,45,45,52,32,51,57,39,76,6,93,1,95,45,49,48,76,81,49
-TAP,Molson Coors Beverage Company,Consumer Staples,Brewers,162,53,50,0.9848,Says more than it does,0.714,38.81,81,68,56,33,56,96,6,81,96,62,29,44,50,79,69,65,13,7,62,81,3,50,49,69,65,49
-PFG,Principal Financial Group,Financials,Life & Health Insurance,163,53,46,0.7936,Says more than it does,0.524,42.19,26,49,49,69,44,72,41,45,2,86,67,32,2,62,39,91,55,45,80,75,90,49,48,34,41,49
-PG,Procter & Gamble,Consumer Staples,Personal Care Products,164,53,51,-1.5876,Does more than it promises,0.619,39.0,47,34,56,56,66,65,6,35,37,26,66,44,50,54,47,78,41,79,62,59,41,50,49,93,90,49
-ULTA,Ulta Beauty,Consumer Discretionary,Other Specialty Retail,165,53,54,-1.0369,Does more than it promises,0.524,36.24,40,49,52,67,44,68,7,71,59,38,61,68,45,99,21,18,76,80,45,97,37,49,50,27,46,50
-VST,Vistra Corp.,Utilities,Electric Utilities,166,53,41,1.7031,Says more than it does,0.619,35.57,137,53,64,45,50,74,60,34,8,90,73,73,47,81,37,71,16,16,73,79,42,45,48,34,74,50
-WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,167,53,52,0.5841,Walks about even with the talk,0.571,35.81,87,65,48,45,55,90,67,83,38,45,93,24,48,19,40,67,45,93,38,12,36,48,48,36,95,50
-YUM,Yum! Brands,Consumer Discretionary,Restaurants,168,53,51,0.3724,Walks about even with the talk,0.619,36.0,32,57,59,63,33,56,47,31,59,90,16,68,45,90,79,56,84,66,45,85,37,49,50,5,9,50
-ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,169,53,50,0.5002,Walks about even with the talk,0.524,38.14,30,55,57,50,51,6,71,31,89,77,60,47,47,49,62,77,83,40,38,43,47,50,47,74,32,50
-ABBV,AbbVie,Health Care,Biotechnology,170,52,52,-0.2938,Walks about even with the talk,0.381,39.24,24,51,53,53,52,38,47,48,42,80,75,37,96,8,42,61,31,74,35,81,45,49,47,81,33,50
-AZO,AutoZone,Consumer Discretionary,Automotive Retail,171,52,51,0.6337,Walks about even with the talk,0.571,37.52,43,65,45,59,39,79,47,85,78,38,16,68,45,81,21,37,32,66,45,61,90,1,50,49,46,50
-BALL,Ball Corporation,Materials,"Metal, Glass & Plastic Containers",172,52,48,0.0768,Walks about even with the talk,0.619,34.29,45,40,59,51,60,8,4,46,46,96,82,98,50,12,28,84,82,68,30,30,46,48,46,72,82,50
-BBY,Best Buy,Consumer Discretionary,Computer & Electronics Retail,173,52,51,0.503,Walks about even with the talk,0.571,36.71,61,62,54,44,49,56,47,71,96,38,39,28,45,54,90,69,99,9,1,76,37,49,50,89,9,50
-CDNS,Cadence Design Systems,Information Technology,Application Software,174,52,43,1.3202,Says more than it does,0.429,38.86,34,51,53,59,47,81,90,31,20,34,84,47,47,71,62,8,83,84,38,43,47,50,47,56,32,50
-CLX,Clorox,Consumer Staples,Household Products,175,52,44,0.3624,Walks about even with the talk,0.667,39.76,47,32,61,65,51,34,50,35,37,6,91,10,50,94,69,51,91,71,62,59,41,50,49,41,65,49
-COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,176,52,49,0.1342,Walks about even with the talk,0.524,40.0,19,46,55,60,49,34,50,81,37,26,66,44,50,13,69,87,81,35,62,81,41,50,49,69,26,49
-BEN,Franklin Resources,Financials,Asset Management & Custody Banks,177,52,51,0.125,Walks about even with the talk,0.476,43.95,17,50,36,55,67,72,41,45,45,45,30,32,51,4,83,14,36,80,37,75,45,49,48,99,88,49
-GEV,GE Vernova,Industrials,Heavy Electrical Equipment,178,52,57,0.5665,Walks about even with the talk,0.524,42.9,143,82,32,39,57,72,99,93,65,79,45,43,49,39,1,14,57,30,29,38,39,49,48,72,67,49
-HCA,HCA Healthcare,Health Care,Health Care Facilities,179,52,53,-0.2938,Walks about even with the talk,0.286,40.33,25,53,40,65,48,38,47,48,42,92,37,37,49,26,42,51,86,15,84,97,45,49,47,62,33,50
-ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,180,52,44,1.4621,Says more than it does,0.429,42.19,56,59,52,53,46,30,88,89,45,45,79,32,51,62,39,50,64,45,80,32,45,49,48,76,7,49
-INTU,Intuit,Information Technology,Application Software,181,52,49,-0.1559,Walks about even with the talk,0.429,39.0,38,43,70,44,49,33,32,70,46,34,60,47,97,71,62,84,66,28,38,43,47,50,47,65,32,50
-ISRG,Intuitive Surgical,Health Care,Health Care Equipment,182,52,41,1.4297,Says more than it does,0.524,40.0,54,44,46,54,64,38,47,48,9,80,58,12,49,79,42,34,97,79,35,14,45,49,47,81,91,50
-KIM,Kimco Realty,Real Estate,Retail REITs,183,52,57,-3.3013,Does more than it promises,0.524,35.9,44,40,55,75,40,85,8,27,60,18,62,50,47,72,42,55,78,83,92,72,50,48,50,42,10,50
-LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment,184,52,45,0.1722,Walks about even with the talk,0.619,39.24,43,27,44,87,52,6,71,31,20,9,32,78,47,3,62,42,66,90,92,88,99,50,47,82,32,50
-MLM,Martin Marietta Materials,Materials,Construction Materials,185,52,55,-0.1966,Walks about even with the talk,0.619,34.86,145,64,51,48,47,90,64,70,46,50,54,42,50,84,28,46,30,6,88,68,46,48,46,72,18,50
-MCD,McDonald's,Consumer Discretionary,Restaurants,186,52,51,-0.2809,Walks about even with the talk,0.381,37.05,44,50,60,41,56,39,47,31,33,98,99,28,45,54,99,37,32,66,45,24,37,49,50,86,46,50
-META,Meta Platforms,Communication Services,Interactive Media & Services,187,52,32,2.7431,Says more than it does,0.476,37.57,31,44,50,54,59,40,44,85,48,2,71,4,50,69,35,71,2,94,42,42,92,48,50,96,50,50
-MS,Morgan Stanley,Financials,Investment Banking & Brokerage,188,52,46,0.4593,Walks about even with the talk,0.429,42.67,50,46,63,54,44,91,41,7,45,45,52,76,51,99,39,59,98,12,37,32,90,49,48,34,41,49
-MOS,Mosaic Company (The),Materials,Fertilizers & Agricultural Chemicals,189,52,49,-0.1198,Walks about even with the talk,0.667,35.33,173,43,57,46,60,66,94,12,38,6,74,82,50,22,28,84,94,38,30,68,2,48,46,72,82,50
-NTRS,Northern Trust,Financials,Asset Management & Custody Banks,190,52,45,0.4593,Walks about even with the talk,0.524,42.9,50,41,60,54,51,30,41,45,45,45,52,76,51,84,1,99,81,12,93,75,7,49,48,66,41,49
-OKE,Oneok,Energy,Oil & Gas Storage & Transportation,191,52,49,0.1948,Walks about even with the talk,0.619,35.62,74,47,70,54,39,69,55,36,5,69,98,81,48,60,40,90,29,38,90,79,36,48,48,36,14,50
-PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment,192,52,49,0.382,Walks about even with the talk,0.381,37.33,18,52,60,47,48,40,44,40,48,88,94,48,50,42,35,90,40,15,92,42,44,48,50,44,94,2
-PLD,Prologis,Real Estate,Industrial REITs,193,52,49,0.2702,Walks about even with the talk,0.81,35.67,50,53,67,39,48,48,47,92,47,33,62,17,97,85,85,55,42,63,73,10,8,95,50,10,37,50
-PSA,Public Storage,Real Estate,Self-Storage REITs,194,52,48,0.4395,Walks about even with the talk,0.476,36.1,25,52,63,35,57,5,47,62,73,75,32,93,47,78,42,85,22,23,35,2,93,48,50,42,93,50
-STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals",195,52,48,0.3362,Walks about even with the talk,0.524,38.76,45,48,59,51,52,33,32,31,82,60,32,86,47,57,62,71,10,40,79,77,47,50,47,40,74,50
-SRE,Sempra,Utilities,Multi-Utilities,196,52,52,0.2582,Walks about even with the talk,0.667,37.29,123,60,51,43,54,89,82,66,24,40,45,73,47,94,37,8,29,47,5,92,42,45,48,34,92,50
-SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",197,52,43,0.8282,Says more than it does,0.429,39.43,39,40,54,53,61,33,32,83,20,34,92,47,47,64,31,42,34,90,6,88,47,50,97,74,32,50
-WEC,WEC Energy Group,Utilities,Electric Utilities,198,52,59,-1.3202,Does more than it promises,0.571,37.71,191,67,38,62,42,44,71,92,48,81,32,55,47,71,5,16,76,16,89,87,42,45,48,34,31,50
-WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,199,52,51,0.3624,Walks about even with the talk,0.476,40.0,58,57,56,48,49,34,50,35,85,79,29,44,50,90,90,31,25,19,62,93,41,50,49,69,26,49
-AME,Ametek,Industrials,Electrical Components & Equipment,200,51,54,-1.6405,Does more than it promises,0.667,43.19,37,49,52,54,49,52,5,83,51,55,87,90,49,13,36,39,74,71,74,10,39,49,48,30,67,49
-CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,201,51,47,0.5665,Walks about even with the talk,0.524,43.81,42,48,41,69,45,40,45,30,41,86,45,9,49,80,36,28,66,80,74,87,39,49,48,49,28,49
-CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,202,51,31,3.424,Says more than it does,0.667,41.43,50,58,34,64,48,8,92,48,75,69,58,12,49,8,42,34,56,69,99,93,1,49,47,62,33,50
-CPRT,Copart,Industrials,Diversified Support Services,203,51,55,-0.1194,Walks about even with the talk,0.333,43.14,18,68,51,45,41,72,45,30,93,99,81,90,49,21,36,28,22,30,95,38,39,49,48,30,28,49
-DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,204,51,42,0.5906,Walks about even with the talk,0.571,40.86,47,31,58,74,42,9,50,35,37,26,74,88,50,13,90,31,81,7,93,93,97,50,49,34,26,49
-EW,Edwards Lifesciences,Health Care,Health Care Equipment,205,51,43,0.8388,Says more than it does,0.476,40.14,26,43,63,43,55,8,47,48,42,69,58,96,96,26,42,61,31,39,84,14,45,49,47,96,33,50
-ES,Eversource Energy,Utilities,Electric Utilities,206,51,54,-0.8439,Does more than it promises,0.762,38.0,208,59,61,20,64,27,76,85,87,18,60,73,47,15,77,92,5,16,2,71,5,94,48,34,92,50
-GNRC,Generac,Industrials,Heavy Electrical Equipment,207,51,46,0.8409,Says more than it does,0.429,43.43,64,52,44,60,49,20,45,98,83,15,45,43,49,88,36,2,37,96,89,38,39,49,48,5,92,49
-KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,208,51,52,-0.5503,Walks about even with the talk,0.571,41.67,35,49,45,61,49,34,50,35,79,49,51,81,50,85,1,4,81,71,29,81,41,50,49,69,26,49
-LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,209,51,54,-0.7895,Does more than it promises,0.381,38.19,24,57,52,51,44,39,47,31,78,90,61,68,45,28,21,86,32,38,45,61,79,49,50,27,46,50
-MAR,Marriott International,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",210,51,47,-0.2809,Walks about even with the talk,0.381,38.43,17,33,50,63,58,14,47,31,33,38,61,28,45,90,71,7,55,38,45,85,90,49,50,93,46,50
-PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,211,51,30,2.6243,Says more than it does,0.524,42.81,79,37,67,36,63,40,45,30,14,55,96,43,49,94,36,83,2,71,2,66,39,49,48,72,96,49
-PNW,Pinnacle West Capital,Utilities,Multi-Utilities,212,51,48,0.0476,Walks about even with the talk,0.619,37.76,153,42,55,58,50,85,32,48,13,31,73,73,47,56,37,45,29,71,81,66,42,45,48,76,31,50
-SHW,Sherwin-Williams,Materials,Specialty Chemicals,213,51,47,-0.9433,Does more than it promises,0.667,35.62,81,28,58,79,40,8,4,60,6,60,32,78,50,84,28,74,98,68,88,94,46,48,46,10,48,50
-SWK,Stanley Black & Decker,Industrials,Industrial Machinery & Supplies & Components,214,51,44,0.5665,Walks about even with the talk,0.524,42.9,66,39,51,66,49,20,5,83,51,36,45,83,49,31,36,61,95,76,29,92,39,49,48,72,28,49
-SNPS,Synopsys,Information Technology,Application Software,215,51,49,-0.3199,Walks about even with the talk,0.429,40.52,30,41,54,53,55,33,32,31,75,34,84,78,47,3,62,50,34,55,38,43,97,50,47,40,87,50
-TRV,Travelers Companies (The),Financials,Property & Casualty Insurance,216,51,54,-0.2537,Walks about even with the talk,0.429,44.05,65,57,39,65,44,30,41,78,45,93,67,32,51,4,39,41,97,12,93,32,90,49,48,34,41,49
-WBD,Warner Bros. Discovery,Communication Services,Broadcasting,217,51,51,-0.2926,Walks about even with the talk,0.381,38.1,22,52,58,62,32,85,44,40,48,42,71,48,50,94,35,48,79,46,98,42,44,48,50,8,4,50
-WELL,Welltower,Real Estate,Health Care REITs,218,51,46,0.1227,Walks about even with the talk,0.714,36.71,45,36,65,60,43,5,8,75,60,33,80,75,47,93,2,92,65,23,35,85,93,48,50,2,63,50
-WTW,Willis Towers Watson,Financials,Insurance Brokers,219,51,50,-0.3986,Walks about even with the talk,0.571,44.19,43,45,49,45,64,86,41,7,45,45,67,76,51,1,39,59,43,70,80,32,1,49,48,86,88,49
-AMD,Advanced Micro Devices,Information Technology,Semiconductors,220,50,50,0.0554,Walks about even with the talk,0.619,41.38,42,52,56,43,48,62,32,83,75,6,75,47,47,64,76,28,1,75,6,88,47,50,47,61,32,50
-A,Agilent Technologies,Health Care,Life Sciences Tools & Services,221,50,59,-4.6819,Does more than it promises,0.571,41.62,62,45,57,55,42,66,3,48,98,8,14,89,49,50,42,98,73,51,95,51,4,49,47,32,33,50
-ALB,Albemarle Corporation,Materials,Specialty Chemicals,222,50,45,-0.0215,Walks about even with the talk,0.667,36.76,118,32,54,59,55,18,36,46,28,32,8,10,50,94,94,68,74,78,30,68,46,48,46,84,48,50
-AMGN,Amgen,Health Care,Biotechnology,223,50,49,-0.3984,Walks about even with the talk,0.619,42.05,32,39,43,48,70,86,3,4,42,58,58,37,49,57,42,16,64,83,35,14,45,99,47,81,71,50
-APTV,Aptiv,Consumer Discretionary,Automotive Parts & Equipment,224,50,51,-0.1224,Walks about even with the talk,0.571,39.14,48,49,41,47,65,72,7,85,78,3,16,90,45,28,21,47,61,66,45,24,37,49,50,97,80,50
-ANET,Arista Networks,Information Technology,Communications Equipment,225,50,49,-0.7646,Does more than it promises,0.524,41.0,50,38,50,76,38,33,32,31,61,34,84,11,47,81,1,77,83,92,38,77,89,50,47,10,32,50
-AVY,Avery Dennison,Materials,Paper & Plastic Packaging Products & Materials,226,50,49,0.1751,Walks about even with the talk,0.524,36.67,43,47,46,57,52,40,36,28,54,76,32,42,50,94,28,32,74,98,62,4,46,48,46,52,66,50
-XYZ,"Block, Inc.",Financials,Transaction & Payment Processing Services,227,50,59,-2.7268,Does more than it promises,0.429,44.86,57,59,44,43,55,72,88,45,45,45,30,32,51,62,39,50,43,12,37,32,90,49,48,89,41,49
-BA,Boeing,Industrials,Aerospace & Defense,228,50,50,-1.4078,Does more than it promises,0.524,44.9,60,38,44,67,49,40,45,30,14,63,72,9,49,57,36,39,92,49,89,66,39,49,48,72,28,49
-CTAS,Cintas,Industrials,Diversified Support Services,229,50,52,-0.6264,Walks about even with the talk,0.524,44.43,34,53,48,51,48,60,45,30,65,63,13,98,49,48,36,47,89,9,29,87,39,49,48,64,28,49
-C,Citigroup,Financials,Diversified Banks,230,50,48,0.125,Walks about even with the talk,0.476,44.29,74,45,54,52,51,30,97,7,45,45,93,32,51,48,94,4,71,45,12,88,45,49,48,34,74,49
-CFG,Citizens Financial Group,Financials,Regional Banks,231,50,37,2.465,Says more than it does,0.286,45.05,38,60,45,51,44,72,41,95,45,45,88,32,51,12,39,50,95,45,37,32,45,49,48,34,41,49
-COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,232,50,42,0.5845,Walks about even with the talk,0.667,39.24,144,32,37,65,66,64,55,5,26,12,12,24,48,86,40,12,86,69,81,55,36,48,98,67,69,50
-COO,Cooper Companies (The),Health Care,Health Care Supplies,233,50,50,-0.7247,Not enough to tell,0.381,40.76,30,45,61,45,50,38,47,48,84,10,37,94,49,57,42,86,31,63,35,51,45,49,47,8,97,50
-IBKR,Interactive Brokers,Financials,Investment Banking & Brokerage,234,50,57,-1.4015,Does more than it promises,0.429,45.48,22,62,35,50,54,95,41,82,45,45,30,32,51,12,83,4,64,70,37,32,45,49,48,34,88,49
-IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,235,50,47,-0.4394,Not enough to tell,0.619,35.62,61,36,72,42,51,26,36,28,6,86,82,86,50,74,86,56,88,58,4,14,46,48,46,62,48,50
-JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,236,50,48,-0.2093,Walks about even with the talk,0.381,44.71,14,41,58,44,56,30,41,45,45,45,67,99,51,88,39,4,24,80,37,75,2,49,48,93,41,49
-MGM,MGM Resorts,Consumer Discretionary,Casinos & Gaming,237,50,41,0.6337,Walks about even with the talk,0.476,38.1,21,34,66,58,44,39,47,31,14,38,84,68,45,54,51,91,55,38,45,61,90,49,50,27,46,50
-MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,238,50,48,0.5906,Walks about even with the talk,0.524,43.71,37,53,30,60,55,75,93,35,37,26,9,44,50,1,47,31,81,54,87,38,41,50,49,99,26,49
-MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,239,50,53,0.2479,Walks about even with the talk,0.571,41.29,40,67,47,46,42,91,96,4,84,58,14,37,49,15,86,80,31,58,84,14,45,49,47,32,33,50
-MSI,Motorola Solutions,Information Technology,Communications Equipment,240,50,50,-1.2566,Does more than it promises,0.524,40.67,42,41,66,36,57,6,32,31,75,63,84,47,47,90,73,55,10,40,38,43,47,50,47,65,74,50
-PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,241,50,53,0.2922,Walks about even with the talk,0.667,39.05,131,70,55,24,49,98,76,88,67,21,67,74,48,98,40,5,29,7,38,12,36,48,48,14,83,50
-RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",242,50,60,-1.9098,Does more than it promises,0.429,40.62,70,69,27,49,53,86,99,31,91,38,39,28,45,12,21,18,9,90,87,24,37,49,50,27,89,50
-LUV,Southwest Airlines,Industrials,Passenger Airlines,243,50,50,-0.2149,Walks about even with the talk,0.476,44.19,49,47,54,58,41,87,45,30,41,30,96,43,49,31,36,68,22,9,97,81,81,49,48,30,28,49
-STT,State Street Corporation,Financials,Asset Management & Custody Banks,244,50,42,0.6042,Walks about even with the talk,0.476,44.24,62,34,49,60,59,30,41,7,45,45,67,32,51,37,39,70,71,99,12,75,45,49,48,76,74,49
-TXT,Textron,Industrials,Aerospace & Defense,245,50,52,-0.0777,Walks about even with the talk,0.429,44.57,31,58,46,55,41,60,45,77,41,65,45,43,49,57,36,47,49,90,29,66,39,49,48,30,28,49
-VLTO,Veralto,Industrials,Environmental & Facilities Services,246,50,50,-0.6802,Walks about even with the talk,0.524,44.14,67,41,39,60,62,40,45,30,33,55,13,43,49,13,36,80,22,90,59,92,39,49,48,99,67,49
-VRT,Vertiv,Industrials,Electrical Components & Equipment,247,50,52,-1.038,Does more than it promises,0.429,42.71,32,53,71,26,52,66,45,30,81,42,87,43,49,83,89,75,22,30,29,10,39,49,48,87,28,49
-WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,248,50,48,-0.7329,Walks about even with the talk,0.524,44.67,36,34,54,65,47,30,41,7,45,45,88,76,51,12,39,59,43,80,80,75,45,49,98,34,7,49
-WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,249,50,53,-1.2601,Does more than it promises,0.524,41.62,46,49,46,43,62,8,47,48,75,69,75,37,49,15,42,61,31,51,35,14,84,49,47,72,91,50
-BAX,Baxter International,Health Care,Health Care Equipment,250,49,51,-0.7738,Does more than it promises,0.524,42.81,50,45,37,73,42,8,47,48,75,49,58,12,49,2,42,61,64,91,35,81,92,49,47,32,33,50
-CF,CF Industries,Materials,Fertilizers & Agricultural Chemicals,251,49,54,-0.1751,Walks about even with the talk,0.619,38.48,135,65,40,57,33,94,98,98,14,22,54,42,50,12,28,56,46,38,10,98,94,48,46,4,18,50
-CHTR,Charter Communications,Communication Services,Cable & Satellite,252,49,49,-0.6299,Not enough to tell,0.238,40.19,15,43,48,57,48,40,44,40,48,42,40,48,50,85,35,33,40,15,42,94,92,48,50,44,50,50
-FIX,Comfort Systems USA,Industrials,Construction & Engineering,253,49,49,-0.2566,Walks about even with the talk,0.476,44.67,30,48,66,36,45,66,45,30,83,15,72,43,49,69,89,75,22,9,29,81,39,49,48,11,67,49
-DTE,DTE Energy,Utilities,Multi-Utilities,254,49,41,2.3565,Says more than it does,0.571,40.62,134,73,33,49,42,35,82,58,95,97,21,32,47,15,37,45,40,71,60,34,42,45,48,34,31,50
-DXCM,Dexcom,Health Care,Health Care Equipment,255,49,53,-0.5093,Walks about even with the talk,0.524,42.81,42,57,42,47,51,66,47,48,42,80,93,12,3,41,42,61,31,27,35,51,92,49,47,11,97,50
-FFIV,"F5, Inc.",Information Technology,Communications Equipment,256,49,52,-0.1086,Walks about even with the talk,0.524,43.05,35,57,42,46,50,90,71,70,20,34,84,11,47,8,31,71,34,16,90,43,47,50,47,6,97,50
-GE,GE Aerospace,Industrials,Aerospace & Defense,257,49,51,-0.352,Walks about even with the talk,0.524,45.81,39,52,43,41,59,40,45,67,14,94,45,9,49,80,36,39,22,60,74,10,39,49,98,30,67,49
-HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",258,49,47,0.1111,Walks about even with the talk,0.429,40.14,39,43,45,58,51,14,47,31,33,90,16,28,45,44,79,56,76,38,79,61,37,49,50,27,80,50
-IQV,IQVIA,Health Care,Life Sciences Tools & Services,259,49,41,0.5679,Walks about even with the talk,0.381,42.29,21,33,56,53,54,38,47,48,2,28,75,58,49,41,42,73,93,39,35,51,45,49,47,32,94,50
-INVH,Invitation Homes,Real Estate,Single-Family Residential REITs,260,49,37,1.6241,Says more than it does,0.429,39.38,46,41,49,49,57,60,47,27,7,65,32,50,47,40,85,40,42,63,35,55,50,48,50,98,37,50
-JPM,JPMorgan Chase,Financials,Diversified Banks,261,49,48,-0.5436,Walks about even with the talk,0.333,45.05,75,41,62,40,54,30,41,45,45,45,52,32,51,48,98,88,81,45,37,32,7,49,48,34,88,49
-MDT,Medtronic,Health Care,Health Care Equipment,262,49,36,1.7005,Says more than it does,0.524,42.33,34,41,57,40,58,8,92,48,9,46,93,72,49,50,42,34,31,39,35,51,45,49,97,62,33,50
-NUE,Nucor,Materials,Steel,263,49,54,-0.1751,Walks about even with the talk,0.524,38.67,69,65,38,42,51,58,70,84,46,68,8,42,50,32,70,26,58,28,30,46,46,48,46,92,18,50
-ODFL,Old Dominion,Industrials,Cargo Ground Transportation,264,49,50,-0.2566,Walks about even with the talk,0.381,45.38,29,50,45,60,41,60,45,30,35,79,45,43,49,31,36,68,66,30,29,81,94,49,48,30,28,49
-OTIS,Otis Worldwide,Industrials,Industrial Machinery & Supplies & Components,265,49,41,1.8012,Says more than it does,0.619,46.1,49,59,38,38,60,66,89,30,14,94,13,73,49,48,36,7,34,49,63,38,5,49,48,72,84,49
-PRU,Prudential Financial,Financials,Life & Health Insurance,266,49,48,0.7936,Says more than it does,0.429,46.0,42,62,40,51,44,72,41,7,98,93,67,32,51,24,39,25,43,87,5,75,45,49,48,34,41,49
-Q,Qnity Electronics,Information Technology,Semiconductor Materials & Equipment,267,49,53,-0.6479,Not enough to tell,0.571,42.76,40,55,42,50,49,62,32,31,75,77,32,47,47,37,62,28,90,75,69,8,7,50,47,65,32,50
-RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",268,49,37,1.6788,Says more than it does,0.571,40.14,57,45,55,45,50,56,7,31,91,38,39,95,45,73,1,79,76,9,79,24,37,49,50,2,99,50
-RVTY,Revvity,Health Care,Health Care Equipment,269,49,49,-0.2938,Walks about even with the talk,0.429,41.57,27,49,62,44,42,8,47,48,92,52,37,58,49,97,42,92,73,51,35,14,45,49,47,32,33,50
-SPG,Simon Property Group,Real Estate,Retail REITs,270,49,52,-0.2158,Walks about even with the talk,0.429,40.1,26,56,34,46,60,60,80,27,27,88,32,50,47,27,42,5,52,23,73,30,50,48,50,72,80,50
-TGT,Target Corporation,Consumer Staples,Consumer Staples Merchandise Retail,271,49,36,1.4412,Says more than it does,0.476,42.48,36,39,73,47,36,9,50,35,6,94,91,81,50,74,96,47,51,35,29,81,41,50,49,4,26,49
-UNP,Union Pacific Corporation,Industrials,Rail Transportation,272,49,51,-0.5847,Walks about even with the talk,0.524,45.0,49,49,54,53,41,78,45,60,31,31,13,9,49,80,77,93,99,30,29,66,39,49,48,30,28,49
-URI,United Rentals,Industrials,Trading Companies & Distributors,273,49,53,-0.6264,Walks about even with the talk,0.381,45.38,35,59,52,44,41,72,45,67,30,79,92,83,49,21,36,28,83,30,29,38,39,49,48,30,28,49
-APA,APA Corporation,Energy,Oil & Gas Exploration & Production,274,48,49,-0.633,Walks about even with the talk,0.524,41.1,74,49,56,46,39,21,33,36,79,74,43,57,48,67,40,79,64,38,38,55,36,48,48,36,14,50
-ABT,Abbott Laboratories,Health Care,Health Care Equipment,275,48,51,-0.5093,Walks about even with the talk,0.286,43.14,21,53,46,47,48,38,47,48,42,92,58,37,49,72,42,16,31,74,35,51,45,49,47,62,33,50
-AFL,Aflac,Financials,Life & Health Insurance,276,48,49,-0.8779,Not enough to tell,0.333,46.1,20,41,49,60,44,30,41,45,45,45,30,76,51,48,39,50,55,45,80,32,90,49,48,34,41,49
-ALL,Allstate,Financials,Property & Casualty Insurance,277,48,52,-0.2093,Walks about even with the talk,0.524,46.76,70,61,51,29,51,86,41,45,45,88,52,32,51,12,83,76,81,12,12,32,7,49,48,34,74,49
-BRO,Brown & Brown,Financials,Insurance Brokers,278,48,49,-0.2093,Walks about even with the talk,0.476,46.29,19,50,62,34,46,72,41,45,45,45,88,76,51,24,83,50,11,70,12,32,45,49,48,76,7,49
-BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,279,48,40,1.7316,Says more than it does,0.524,44.62,45,59,51,31,49,34,50,81,37,94,91,44,50,13,26,84,16,54,29,16,41,50,49,69,26,49
-CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,280,48,50,0.1111,Walks about even with the talk,0.476,41.48,29,59,54,40,37,68,82,31,33,81,16,28,45,85,51,97,32,9,45,24,90,49,50,27,9,50
-GLW,Corning Inc.,Information Technology,Electronic Components,281,48,56,-1.5846,Does more than it promises,0.524,44.19,50,61,34,53,44,62,32,98,41,71,32,11,47,57,31,28,59,55,95,8,47,50,47,40,32,50
-DRI,Darden Restaurants,Consumer Discretionary,Restaurants,282,48,46,0.3724,Walks about even with the talk,0.476,40.48,49,47,55,47,44,88,47,31,33,38,61,68,45,67,21,69,1,38,96,61,37,49,50,64,9,50
-ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,283,48,48,0.0178,Walks about even with the talk,0.476,45.62,33,45,50,50,49,20,45,77,14,70,72,9,49,75,36,61,66,49,29,66,39,49,48,30,67,49
-ECL,Ecolab,Materials,Specialty Chemicals,284,48,39,1.3058,Says more than it does,0.714,38.76,93,42,44,46,62,62,74,12,28,32,68,70,50,2,28,46,58,52,62,14,46,48,46,84,82,50
-EME,Emcor,Industrials,Construction & Engineering,285,48,53,0.1012,Walks about even with the talk,0.571,46.43,43,68,47,35,41,89,5,91,87,70,13,94,49,21,36,68,3,9,59,66,39,49,48,30,28,49
-EFX,Equifax,Industrials,Research & Consulting Services,286,48,46,-0.3938,Not enough to tell,0.524,46.14,18,36,47,55,54,40,45,67,14,15,13,43,49,31,93,55,57,67,74,38,39,49,48,56,67,49
-ERIE,Erie Indemnity,Financials,Insurance Brokers,287,48,47,-0.5436,Walks about even with the talk,0.286,46.57,16,41,58,48,44,30,41,45,45,45,79,32,51,48,39,97,71,12,37,75,45,49,48,34,41,49
-FDS,FactSet,Financials,Financial Exchanges & Data,288,48,47,-0.2093,Walks about even with the talk,0.381,46.62,24,41,58,48,44,30,41,45,45,45,30,95,51,32,39,98,43,12,63,32,90,49,48,34,41,49
-GDDY,GoDaddy,Information Technology,Internet Services & Infrastructure,289,48,43,0.1722,Walks about even with the talk,0.333,42.71,15,30,54,56,54,33,32,31,20,34,60,11,97,28,31,97,34,28,79,43,97,50,97,40,32,50
-HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,290,48,42,1.329,Says more than it does,0.429,40.62,39,54,32,51,57,27,47,62,82,53,32,50,47,3,42,17,78,23,8,98,50,48,50,42,93,50
-PODD,Insulet Corporation,Health Care,Health Care Equipment,291,48,42,0.6234,Walks about even with the talk,0.286,43.38,18,41,55,44,52,38,47,48,42,28,14,72,49,94,42,61,31,15,35,93,45,49,47,32,81,50
-KKR,KKR & Co.,Financials,Asset Management & Custody Banks,292,48,53,-0.5436,Walks about even with the talk,0.429,46.0,100,59,53,45,37,72,41,91,45,45,79,76,51,4,94,14,24,45,37,75,45,49,48,34,7,49
-KEY,KeyCorp,Financials,Regional Banks,293,48,38,1.4621,Says more than it does,0.238,47.05,44,41,43,55,53,30,41,45,45,45,9,32,51,48,39,81,89,45,63,32,45,49,48,76,41,49
-LH,Labcorp,Health Care,Health Care Services,294,48,48,-0.0784,Walks about even with the talk,0.571,44.0,25,46,52,45,47,76,3,48,75,28,58,58,49,15,86,44,56,4,71,51,45,49,47,54,33,50
-LDOS,Leidos,Industrials,Diversified Support Services,295,48,44,0.155,Walks about even with the talk,0.571,44.76,55,38,72,37,45,4,45,30,65,48,81,83,49,96,36,89,57,9,29,10,81,49,48,52,28,49
-LMT,Lockheed Martin,Industrials,Aerospace & Defense,296,48,38,1.2524,Says more than it does,0.381,46.71,54,41,46,46,57,83,45,30,14,33,45,43,49,97,36,7,34,30,89,38,39,49,48,72,67,49
-MPWR,Monolithic Power Systems,Information Technology,Semiconductors,297,48,40,1.6482,Says more than it does,0.476,44.29,35,53,38,47,54,86,32,31,82,34,60,78,47,28,10,2,34,65,79,8,47,50,47,89,32,50
-NXPI,NXP Semiconductors,Information Technology,Semiconductors,298,48,48,0.5002,Walks about even with the talk,0.619,43.57,41,60,50,37,44,75,71,93,61,2,75,78,47,15,31,55,7,55,38,77,7,50,47,40,32,50
-NFLX,Netflix,Communication Services,Movies & Entertainment,299,48,47,-0.2926,Walks about even with the talk,0.19,40.9,7,43,58,43,48,40,44,40,48,42,71,48,50,35,85,56,40,46,42,42,44,48,50,44,50,50
-NWSA,News Corp (Class A),Communication Services,Publishing,300,48,44,0.382,Walks about even with the talk,0.286,41.38,20,43,52,47,48,40,44,40,48,42,8,94,50,54,35,71,94,15,42,42,44,48,50,44,50,50
-NWS,News Corp (Class B),Communication Services,Publishing,301,48,44,0.382,Walks about even with the talk,0.286,41.38,20,43,52,47,48,40,44,40,48,42,8,94,50,54,35,71,94,15,42,42,44,48,50,44,50,50
-ORLY,O'Reilly Automotive,Consumer Discretionary,Automotive Retail,302,48,52,-0.3976,Walks about even with the talk,0.333,42.1,27,58,37,44,52,39,47,96,70,38,39,28,45,44,21,43,76,38,45,24,37,49,50,64,46,50
-PNC,PNC Financial Services,Financials,Diversified Banks,303,48,51,-1.5908,Does more than it promises,0.238,46.48,42,41,47,49,56,30,41,45,45,45,67,32,51,12,39,81,88,45,37,32,45,49,48,93,41,49
-ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,304,48,44,0.5665,Walks about even with the talk,0.476,46.62,61,46,43,50,52,20,45,30,51,86,13,43,49,48,36,68,11,60,74,66,39,49,48,30,84,49
-ROL,"Rollins, Inc.",Industrials,Environmental & Facilities Services,305,48,47,-0.1194,Walks about even with the talk,0.381,46.76,34,42,49,41,58,20,45,30,35,79,92,43,49,48,36,28,22,30,74,38,39,99,48,64,28,49
-TTD,Trade Desk (The),Communication Services,Advertising,306,48,22,3.7549,Says more than it does,0.238,41.38,38,43,58,49,40,40,44,40,48,42,88,48,50,54,35,71,40,77,42,42,44,48,50,2,50,50
-TFC,Truist Financial,Financials,Diversified Banks,307,48,44,0.7936,Says more than it does,0.286,46.67,51,49,44,44,55,30,41,86,45,45,30,32,51,90,39,25,95,45,5,32,45,49,48,88,41,49
-AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,308,47,46,-0.1559,Walks about even with the talk,0.381,44.05,22,38,52,50,49,33,32,70,20,34,60,47,47,37,31,90,66,16,79,43,47,50,47,65,32,50
-ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,309,47,50,0.4611,Walks about even with the talk,0.476,42.0,189,66,36,45,40,92,47,85,95,10,62,50,47,13,42,5,22,63,35,55,50,48,50,42,10,50
-AON,Aon plc,Financials,Insurance Brokers,310,47,56,-3.1617,Does more than it promises,0.429,47.67,33,53,54,36,44,91,41,45,45,45,98,95,2,12,39,76,11,12,80,32,45,49,48,34,41,49
-CVX,Chevron Corporation,Energy,Integrated Oil & Gas,311,47,44,0.6329,Walks about even with the talk,0.667,41.81,104,47,47,42,52,81,10,36,55,55,12,57,48,48,88,31,7,79,2,86,36,48,48,67,45,50
-COIN,Coinbase,Financials,Financial Exchanges & Data,312,47,52,-1.0672,Does more than it promises,0.429,47.76,27,52,41,43,53,30,41,45,45,98,30,32,51,82,39,14,5,96,37,32,45,49,48,63,7,99
-DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,313,47,45,0.5842,Walks about even with the talk,0.619,42.33,67,50,38,50,50,29,45,36,79,60,76,24,48,5,40,36,76,7,90,40,36,48,48,36,69,50
-DUK,Duke Energy,Utilities,Electric Utilities,314,47,39,1.2326,Says more than it does,0.667,41.76,121,42,48,57,42,50,89,15,2,55,66,73,47,5,37,63,53,87,45,15,85,45,48,34,31,50
-GPN,Global Payments,Financials,Transaction & Payment Processing Services,315,47,47,-0.2093,Walks about even with the talk,0.238,47.76,24,41,46,37,65,30,41,45,45,45,9,32,51,86,83,14,24,45,37,32,45,49,48,97,81,49
-IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,316,47,46,0.0178,Walks about even with the talk,0.524,46.86,41,42,49,40,57,40,45,30,81,15,81,43,49,6,77,39,49,30,74,10,39,49,48,56,84,49
-INCY,Incyte,Health Care,Biotechnology,317,47,49,-0.8293,Does more than it promises,0.286,43.9,16,44,54,49,42,38,47,48,9,80,82,37,49,26,42,89,86,27,35,51,45,49,47,32,33,50
-IVZ,Invesco,Financials,Asset Management & Custody Banks,318,47,46,0.125,Walks about even with the talk,0.381,48.14,21,41,37,64,46,30,41,45,45,45,9,76,51,32,39,14,76,70,99,32,45,49,48,1,84,49
-JBL,Jabil,Information Technology,Electronic Manufacturing Services,319,47,46,0.0081,Walks about even with the talk,0.381,44.29,45,40,50,43,55,6,32,83,75,6,32,47,47,28,62,82,34,55,38,43,47,50,47,40,87,50
-JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,320,47,46,-0.2938,Walks about even with the talk,0.476,44.29,30,40,56,50,42,66,47,48,9,28,58,12,49,79,86,51,73,83,35,14,45,49,47,32,33,50
-LII,Lennox International,Industrials,Building Products,321,47,52,-1.2706,Does more than it promises,0.476,47.67,64,54,45,47,41,40,45,60,90,36,81,43,49,21,36,39,49,76,59,10,39,49,48,30,28,49
-LLY,Lilly (Eli),Health Care,Pharmaceuticals,322,47,45,0.5679,Walks about even with the talk,0.619,44.71,44,52,44,46,46,66,47,48,42,58,88,12,49,15,86,16,86,89,35,14,4,49,97,1,33,50
-MTB,M&T Bank,Financials,Regional Banks,323,47,50,0.125,Walks about even with the talk,0.381,48.05,34,58,42,44,44,72,41,86,45,45,79,32,51,48,39,4,24,12,63,75,45,49,48,34,41,49
-PPL,PPL Corporation,Utilities,Electric Utilities,324,47,46,0.0534,Walks about even with the talk,0.714,42.81,95,42,37,58,50,35,10,26,48,90,21,6,47,26,77,45,63,71,60,55,42,45,48,34,74,50
-PANW,Palo Alto Networks,Information Technology,Systems Software,325,47,49,-0.7646,Does more than it promises,0.476,43.52,45,46,61,36,46,62,84,31,20,34,92,11,47,64,82,71,34,16,38,43,47,50,47,10,74,50
-HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,326,47,50,-1.0672,Does more than it promises,0.286,48.57,20,45,32,49,62,86,41,7,45,45,9,32,51,37,39,25,24,45,98,32,45,49,48,76,88,49
-STLD,Steel Dynamics,Materials,Steel,327,47,60,-4.2092,Does more than it promises,0.619,39.9,94,57,46,51,35,30,64,46,98,46,32,42,50,66,80,4,10,52,80,68,46,48,46,14,18,50
-VZ,Verizon,Communication Services,Integrated Telecommunication Services,328,47,50,-0.2926,Walks about even with the talk,0.333,42.57,26,54,40,45,48,40,44,98,48,42,8,48,50,42,85,8,10,46,83,42,44,48,50,44,50,50
-ACN,Accenture,Information Technology,IT Consulting & Other Services,329,46,44,0.3362,Walks about even with the talk,0.476,43.9,50,46,68,34,38,6,71,70,51,34,60,47,47,77,88,87,34,7,38,43,47,50,47,13,32,50
-AEP,American Electric Power,Utilities,Electric Utilities,330,46,42,0.2306,Walks about even with the talk,0.619,42.62,140,34,53,48,50,31,10,8,56,63,89,97,47,26,37,24,11,16,98,71,42,45,48,34,74,50
-AIG,American International Group,Financials,Multi-line Insurance,331,46,49,-0.2537,Walks about even with the talk,0.333,48.81,55,50,44,54,37,72,41,45,45,45,52,32,51,37,39,50,85,45,63,32,45,49,48,34,7,49
-AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,332,46,47,-0.7329,Walks about even with the talk,0.381,48.14,35,41,53,40,51,30,41,45,45,45,30,76,51,48,39,76,9,12,37,97,45,49,48,34,74,49
-TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,333,46,47,-0.2938,Walks about even with the talk,0.381,45.05,22,46,62,33,42,66,47,48,42,28,14,82,49,41,86,98,8,27,35,51,45,49,47,32,33,50
-BIIB,Biogen,Health Care,Biotechnology,334,46,40,0.5679,Walks about even with the talk,0.381,45.62,30,34,54,43,52,8,47,4,42,69,37,58,49,65,42,73,31,51,35,51,45,49,47,32,81,50
-CBRE,CBRE Group,Real Estate,Real Estate Services,335,46,50,-0.0466,Walks about even with the talk,0.571,43.0,26,59,40,26,58,77,88,27,27,75,8,17,47,27,98,40,42,23,35,30,2,48,50,78,63,50
-CME,CME Group,Financials,Financial Exchanges & Data,336,46,47,-0.5436,Walks about even with the talk,0.238,48.52,31,41,45,55,44,30,41,45,45,45,97,32,51,37,39,14,81,80,37,32,45,49,48,34,41,49
-SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,337,46,48,-0.8779,Not enough to tell,0.19,49.14,14,41,33,67,44,30,41,45,45,45,9,32,51,24,39,41,91,45,80,75,45,49,48,34,41,49
-CEG,Constellation Energy,Utilities,Electric Utilities,338,46,30,2.2955,Says more than it does,0.667,43.52,133,40,44,50,48,61,21,69,24,26,21,32,97,42,37,37,29,95,27,15,85,45,48,66,31,50
-CPAY,Corpay,Financials,Transaction & Payment Processing Services,339,46,51,-0.8779,Not enough to tell,0.238,49.57,37,55,40,37,51,97,41,45,45,45,67,32,51,37,39,14,24,45,37,32,45,49,48,34,74,49
-DECK,Deckers Brands,Consumer Discretionary,Footwear,340,46,41,-0.0196,Walks about even with the talk,0.333,43.81,89,25,43,46,68,14,7,31,33,38,16,28,45,28,87,56,84,38,45,24,37,49,50,97,96,50
-DAL,Delta Air Lines,Industrials,Passenger Airlines,341,46,52,-0.7219,Walks about even with the talk,0.476,48.38,52,60,40,44,41,93,85,30,65,27,13,43,49,69,36,28,10,49,29,38,94,49,48,30,28,49
-DLR,Digital Realty,Real Estate,Data Center REITs,342,46,44,0.9472,Says more than it does,0.571,43.19,41,55,30,48,51,67,8,88,85,25,32,17,47,13,42,28,65,63,73,30,8,48,50,72,37,50
-EXC,Exelon,Utilities,Electric Utilities,343,46,50,0.3744,Walks about even with the talk,0.619,43.43,93,66,34,37,48,94,92,48,87,8,32,6,47,52,37,32,47,47,15,34,42,45,48,66,31,50
-EXPD,Expeditors International,Industrials,Air Freight & Logistics,344,46,44,0.155,Walks about even with the talk,0.333,48.05,38,39,41,56,49,93,45,30,14,15,45,43,49,6,36,68,22,49,89,38,81,49,48,72,28,49
-FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,345,46,50,-1.5395,Does more than it promises,0.143,44.1,7,43,35,57,48,40,44,40,48,42,40,48,50,27,35,8,79,77,42,42,44,48,50,44,50,50
-FOX,Fox Corporation (Class B),Communication Services,Broadcasting,346,46,50,-1.5395,Does more than it promises,0.143,44.1,7,43,35,57,48,40,44,40,48,42,40,48,50,27,35,8,79,77,42,42,44,48,50,44,50,50
-GEHC,GE HealthCare,Health Care,Health Care Equipment,347,46,38,0.7834,Says more than it does,0.524,45.33,46,34,54,40,56,38,47,48,9,28,58,58,49,57,42,61,5,39,95,14,45,49,47,62,71,50
-SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,348,46,47,-0.1562,Walks about even with the talk,0.619,46.0,41,43,43,48,52,87,6,35,60,26,51,10,50,35,47,65,37,7,62,93,41,50,49,88,26,49
-KHC,Kraft Heinz,Consumer Staples,Packaged Foods & Meats,349,46,41,0.5906,Walks about even with the talk,0.667,46.62,49,41,50,34,57,34,50,35,37,49,29,10,50,54,82,78,7,19,3,59,81,50,49,54,82,49
-MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,350,46,34,1.1683,Says more than it does,0.762,42.67,113,28,60,47,47,81,10,36,5,7,83,57,48,86,40,48,38,7,10,93,86,48,48,7,83,50
-MRSH,Marsh McLennan,Financials,Insurance Brokers,351,46,40,0.7936,Says more than it does,0.333,48.0,28,41,55,39,50,30,41,45,45,45,30,91,51,88,39,33,24,12,37,32,90,49,48,63,41,49
-NDSN,Nordson Corporation,Industrials,Industrial Machinery & Supplies & Components,352,46,47,-0.1194,Walks about even with the talk,0.476,48.29,25,47,43,46,48,40,45,30,65,55,72,43,49,31,36,28,74,9,29,81,39,49,48,64,28,49
-OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,353,46,47,0.2434,Walks about even with the talk,0.619,42.52,119,54,55,24,52,45,88,36,79,21,43,81,48,33,40,83,2,69,10,2,36,48,48,67,45,50
-PTC,PTC Inc.,Information Technology,Application Software,354,46,45,0.8282,Says more than it does,0.429,45.95,22,61,41,33,49,81,97,31,61,34,32,47,47,15,62,42,34,2,38,43,47,50,47,3,93,50
-PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,355,46,50,0.1536,Walks about even with the talk,0.476,41.43,37,58,29,50,49,54,54,70,60,54,32,10,50,32,28,22,66,38,30,68,46,48,46,34,66,50
-PLTR,Palantir Technologies,Information Technology,Application Software,356,46,47,-1.2566,Does more than it promises,0.476,46.05,38,35,48,45,54,33,32,31,46,34,84,11,47,57,31,55,74,16,38,8,89,50,47,89,32,50
-REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,357,46,50,-0.2938,Walks about even with the talk,0.238,45.24,27,53,42,49,42,38,47,48,42,92,88,12,49,26,42,34,31,83,35,51,45,49,47,32,33,50
-ROST,Ross Stores,Consumer Discretionary,Apparel Retail,358,46,42,0.1111,Walks about even with the talk,0.381,43.33,23,33,53,42,54,14,47,31,33,38,84,68,45,44,71,7,32,38,9,93,37,49,50,77,46,50
-SWKS,Skyworks Solutions,Information Technology,Semiconductors,359,46,53,-0.6479,Not enough to tell,0.524,47.33,22,60,20,55,47,62,32,31,82,92,8,47,47,8,5,2,59,55,38,77,47,50,47,56,32,50
-SBUX,Starbucks,Consumer Discretionary,Restaurants,360,46,47,-0.1502,Walks about even with the talk,0.714,44.19,42,41,27,59,57,39,47,31,7,81,16,28,45,2,51,18,9,96,9,85,97,98,50,77,9,50
-TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,361,46,47,-0.5436,Walks about even with the talk,0.238,49.0,21,41,47,43,52,30,41,45,45,45,52,32,51,74,39,33,55,45,37,32,45,49,48,34,81,49
-UBER,Uber,Industrials,Passenger Ground Transportation,362,46,52,-1.4078,Does more than it promises,0.333,48.71,25,52,36,44,51,20,45,88,93,15,45,43,49,39,36,7,42,30,29,38,81,49,48,81,28,49
-UHS,Universal Health Services,Health Care,Health Care Facilities,363,46,48,0.3525,Walks about even with the talk,0.333,46.0,28,59,41,28,55,81,47,48,92,28,14,72,49,26,42,44,31,15,35,14,45,49,47,96,33,50
-VTR,Ventas,Real Estate,Health Care REITs,364,46,45,-0.5759,Walks about even with the talk,0.476,42.38,39,39,59,36,48,27,47,27,27,65,62,17,47,88,85,55,22,63,35,10,50,48,50,10,80,50
-MMM,3M,Industrials,Industrial Conglomerates,365,45,40,0.155,Walks about even with the talk,0.619,48.38,123,27,55,54,45,20,45,30,41,1,13,96,99,6,36,78,57,9,29,95,81,49,98,2,28,49
-CBOE,Cboe Global Markets,Financials,Financial Exchanges & Data,366,45,37,1.4621,Says more than it does,0.381,50.38,17,41,24,61,55,30,41,45,45,45,30,32,2,37,39,4,24,80,80,32,90,49,48,34,97,49
-CMCSA,Comcast,Communication Services,Cable & Satellite,367,45,36,1.3939,Says more than it does,0.19,44.43,13,43,44,51,41,40,44,40,48,42,40,48,50,10,35,83,40,46,83,42,44,48,50,8,50,50
-GL,Globe Life,Financials,Life & Health Insurance,368,45,46,0.125,Walks about even with the talk,0.143,50.0,14,51,47,37,44,30,41,45,92,45,9,76,51,24,39,85,24,45,37,32,45,49,48,34,41,49
-ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,369,45,40,-0.1194,Walks about even with the talk,0.429,49.24,18,22,52,54,51,4,45,30,14,15,45,83,49,31,93,14,74,60,29,66,39,49,48,79,28,49
-LHX,L3Harris,Industrials,Aerospace & Defense,370,45,43,0.155,Walks about even with the talk,0.476,48.95,47,39,52,32,56,20,45,30,41,60,72,43,49,99,36,14,10,80,29,38,5,49,48,49,84,49
-LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,371,45,50,-0.6299,Not enough to tell,0.19,44.14,12,52,38,43,48,40,44,40,48,88,40,4,50,69,35,33,40,46,42,42,44,48,50,44,50,50
-MCK,McKesson Corporation,Health Care,Health Care Distributors,372,45,48,0.137,Walks about even with the talk,0.476,47.52,48,54,31,44,50,76,47,48,42,58,14,12,49,65,42,2,8,51,35,81,45,49,47,72,33,50
-MRNA,Moderna,Health Care,Biotechnology,373,45,47,-0.8847,Does more than it promises,0.571,46.19,48,39,50,36,56,8,47,48,42,49,88,58,3,26,42,86,31,39,2,14,92,49,47,62,71,50
-NEE,NextEra Energy,Utilities,Multi-Utilities,374,45,44,-0.4781,Not enough to tell,0.476,44.52,73,31,40,57,51,8,32,79,24,11,32,32,47,89,37,5,71,71,45,55,42,94,48,34,31,50
-RF,Regions Financial Corporation,Financials,Regional Banks,375,45,44,-1.2565,Does more than it promises,0.476,49.52,46,25,42,70,44,30,41,7,45,3,30,32,51,68,39,33,81,87,5,88,90,49,48,34,41,49
-SPGI,S&P Global,Financials,Financial Exchanges & Data,376,45,43,0.125,Walks about even with the talk,0.286,49.05,62,41,64,30,44,30,41,45,45,45,30,91,51,68,94,50,24,12,37,32,45,49,48,34,41,49
-TER,Teradyne,Information Technology,Semiconductor Materials & Equipment,377,45,38,0.8282,Says more than it does,0.381,45.67,30,36,54,40,51,33,32,31,20,66,8,78,97,45,31,66,34,40,38,43,47,50,47,74,32,50
-VRSN,Verisign,Information Technology,Internet Services & Infrastructure,378,45,40,0.1722,Walks about even with the talk,0.286,45.29,14,30,67,33,51,33,32,31,20,34,32,78,47,86,62,98,34,2,38,43,47,50,47,74,32,50
-XEL,Xcel Energy,Utilities,Multi-Utilities,379,45,44,-0.6886,Walks about even with the talk,0.667,43.71,95,31,56,41,52,15,48,31,24,37,60,73,47,42,92,24,63,16,37,45,42,45,98,34,31,50
-ZBH,Zimmer Biomet,Health Care,Health Care Equipment,380,45,44,0.137,Walks about even with the talk,0.381,46.81,26,41,44,52,42,38,47,48,42,28,14,58,49,86,42,16,56,63,84,14,45,49,47,32,33,50
-CDW,CDW Corporation,Information Technology,Technology Distributors,381,44,43,-0.6479,Not enough to tell,0.238,48.24,27,30,40,53,51,33,32,31,20,34,84,47,47,15,31,18,66,28,79,43,47,50,47,74,32,50
-CSX,CSX Corporation,Industrials,Rail Transportation,382,44,46,-0.1194,Walks about even with the talk,0.333,50.33,54,46,39,46,45,20,45,62,65,40,45,43,49,6,36,55,96,30,29,38,39,49,48,49,28,49
-CAH,Cardinal Health,Health Care,Health Care Distributors,383,44,53,-0.8847,Does more than it promises,0.381,47.81,35,62,32,35,48,38,47,93,42,92,14,12,49,79,2,34,31,15,35,51,45,49,47,62,33,50
-COR,Cencora,Health Care,Health Care Distributors,384,44,48,-0.2938,Walks about even with the talk,0.143,47.1,37,53,47,35,42,38,47,48,42,92,37,37,49,99,42,16,31,15,35,51,45,49,47,32,33,50
-CINF,Cincinnati Financial,Financials,Property & Casualty Insurance,385,44,46,-0.588,Walks about even with the talk,0.429,50.33,46,41,46,53,37,30,41,45,45,45,9,76,99,12,39,41,36,45,2,92,90,49,48,34,7,49
-DVA,DaVita,Health Care,Health Care Services,386,44,31,1.8605,Says more than it does,0.476,47.9,53,34,44,55,42,38,47,48,9,28,14,12,96,65,42,34,56,4,71,51,92,49,47,32,33,50
-ECHO,EchoStar,Communication Services,Wireless Telecommunication Services,387,44,43,0.382,Walks about even with the talk,0.143,45.52,24,43,41,43,48,40,44,40,2,88,40,48,50,27,35,48,40,46,42,42,44,48,50,44,50,50
-ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,388,44,49,-0.9144,Not enough to tell,0.381,43.86,28,49,44,34,51,27,47,27,47,97,62,50,47,48,42,17,52,23,35,10,50,48,50,42,63,50
-FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,389,44,29,2.465,Says more than it does,0.286,50.38,25,41,44,36,56,30,41,45,45,45,30,32,51,74,39,41,24,80,37,32,7,49,48,93,41,49
-IT,Gartner,Information Technology,IT Consulting & Other Services,390,44,40,0.8282,Says more than it does,0.286,47.14,24,47,50,36,44,62,90,31,20,34,60,47,47,57,31,55,34,16,38,43,47,50,47,40,32,50
-GEN,Gen Digital,Information Technology,Systems Software,391,44,39,0.3362,Walks about even with the talk,0.286,47.57,27,30,45,49,52,33,32,31,20,34,8,47,47,93,31,42,99,16,38,43,47,50,47,40,74,50
-HIG,Hartford (The),Financials,Property & Casualty Insurance,392,44,29,2.465,Says more than it does,0.381,50.9,101,42,44,53,37,72,41,45,45,5,9,76,51,48,39,41,71,45,70,32,45,49,48,34,7,49
-HAS,Hasbro,Consumer Discretionary,Leisure Products,393,44,44,-0.0057,Walks about even with the talk,0.333,44.62,47,40,54,31,51,14,47,31,33,73,39,28,95,12,82,69,13,38,45,24,37,49,50,27,80,50
-HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,394,44,42,0.2922,Walks about even with the talk,0.476,49.81,51,38,46,47,46,4,45,30,51,60,13,9,49,90,36,80,57,30,29,38,81,49,48,56,28,49
-IBM,IBM,Information Technology,IT Consulting & Other Services,395,44,46,-0.4839,Walks about even with the talk,0.286,48.81,12,42,33,48,51,33,32,31,20,92,32,47,47,22,31,18,34,75,79,43,7,50,47,74,32,50
-LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",396,44,37,0.2417,Walks about even with the talk,0.524,44.43,40,19,52,56,51,14,7,31,7,38,84,90,45,44,3,43,32,80,45,85,37,49,50,97,9,50
-ORCL,Oracle Corporation,Information Technology,Application Software,397,44,46,0.0081,Walks about even with the talk,0.429,47.76,32,44,39,43,51,62,32,70,20,34,60,11,47,22,31,61,34,88,38,8,47,50,47,74,32,50
-PEG,Public Service Enterprise Group,Utilities,Electric Utilities,398,44,42,0.3468,Walks about even with the talk,0.571,44.86,123,43,60,29,42,23,48,63,66,15,60,32,47,66,92,63,16,47,27,15,42,45,48,34,31,50
-QCOM,Qualcomm,Information Technology,Semiconductors,399,44,48,0.0081,Walks about even with the talk,0.333,47.52,26,54,36,43,44,75,71,31,20,71,8,47,47,37,62,18,34,55,38,43,47,50,47,40,32,50
-O,Realty Income,Real Estate,Retail REITs,400,44,41,-0.4067,Walks about even with the talk,0.524,44.1,23,25,51,43,57,5,8,62,47,5,32,98,47,13,42,72,22,23,35,85,50,48,50,72,63,50
-TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,401,44,47,-0.6299,Not enough to tell,0.238,45.76,14,43,32,54,48,40,44,40,48,42,71,48,50,10,2,8,94,46,42,42,44,48,50,44,50,50
-TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,402,44,45,-0.7247,Not enough to tell,0.333,47.76,33,37,43,53,42,38,47,48,42,10,14,72,49,79,42,2,73,63,35,51,45,49,47,32,33,50
-USB,U.S. Bancorp,Financials,Diversified Banks,403,44,49,-0.8779,Not enough to tell,0.286,50.43,9,50,43,48,37,72,41,45,45,45,52,32,51,24,39,59,55,45,63,32,45,49,48,34,7,49
-UDR,"UDR, Inc.",Real Estate,Multi-Family Residential REITs,404,44,42,-0.8927,Does more than it promises,0.429,44.62,30,24,52,54,44,27,47,27,7,10,62,50,47,93,42,17,88,23,35,72,50,48,50,10,63,50
-WYNN,Wynn Resorts,Consumer Discretionary,Casinos & Gaming,405,44,46,-0.0196,Walks about even with the talk,0.476,45.9,18,46,37,43,49,39,7,85,7,90,16,28,45,28,51,56,32,38,45,61,37,49,50,49,46,50
-T,AT&T,Communication Services,Integrated Telecommunication Services,406,43,46,-0.2926,Walks about even with the talk,0.19,46.81,22,43,33,48,48,40,44,40,48,42,40,48,50,2,35,21,40,15,42,98,44,48,50,44,50,50
-ADBE,Adobe Inc.,Information Technology,Application Software,407,43,44,-0.4839,Walks about even with the talk,0.238,48.14,29,38,43,40,52,33,32,31,61,34,32,47,47,49,31,50,34,40,38,43,47,50,47,82,32,50
-APD,Air Products,Materials,Industrial Gases,408,43,47,-0.636,Walks about even with the talk,0.619,44.76,92,48,34,37,52,50,36,94,18,42,32,10,50,12,60,38,14,18,62,46,46,48,46,34,82,50
-ALLE,Allegion,Industrials,Building Products,409,43,44,-0.352,Walks about even with the talk,0.429,50.9,47,38,48,46,41,4,45,30,65,48,72,43,49,57,36,28,66,84,29,10,39,49,48,30,28,49
-BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",410,43,41,-0.0196,Walks about even with the talk,0.286,46.1,17,33,54,44,40,14,47,31,33,38,61,28,45,44,65,79,32,38,87,24,37,49,50,7,46,50
-CL,Colgate-Palmolive,Consumer Staples,Household Products,411,43,35,1.2752,Says more than it does,0.429,49.24,44,36,43,51,43,9,50,35,60,26,9,44,50,43,90,21,25,85,87,16,41,50,49,41,26,49
-DHR,Danaher Corporation,Health Care,Life Sciences Tools & Services,412,43,45,-0.6138,Walks about even with the talk,0.476,49.33,44,37,32,49,54,76,47,48,9,5,14,12,49,57,42,16,31,51,35,81,45,49,47,91,33,50
-DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,413,43,44,0.1342,Walks about even with the talk,0.524,49.0,26,45,43,40,45,54,50,35,60,26,9,72,50,4,47,78,66,7,29,59,41,50,49,50,26,49
-EVRG,Evergy,Utilities,Electric Utilities,414,43,46,-0.0961,Walks about even with the talk,0.524,45.9,75,48,46,37,42,11,48,21,73,85,82,32,47,61,37,16,29,16,45,55,42,45,48,34,31,50
-FICO,Fair Isaac,Information Technology,Application Software,415,43,42,-0.3199,Walks about even with the talk,0.333,47.86,19,30,49,27,67,33,32,31,20,34,60,47,47,81,31,28,1,7,38,43,47,50,47,96,93,50
-SBAC,SBA Communications,Real Estate,Telecom Tower REITs,416,43,44,0.1227,Walks about even with the talk,0.286,45.38,34,45,44,37,45,27,47,27,27,97,8,75,47,53,42,40,22,23,35,55,50,48,50,42,37,50
-NOW,ServiceNow,Information Technology,Systems Software,417,43,42,-0.1559,Walks about even with the talk,0.333,48.33,31,35,47,45,44,33,32,31,46,34,8,47,47,49,62,71,83,16,38,43,47,50,47,40,32,50
-SYF,Synchrony Financial,Financials,Consumer Finance,418,43,45,-0.2093,Walks about even with the talk,0.19,52.0,26,41,34,54,44,30,41,45,45,45,9,32,51,57,39,14,76,80,37,32,45,49,48,34,41,49
-SYY,Sysco,Consumer Staples,Food Distributors,419,43,46,-1.2972,Does more than it promises,0.524,49.29,42,38,44,34,56,34,50,94,6,6,81,10,50,24,12,90,25,35,29,38,41,50,49,50,82,49
-TRMB,Trimble Inc.,Information Technology,Application Software,420,43,48,-1.0926,Does more than it promises,0.286,49.19,35,44,30,43,55,62,32,70,20,34,32,47,47,8,31,14,34,55,38,43,47,50,47,40,87,50
-UPS,United Parcel Service,Industrials,Air Freight & Logistics,421,43,48,-0.8591,Does more than it promises,0.429,52.1,43,45,26,48,52,83,5,30,14,94,13,9,49,21,36,28,57,30,29,87,39,49,48,30,84,49
-VMC,Vulcan Materials Company,Materials,Construction Materials,422,43,45,0.4055,Walks about even with the talk,0.429,44.48,101,53,36,37,45,74,36,70,60,26,32,42,50,32,28,32,30,18,62,30,46,48,46,34,48,50
-LNT,Alliant Energy,Utilities,Electric Utilities,423,42,41,-0.0076,Walks about even with the talk,0.571,46.71,60,32,51,43,42,18,2,40,56,44,32,97,47,61,37,32,53,47,73,2,42,45,48,34,31,50
-CASY,Casey's,Consumer Staples,Food Retail,424,42,45,-0.7785,Not enough to tell,0.238,49.9,24,39,40,51,40,34,50,35,16,62,29,44,50,68,26,25,91,35,29,59,41,50,49,24,26,49
-CCI,Crown Castle,Real Estate,Telecom Tower REITs,425,42,40,0.6087,Walks about even with the talk,0.238,46.71,26,43,36,40,49,27,47,27,27,88,8,50,47,40,42,28,22,63,35,30,50,48,50,85,10,50
-DHI,D. R. Horton,Consumer Discretionary,Homebuilding,426,42,45,-0.2809,Walks about even with the talk,0.333,47.76,27,45,36,35,51,39,47,31,33,73,61,28,45,12,51,18,32,38,45,24,37,49,50,27,80,50
-FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,427,42,40,0.6816,Walks about even with the talk,0.667,46.52,94,46,46,54,23,40,55,57,55,21,67,24,48,48,40,48,76,38,81,40,36,2,48,2,14,50
-EG,Everest Group,Financials,Reinsurance,428,42,40,0.125,Walks about even with the talk,0.286,52.52,33,32,44,48,44,30,41,45,45,1,67,32,51,74,39,4,36,45,80,32,45,49,48,34,41,49
-FITB,Fifth Third Bancorp,Financials,Regional Banks,429,42,46,-0.2093,Walks about even with the talk,0.429,52.33,29,49,47,29,44,30,41,84,45,45,52,76,51,12,39,50,2,12,12,75,45,49,48,34,41,49
-HUM,Humana,Health Care,Managed Health Care,430,42,45,-0.7247,Not enough to tell,0.238,49.38,13,41,44,32,52,38,47,48,42,28,37,37,49,72,42,25,64,4,35,14,45,49,47,81,33,50
-MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,431,42,48,-0.5503,Walks about even with the talk,0.429,51.67,35,53,22,44,47,79,50,35,74,26,9,44,50,13,12,4,25,35,62,59,41,50,49,24,65,49
-NSC,Norfolk Southern,Industrials,Rail Transportation,432,42,39,-0.2566,Walks about even with the talk,0.333,51.71,43,26,59,41,41,4,45,30,14,36,45,73,49,75,36,75,98,30,29,10,39,49,48,30,28,49
-NVDA,Nvidia,Information Technology,Semiconductors,433,42,38,0.5002,Walks about even with the talk,0.333,49.14,45,30,40,51,49,33,32,31,20,34,32,47,47,37,62,14,59,16,38,96,47,50,47,65,32,50
-PPG,PPG Industries,Materials,Specialty Chemicals,434,42,42,-0.7128,Walks about even with the talk,0.667,44.86,69,28,44,48,49,14,16,12,28,68,32,42,50,48,80,14,46,74,4,68,46,48,46,52,48,50
-PYPL,PayPal,Financials,Transaction & Payment Processing Services,435,42,42,0.125,Walks about even with the talk,0.429,52.95,26,41,50,43,32,30,41,45,45,45,30,32,51,82,39,66,3,12,80,75,45,49,48,5,7,49
-PGR,Progressive Corporation,Financials,Property & Casualty Insurance,436,42,41,0.125,Walks about even with the talk,0.238,52.24,23,34,48,43,44,30,41,7,45,45,30,32,51,48,39,91,55,45,37,32,45,49,48,34,41,49
-SNDK,Sandisk,Information Technology,"Technology Hardware, Storage & Peripherals",437,42,44,0.6642,Walks about even with the talk,0.667,50.43,35,60,29,34,44,6,84,70,46,92,75,11,47,22,10,8,59,55,3,8,47,50,47,40,32,50
-TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,438,42,48,-0.094,Walks about even with the talk,0.619,50.52,31,54,32,57,27,87,50,35,37,62,29,10,50,40,47,13,57,65,62,59,41,1,49,10,26,49
-VEEV,Veeva Systems,Health Care,Health Care Technology,439,42,44,-0.0784,Walks about even with the talk,0.286,50.71,18,41,33,38,54,38,47,48,42,28,14,37,49,50,42,4,31,27,35,51,45,49,47,54,71,50
-VRSK,Verisk Analytics,Industrials,Research & Consulting Services,440,42,35,0.9781,Says more than it does,0.333,52.57,33,35,50,40,41,20,45,30,65,15,45,73,49,6,77,47,83,9,29,38,39,49,48,30,28,49
-AMZN,Amazon,Consumer Discretionary,Broadline Retail,441,41,41,-0.4115,Not enough to tell,0.381,49.19,19,27,19,66,51,14,47,31,7,38,16,28,45,5,21,1,84,38,96,76,37,49,50,27,80,50
-AXON,Axon Enterprise,Industrials,Aerospace & Defense,442,41,44,-0.3938,Not enough to tell,0.429,53.43,36,41,33,30,60,20,45,30,14,94,45,9,49,39,2,55,37,9,29,38,39,49,48,72,84,49
-AVGO,Broadcom,Information Technology,Semiconductors,443,41,45,0.1722,Walks about even with the talk,0.333,50.67,30,54,39,31,40,33,32,70,51,83,32,47,47,57,31,18,34,40,38,43,1,50,47,21,32,50
-ELV,Elevance Health,Health Care,Managed Health Care,444,41,43,-0.2938,Walks about even with the talk,0.286,50.1,28,41,48,34,42,38,47,48,42,28,58,37,49,57,42,44,73,4,35,14,45,49,47,32,33,50
-HSIC,Henry Schein,Health Care,Health Care Distributors,445,41,45,-0.7247,Not enough to tell,0.048,50.9,1,41,36,35,52,38,47,48,42,28,37,37,49,26,42,25,31,15,35,51,45,49,47,32,81,50
-IP,International Paper,Materials,Paper & Plastic Packaging Products & Materials,446,41,42,0.7128,Walks about even with the talk,0.524,46.86,220,54,28,26,55,86,16,2,90,76,8,10,50,66,28,4,20,6,30,30,46,48,46,34,98,50
-MAS,Masco,Industrials,Building Products,447,41,41,-0.1194,Walks about even with the talk,0.333,53.57,23,34,39,42,48,20,45,77,14,15,45,43,49,57,36,2,74,60,29,10,39,49,48,64,28,49
-NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,448,41,45,-0.4115,Not enough to tell,0.143,48.76,10,43,32,44,44,39,47,31,59,38,39,28,45,28,21,32,76,38,45,24,37,49,50,27,46,50
-NOC,Northrop Grumman,Industrials,Aerospace & Defense,449,41,41,0.0178,Walks about even with the talk,0.524,53.1,51,33,39,49,44,40,5,30,41,48,13,43,49,48,36,47,22,30,74,38,81,49,48,5,67,49
-PM,Philip Morris International,Consumer Staples,Tobacco,450,41,42,-0.094,Walks about even with the talk,0.429,51.57,64,36,39,48,40,34,50,35,37,26,29,72,50,54,26,4,51,65,29,16,81,50,49,24,26,49
-SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,451,41,40,0.3287,Walks about even with the talk,0.524,45.81,139,41,48,26,49,70,16,28,74,18,54,92,50,48,28,14,20,18,30,14,46,48,46,20,82,50
-TRGP,Targa Resources,Energy,Oil & Gas Storage & Transportation,452,41,38,0.3894,Walks about even with the talk,0.524,48.0,76,32,42,39,50,12,33,14,38,64,43,98,48,5,40,21,12,38,38,71,36,48,48,88,14,50
-TDY,Teledyne Technologies,Information Technology,Electronic Equipment & Instruments,453,41,41,0.5002,Walks about even with the talk,0.476,50.81,62,45,34,41,44,97,32,31,61,3,60,11,47,15,31,42,3,40,38,77,47,50,47,40,32,50
-GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,454,41,39,-0.3938,Not enough to tell,0.524,53.71,35,22,39,40,62,4,45,30,14,15,13,9,49,48,99,14,74,49,29,10,39,49,48,96,67,49
-MO,Altria,Consumer Staples,Tobacco,455,40,43,-0.094,Walks about even with the talk,0.571,52.43,41,46,42,35,36,34,50,35,60,49,51,72,50,29,12,40,3,54,62,16,41,50,49,7,26,49
-ATO,Atmos Energy,Utilities,Gas Utilities,456,40,41,-0.3009,Walks about even with the talk,0.429,49.57,20,33,44,30,52,3,32,18,13,97,8,32,47,52,77,45,8,47,27,24,42,45,48,85,31,50
-BLDR,Builders FirstSource,Industrials,Building Products,457,40,35,0.7454,Walks about even with the talk,0.333,54.0,33,33,51,34,41,20,45,30,14,55,13,90,49,48,36,68,57,9,29,38,39,49,48,30,28,49
-FISV,Fiserv,Financials,Transaction & Payment Processing Services,458,40,39,0.4593,Walks about even with the talk,0.238,54.67,19,41,50,23,44,30,41,45,45,45,9,32,51,95,39,76,13,12,12,32,45,49,48,34,41,49
-GD,General Dynamics,Industrials,Aerospace & Defense,459,40,43,-0.1194,Walks about even with the talk,0.333,54.0,30,44,44,31,41,52,45,30,14,79,45,43,49,21,77,28,7,30,29,10,81,49,48,30,28,49
-GIS,General Mills,Consumer Staples,Packaged Foods & Meats,460,40,44,-0.5503,Walks about even with the talk,0.381,52.57,62,44,43,32,40,72,50,35,37,26,74,44,50,29,47,13,66,35,3,16,41,50,49,24,26,49
-LEN,Lennar,Consumer Discretionary,Homebuilding,461,40,47,-0.5283,Walks about even with the talk,0.381,49.24,22,55,38,22,44,64,47,93,33,38,16,28,45,12,51,79,32,9,9,24,37,49,50,27,46,50
-LIN,Linde plc,Materials,Industrial Gases,462,40,46,-0.7682,Does more than it promises,0.476,48.1,44,48,26,45,39,34,16,78,28,86,8,42,50,12,28,14,74,46,30,30,46,48,46,34,18,50
-AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",463,39,42,-0.4839,Walks about even with the talk,0.238,52.43,13,38,35,40,44,33,32,31,61,34,60,47,47,15,31,8,34,40,38,43,47,50,47,40,32,50
-CVNA,Carvana,Consumer Discretionary,Automotive Retail,464,39,40,-0.1502,Walks about even with the talk,0.333,49.52,23,33,50,30,44,14,47,31,33,38,61,68,45,78,21,27,32,9,9,61,37,49,50,27,46,50
-CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,465,39,35,-0.1322,Walks about even with the talk,0.524,47.05,120,15,54,55,33,2,36,28,6,2,82,10,50,78,28,78,58,94,30,46,46,48,46,4,18,50
-DASH,DoorDash,Consumer Discretionary,Specialized Consumer Services,466,39,43,-1.1815,Does more than it promises,0.19,50.14,19,33,34,46,44,14,47,31,33,38,61,28,45,44,21,7,32,38,45,24,90,49,50,27,46,50
-EXR,Extra Space Storage,Real Estate,Self-Storage REITs,467,39,43,-0.9144,Not enough to tell,0.381,49.62,14,38,36,36,45,27,47,27,7,82,8,75,47,27,42,17,22,63,35,10,50,48,50,42,37,50
-KR,Kroger,Consumer Staples,Food Retail,468,39,44,-1.4839,Does more than it promises,0.476,52.71,36,36,44,40,37,54,50,35,16,26,51,44,50,13,69,40,41,35,9,16,97,50,49,13,26,49
-NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,469,39,42,-0.0961,Walks about even with the talk,0.619,50.86,93,37,23,46,50,40,21,11,40,71,8,32,47,5,37,11,63,47,15,63,42,45,48,34,74,50
-ON,ON Semiconductor,Information Technology,Semiconductors,470,39,40,0.5002,Walks about even with the talk,0.476,52.71,52,46,31,27,53,33,84,93,20,1,32,11,47,37,3,55,34,7,38,8,47,50,47,85,32,50
-TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,471,39,37,0.503,Walks about even with the talk,0.381,50.29,41,35,39,31,52,64,7,31,33,38,16,28,45,90,21,32,3,80,9,24,37,49,50,64,46,50
-TYL,Tyler Technologies,Information Technology,Application Software,472,39,39,-0.1559,Walks about even with the talk,0.238,52.67,12,30,37,44,44,33,32,31,20,34,92,11,47,1,31,42,66,28,38,43,47,50,47,40,32,50
-WFC,Wells Fargo,Financials,Diversified Banks,473,39,44,-0.8779,Not enough to tell,0.19,55.76,6,41,35,36,44,30,41,45,45,45,52,32,51,24,39,14,55,12,37,32,45,49,48,34,41,49
-BNY,BNY Mellon,Financials,Asset Management & Custody Banks,474,38,43,-0.5436,Walks about even with the talk,0.0,57.19,4,41,30,37,44,30,41,45,45,45,9,32,51,24,39,25,24,45,37,32,45,49,48,34,41,49
-EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",475,38,38,0.2417,Walks about even with the talk,0.333,51.0,16,33,42,26,52,14,47,31,33,38,16,28,45,85,51,27,13,9,45,24,37,49,50,64,46,50
-FE,FirstEnergy,Utilities,Electric Utilities,476,38,40,0.142,Walks about even with the talk,0.429,50.43,103,41,43,28,42,94,10,2,66,34,45,32,47,35,37,63,40,16,27,15,42,45,48,34,31,50
-HUBB,Hubbell Incorporated,Industrials,Industrial Machinery & Supplies & Components,477,38,42,-0.2566,Walks about even with the talk,0.286,56.71,23,43,36,26,45,20,45,67,14,70,45,43,49,31,36,14,22,30,29,10,39,49,48,49,28,49
-JBHT,J.B. Hunt,Industrials,Cargo Ground Transportation,478,38,43,-0.3938,Not enough to tell,0.381,56.67,17,46,41,22,41,4,45,30,65,86,72,43,49,6,36,39,22,9,29,10,39,49,48,30,28,49
-NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,479,38,44,-0.8779,Not enough to tell,0.0,57.19,0,41,30,37,44,30,41,45,45,45,9,32,51,24,39,25,24,45,37,32,45,49,48,34,41,49
-PHM,PulteGroup,Consumer Discretionary,Homebuilding,480,38,45,-2.4601,Does more than it promises,0.19,50.52,26,32,36,42,44,39,47,31,7,38,39,28,45,28,21,56,67,38,45,24,37,49,50,27,46,50
-DGX,Quest Diagnostics,Health Care,Health Care Services,481,38,40,-0.503,Walks about even with the talk,0.381,54.1,48,33,40,35,42,38,47,48,2,28,14,12,49,41,42,82,31,4,84,51,4,49,47,32,33,50
-ROP,Roper Technologies,Information Technology,Electronic Equipment & Instruments,482,38,43,-0.4839,Walks about even with the talk,0.381,54.76,15,41,19,38,52,6,32,31,61,77,8,11,47,8,31,8,34,28,38,43,47,50,47,40,74,50
-SYK,Stryker Corporation,Health Care,Health Care Equipment,483,38,43,-0.7247,Not enough to tell,0.0,53.19,0,41,36,35,42,38,47,48,42,28,37,37,49,26,42,25,31,15,35,51,45,49,47,32,33,50
-TDG,TransDigm Group,Industrials,Aerospace & Defense,484,38,41,-0.2149,Walks about even with the talk,0.524,55.71,29,39,41,32,41,75,5,30,51,36,45,73,49,6,36,39,42,9,59,10,39,49,48,30,28,49
-VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,485,38,43,-0.7247,Not enough to tell,0.0,53.19,18,41,36,35,42,38,47,48,42,28,37,37,49,26,42,25,31,15,35,51,45,49,47,32,33,50
-WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Homefurnishing Retail,486,38,42,0.2556,Walks about even with the talk,0.571,51.14,53,48,34,22,49,14,47,71,70,38,61,68,45,19,5,7,67,9,9,24,1,49,50,49,46,50
-DDOG,Datadog,Information Technology,Application Software,487,37,42,-1.5846,Does more than it promises,0.143,54.24,15,30,40,38,40,33,32,31,20,34,32,47,47,57,31,28,34,28,38,43,47,50,47,21,32,50
-HRL,Hormel Foods,Consumer Staples,Packaged Foods & Meats,488,37,41,-0.7785,Not enough to tell,0.381,55.67,22,36,38,34,40,9,50,35,6,79,29,44,50,35,47,21,25,7,79,16,41,50,49,24,26,49
-PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,489,37,42,-0.9963,Does more than it promises,0.476,57.57,36,37,34,35,41,52,5,30,41,55,13,43,49,63,36,2,89,9,29,10,39,49,48,30,28,49
-UNH,UnitedHealth Group,Health Care,Managed Health Care,490,37,42,-0.2938,Walks about even with the talk,0.238,55.43,18,41,24,40,42,38,47,48,42,28,14,37,3,41,42,8,31,39,35,51,45,49,47,32,33,50
-ADP,Automatic Data Processing,Industrials,Human Resource & Employment Services,491,36,35,0.0178,Walks about even with the talk,0.286,57.19,17,25,51,29,41,20,45,30,14,15,72,9,49,85,36,55,22,49,29,38,5,49,48,30,28,49
-CTSH,Cognizant,Information Technology,IT Consulting & Other Services,492,36,38,-0.3199,Walks about even with the talk,0.286,55.19,24,30,43,33,38,33,32,31,20,34,32,47,47,71,31,28,55,16,38,8,47,50,47,13,32,50
-CRWD,CrowdStrike,Information Technology,Systems Software,493,36,38,-0.1559,Walks about even with the talk,0.286,55.86,23,30,33,33,48,33,32,31,20,34,8,11,47,71,31,28,34,2,38,43,47,50,47,59,32,50
-KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,494,36,40,-0.4382,Walks about even with the talk,0.667,53.19,67,34,27,49,35,60,33,64,12,2,43,2,48,12,40,17,38,38,69,12,86,48,48,14,14,50
-HAL,Halliburton,Energy,Oil & Gas Equipment & Services,495,35,41,-0.5843,Not enough to tell,0.286,53.81,63,38,27,31,45,7,10,36,55,83,12,24,48,33,40,5,19,38,38,26,36,48,48,36,45,50
-BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,496,34,32,0.5665,Walks about even with the talk,0.333,60.95,14,25,21,49,41,20,45,30,14,15,13,9,49,6,36,14,83,9,74,38,39,49,48,30,28,49
-CPT,Camden Property Trust,Real Estate,Multi-Family Residential REITs,497,34,33,0.2702,Walks about even with the talk,0.238,54.38,14,25,30,36,45,27,47,27,7,18,32,17,47,13,42,28,5,23,73,30,50,48,50,42,37,50
-HONA,Honeywell Aerospace,Industrials,Aerospace & Defense,498,34,35,-0.3938,Not enough to tell,0.0,60.86,0,25,36,32,41,20,45,30,14,15,45,43,49,21,36,20,22,30,29,38,39,49,48,30,28,49
-TXN,Texas Instruments,Information Technology,Semiconductors,499,34,37,-0.1559,Walks about even with the talk,0.238,58.24,19,30,23,45,37,33,32,31,20,34,32,47,47,3,2,8,34,28,38,77,47,50,47,6,32,50
-CSGP,CoStar Group,Real Estate,Real Estate Services,500,33,39,-1.4005,Does more than it promises,0.286,55.71,14,29,26,37,40,27,47,27,27,18,8,50,47,3,42,5,8,23,73,30,50,48,50,42,10,50
-XOM,ExxonMobil,Energy,Integrated Oil & Gas,501,33,37,-0.5843,Not enough to tell,0.0,55.48,0,27,30,31,45,36,33,14,19,33,12,24,48,33,40,26,19,38,38,26,36,48,48,36,45,50
-CNP,CenterPoint Energy,Utilities,Multi-Utilities,502,32,35,-1.3696,Does more than it promises,0.571,56.57,108,22,48,22,35,23,21,37,5,26,8,32,47,81,37,82,21,16,15,15,42,45,48,2,31,50
-PAYX,Paychex,Industrials,Human Resource & Employment Services,503,32,32,0.2922,Walks about even with the talk,0.286,62.05,15,25,35,28,41,20,45,30,14,15,13,43,49,13,36,55,22,30,74,10,2,49,48,30,28,49
+CMI,Cummins,Industrials,Construction Machinery & Heavy Transportation Equipment,1,74,56,2.0775,Says more than it does,0.857,18.62,111,76,75,71,74,39,77,81,87,96,87,90,49,48,89,89,37,83,89,66,81,49,48,98,78,99
+WM,Waste Management,Industrials,Environmental & Facilities Services,2,74,73,-1.405,Does more than it promises,0.857,18.14,291,76,79,65,78,95,84,99,99,4,92,94,49,48,93,99,4,71,55,99,94,49,98,97,98,49
+F,Ford Motor Company,Consumer Discretionary,Automobile Manufacturers,3,70,55,2.0755,Says more than it does,0.714,17.81,94,80,72,67,62,79,41,95,85,99,97,84,45,12,97,97,94,80,99,24,37,49,50,64,95,50
+VTRS,Viatris,Health Care,Pharmaceuticals,4,69,61,0.8862,Says more than it does,0.762,20.38,92,77,86,63,50,82,47,95,92,69,99,89,49,91,98,92,1,92,84,93,45,49,47,8,97,50
+EL,Estée Lauder Companies (The),Consumer Staples,Personal Care Products,5,68,67,-1.1578,Does more than it promises,0.857,22.52,53,66,60,51,94,75,88,94,60,15,81,44,50,54,69,65,60,96,79,16,3,99,99,96,78,99
+WY,Weyerhaeuser,Real Estate,Timber REITs,6,68,49,2.2813,Says more than it does,0.762,20.14,137,68,70,78,54,87,23,95,92,42,92,50,47,62,93,78,78,90,98,72,50,2,50,95,72,50
+ALGN,Align Technology,Health Care,Health Care Supplies,7,67,68,-1.4065,Does more than it promises,0.762,22.95,46,73,73,62,60,39,47,95,92,92,58,89,49,72,86,86,5,83,71,51,99,49,47,91,64,50
+RSG,Republic Services,Industrials,Environmental & Facilities Services,8,67,61,0.2189,Walks about even with the talk,0.714,26.24,239,63,68,71,65,39,80,95,98,2,81,83,49,21,77,96,42,76,98,99,39,49,48,81,98,49
+AMAT,Applied Materials,Information Technology,Semiconductor Materials & Equipment,9,66,67,-0.3887,Walks about even with the talk,0.762,25.48,36,77,49,65,71,55,92,86,61,92,8,11,47,99,88,42,83,75,79,43,47,50,97,99,60,50
+DOV,Dover Corporation,Industrials,Industrial Machinery & Supplies & Components,10,66,69,-0.5025,Walks about even with the talk,0.714,27.29,104,81,44,82,59,85,80,96,87,59,13,43,49,63,36,61,66,94,89,81,81,49,48,56,93,49
+TT,Trane Technologies,Industrials,Building Products,11,66,64,0.183,Walks about even with the talk,0.667,26.76,59,75,60,82,49,39,96,54,87,99,72,43,49,75,36,83,89,99,74,66,81,49,48,30,71,49
+BMY,Bristol Myers Squibb,Health Care,Pharmaceuticals,12,65,58,0.0047,Walks about even with the talk,0.762,25.19,35,51,73,73,62,82,66,59,42,5,75,58,49,97,86,73,81,94,84,14,92,49,47,86,79,50
+HON,Honeywell Technologies,Industrials,Industrial Conglomerates,13,65,58,0.7068,Walks about even with the talk,0.714,27.43,102,65,67,73,56,65,78,10,77,93,92,99,49,39,36,89,74,90,29,92,81,49,48,81,55,49
+MA,Mastercard,Financials,Transaction & Payment Processing Services,14,65,65,-0.6617,Walks about even with the talk,0.714,27.52,61,76,85,38,62,88,84,70,92,45,79,95,51,93,99,91,7,80,63,32,7,49,48,76,89,49
+AXP,American Express,Financials,Consumer Finance,15,64,64,-0.9714,Does more than it promises,0.667,30.0,58,65,59,65,67,88,78,70,45,45,30,76,51,98,83,14,43,96,63,32,90,49,48,98,89,49
+BKR,Baker Hughes,Energy,Oil & Gas Equipment & Services,16,64,50,1.3015,Says more than it does,0.762,23.1,90,55,81,63,59,76,21,64,67,48,88,88,98,76,40,98,52,98,38,40,86,48,48,98,52,50
+CMS,CMS Energy,Utilities,Multi-Utilities,17,64,60,0.6482,Walks about even with the talk,0.714,25.14,243,76,59,57,64,89,56,98,98,37,82,32,47,26,77,89,40,87,60,55,42,94,48,34,95,50
+CRH,CRH plc,Materials,Construction Materials,18,64,61,0.4269,Walks about even with the talk,0.762,22.71,99,74,60,69,54,46,86,64,74,98,62,70,50,58,60,62,46,82,94,30,94,48,46,58,68,50
+CARR,Carrier Global,Industrials,Building Products,19,64,64,0.1364,Walks about even with the talk,0.762,29.05,110,80,71,56,48,85,60,92,97,64,72,90,49,88,36,89,5,98,2,92,81,49,48,8,87,49
+DOW,Dow Inc.,Materials,Commodity Chemicals,20,64,40,2.8132,Says more than it does,0.762,22.05,172,52,75,68,62,30,30,12,94,92,98,92,50,94,28,90,38,88,80,88,46,48,96,72,44,50
+NEM,Newmont,Materials,Gold,21,64,46,1.9845,Says more than it does,0.857,22.33,206,53,67,51,86,58,44,64,66,34,94,42,50,48,70,98,6,6,62,88,94,98,96,92,94,50
+CRM,Salesforce,Information Technology,Application Software,22,64,58,0.1141,Walks about even with the talk,0.762,25.57,45,53,68,86,51,84,54,49,46,34,32,11,97,96,82,92,83,84,99,77,89,50,47,13,93,50
+V,Visa Inc.,Financials,Transaction & Payment Processing Services,23,64,68,-1.6422,Does more than it promises,0.571,30.48,29,77,56,58,63,88,89,70,92,45,67,32,51,68,83,33,24,96,37,88,45,49,48,76,95,49
+CHD,Church & Dwight,Consumer Staples,Household Products,24,63,62,-0.6011,Walks about even with the talk,0.762,26.95,60,64,67,59,63,12,69,94,74,69,51,81,50,54,69,96,51,54,62,38,90,50,49,69,96,49
+EOG,EOG Resources,Energy,Oil & Gas Exploration & Production,25,63,64,-0.4163,Walks about even with the talk,0.619,26.19,82,70,52,71,59,60,88,95,19,86,43,24,48,33,88,74,64,69,38,98,86,48,48,67,83,50
+EQIX,Equinix,Real Estate,Data Center REITs,26,63,63,-0.061,Walks about even with the talk,0.714,23.86,81,78,81,47,46,63,92,98,73,65,95,87,97,68,42,97,52,98,3,30,50,48,50,10,72,50
+GS,Goldman Sachs,Financials,Investment Banking & Brokerage,27,63,55,1.1664,Says more than it does,0.714,30.43,97,71,71,63,47,88,26,56,92,91,95,32,51,78,83,88,99,12,37,75,90,49,48,3,84,49
+TTWO,Take-Two Interactive,Communication Services,Interactive Home Entertainment,28,63,68,-2.0137,Does more than it promises,0.667,23.86,29,75,79,44,55,88,81,58,48,98,81,94,50,69,85,94,6,77,2,42,92,48,50,44,85,50
+ARES,Ares Management,Financials,Asset Management & Custody Banks,29,62,63,-0.5812,Walks about even with the talk,0.571,31.52,58,72,68,39,67,41,84,95,45,97,99,32,51,48,94,85,24,12,37,32,90,49,48,93,98,49
+BSX,Boston Scientific,Health Care,Health Care Equipment,30,62,63,-0.2964,Walks about even with the talk,0.762,27.86,37,77,75,44,51,82,66,95,84,58,82,89,99,2,86,92,3,63,95,14,45,49,47,32,79,50
+DELL,Dell Technologies,Information Technology,"Technology Hardware, Storage & Peripherals",31,62,64,-0.1422,Walks about even with the talk,0.667,29.52,54,75,45,64,63,84,54,49,96,92,8,47,47,49,91,28,95,55,79,43,47,50,47,89,79,50
+FTNT,Fortinet,Information Technology,Systems Software,32,62,48,1.8728,Says more than it does,0.762,28.14,66,66,75,57,48,84,25,49,96,77,92,78,47,96,62,77,5,75,79,77,47,50,47,2,93,50
+GM,General Motors,Consumer Discretionary,Automobile Manufacturers,33,62,58,0.546,Walks about even with the talk,0.762,25.81,74,72,66,56,54,50,46,81,85,97,61,98,45,73,51,69,5,90,87,61,37,49,50,64,56,50
+HPQ,HP Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",34,62,66,-0.9926,Does more than it promises,0.524,28.62,62,77,62,52,56,84,80,79,75,66,75,47,47,86,76,42,34,99,38,43,47,50,47,40,93,50
+HPE,Hewlett Packard Enterprise,Information Technology,"Technology Hardware, Storage & Peripherals",35,62,61,-0.3416,Walks about even with the talk,0.762,27.14,77,67,83,46,53,55,80,49,93,60,97,95,47,71,97,90,7,95,3,77,47,50,47,59,60,50
+J,Jacobs Solutions,Industrials,Construction & Engineering,36,62,62,-1.6669,Does more than it promises,0.762,29.62,79,59,87,67,36,17,60,87,65,64,98,96,49,98,85,95,49,67,74,66,81,49,48,5,27,49
+NTAP,NetApp,Information Technology,"Technology Hardware, Storage & Peripherals",37,62,65,-0.6751,Walks about even with the talk,0.714,28.95,53,78,62,56,50,55,92,90,61,92,92,78,47,86,5,66,34,75,79,43,47,99,47,6,47,50
+SWK,Stanley Black & Decker,Industrials,Industrial Machinery & Supplies & Components,38,62,64,-0.9051,Does more than it promises,0.619,31.71,66,69,51,66,61,85,90,87,51,31,45,83,49,31,36,61,95,76,29,92,39,49,48,72,87,49
+TSLA,"Tesla, Inc.",Consumer Discretionary,Automobile Manufacturers,39,62,48,1.6894,Says more than it does,0.714,26.38,42,61,60,82,43,79,30,81,85,32,95,28,95,2,71,69,97,96,79,61,79,49,50,27,38,50
+DIS,Walt Disney Company (The),Communication Services,Movies & Entertainment,40,62,62,-0.3431,Walks about even with the talk,0.571,26.33,22,71,64,52,59,65,92,58,96,42,40,48,50,98,85,60,69,15,92,42,44,48,50,88,58,50
+EXE,Expand Energy,Energy,Oil & Gas Exploration & Production,41,61,64,-0.9893,Does more than it promises,0.714,28.24,88,69,50,56,68,60,74,95,98,17,43,57,48,55,40,60,64,38,69,71,36,93,48,67,83,50
+HSY,Hershey Company (The),Consumer Staples,Packaged Foods & Meats,42,61,65,-0.9847,Does more than it promises,0.667,29.76,64,72,40,80,53,75,88,99,16,82,9,44,99,24,26,40,99,91,87,81,41,50,49,41,78,49
+LYB,LyondellBasell,Materials,Specialty Chemicals,43,61,65,-0.8084,Does more than it promises,0.714,25.76,78,79,64,38,62,38,98,80,86,92,90,42,50,66,70,68,2,28,62,54,46,48,46,98,68,50
+MDLZ,Mondelez International,Consumer Staples,Packaged Foods & Meats,44,61,57,0.561,Walks about even with the talk,0.762,28.67,56,70,68,62,45,75,57,69,79,69,51,99,1,74,82,99,81,99,29,59,41,50,49,1,78,49
+MCO,Moody's Corporation,Financials,Financial Exchanges & Data,45,61,62,-1.3839,Does more than it promises,0.524,31.67,50,63,72,51,59,65,89,70,45,45,95,32,51,78,83,95,55,45,80,32,45,49,48,76,73,49
+VLO,Valero Energy,Energy,Oil & Gas Refining & Marketing,46,61,48,1.2215,Says more than it does,0.714,27.0,125,51,65,65,64,45,43,45,38,86,43,57,48,76,98,67,98,38,38,64,86,48,48,93,83,50
+AES,AES Corporation,Utilities,Independent Power Producers & Energy Traders,47,60,68,-1.037,Does more than it promises,0.81,30.57,220,85,32,60,61,73,87,95,76,92,45,73,47,26,2,2,2,87,81,45,85,45,48,98,63,50
+AWK,American Water Works,Utilities,Water Utilities,48,60,50,0.1385,Walks about even with the talk,0.81,27.57,431,34,77,85,45,34,44,11,81,2,53,90,47,98,77,98,89,98,60,82,97,45,48,5,76,50
+ADI,Analog Devices,Information Technology,Semiconductors,49,60,48,1.8362,Says more than it does,0.667,29.95,39,66,62,49,65,55,25,95,61,92,75,47,47,37,82,86,34,75,79,8,47,50,47,85,93,50
+BALL,Ball Corporation,Materials,"Metal, Glass & Plastic Containers",50,60,63,-0.8775,Does more than it promises,0.619,26.14,45,72,59,51,60,80,78,80,46,78,82,98,50,12,28,84,82,68,30,30,46,48,46,72,86,50
+CVS,CVS Health,Health Care,Health Care Services,51,60,61,-0.127,Walks about even with the talk,0.667,30.71,46,70,52,62,56,57,66,95,42,92,88,82,49,4,42,44,56,58,71,81,45,49,47,81,53,50
+EW,Edwards Lifesciences,Health Care,Health Care Equipment,52,60,61,-0.5818,Walks about even with the talk,0.619,30.48,26,69,63,43,64,82,92,59,42,69,58,96,96,26,42,61,31,39,84,14,45,49,47,96,79,50
+HD,Home Depot (The),Consumer Discretionary,Home Improvement Retail,53,60,62,-1.0956,Does more than it promises,0.667,26.9,58,65,72,60,45,79,99,52,1,95,61,28,95,97,93,56,32,90,45,95,37,49,50,2,76,50
+KLAC,KLA Corporation,Information Technology,Semiconductor Materials & Equipment,54,60,45,1.9395,Says more than it does,0.762,29.86,59,61,68,56,55,36,42,97,61,71,60,86,47,86,88,42,95,65,38,77,7,50,47,80,47,50
+SO,Southern Company,Utilities,Electric Utilities,55,60,63,-2.1058,Does more than it promises,0.714,28.62,163,59,51,76,55,11,98,61,34,92,92,6,47,71,37,55,85,71,89,95,42,45,48,94,40,50
+TPL,Texas Pacific Land Corporation,Energy,Oil & Gas Exploration & Production,56,60,51,0.8246,Says more than it does,0.762,29.9,105,51,42,84,61,60,21,60,88,26,43,57,48,19,40,48,93,86,98,55,86,98,48,67,40,50
+ULTA,Ulta Beauty,Consumer Discretionary,Other Specialty Retail,57,60,63,-1.0848,Does more than it promises,0.571,28.76,40,69,52,67,50,79,93,81,59,32,61,68,45,99,21,18,76,80,45,97,37,49,50,27,76,50
+GOOGL,Alphabet Inc. (Class A),Communication Services,Interactive Media & Services,58,59,55,0.6538,Walks about even with the talk,0.476,29.24,23,66,54,58,57,65,92,85,48,42,40,48,50,79,71,33,40,77,42,88,44,48,50,79,58,50
+GOOG,Alphabet Inc. (Class C),Communication Services,Interactive Media & Services,59,59,58,0.2065,Walks about even with the talk,0.476,29.24,23,66,54,58,57,65,92,85,48,42,40,48,50,79,71,33,40,77,42,88,44,48,50,79,58,50
+AMGN,Amgen,Health Care,Biotechnology,60,59,61,-0.0148,Walks about even with the talk,0.619,31.67,32,72,43,48,74,82,92,88,42,58,58,37,49,57,42,16,64,83,35,14,45,99,47,81,93,50
+AIZ,Assurant,Financials,Multi-line Insurance,61,59,51,0.7647,Says more than it does,0.667,34.14,57,53,68,60,56,41,47,32,98,45,88,76,99,12,39,94,1,96,80,32,90,49,48,85,47,49
+CSCO,Cisco,Information Technology,Communications Equipment,62,59,60,-1.1676,Does more than it promises,0.619,31.76,43,59,58,54,64,84,80,79,20,34,60,91,47,15,82,50,83,16,79,43,47,50,47,96,79,50
+KO,Coca-Cola Company (The),Consumer Staples,Soft Drinks & Non-alcoholic Beverages,63,59,60,-0.0427,Walks about even with the talk,0.714,31.48,74,70,58,57,50,75,57,69,93,54,81,10,50,68,47,93,10,79,96,59,41,50,49,24,78,49
+GILD,Gilead Sciences,Health Care,Biotechnology,64,59,57,0.0884,Walks about even with the talk,0.619,32.1,26,61,55,62,57,82,92,59,42,28,97,72,49,8,42,61,73,74,35,81,45,49,97,8,79,50
+INTU,Intuit,Information Technology,Application Software,65,59,61,-1.3214,Does more than it promises,0.571,30.57,38,65,70,44,58,84,80,79,46,34,60,47,97,71,62,84,66,28,38,43,47,50,47,65,79,50
+LITE,Lumentum,Information Technology,Communications Equipment,66,59,64,-1.7982,Does more than it promises,0.667,31.81,50,67,51,71,47,55,80,49,89,63,32,91,47,28,82,28,95,75,6,88,89,50,47,40,47,50
+MET,MetLife,Financials,Life & Health Insurance,67,59,48,1.7196,Says more than it does,0.524,35.24,70,62,46,68,61,88,26,54,45,97,52,32,51,74,39,25,86,45,70,92,45,49,48,76,82,49
+NKE,"Nike, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",68,59,59,-0.7362,Walks about even with the talk,0.619,29.19,37,58,59,60,59,50,93,81,33,32,16,68,45,81,51,91,52,99,87,24,37,49,50,89,56,50
+WDAY,"Workday, Inc.",Information Technology,Application Software,69,59,52,0.3714,Walks about even with the talk,0.667,30.62,40,50,70,74,43,55,92,49,20,34,60,91,47,93,31,99,90,88,95,8,89,50,47,21,47,50
+AMCR,Amcor,Materials,Paper & Plastic Packaging Products & Materials,70,58,62,-1.0386,Does more than it promises,0.667,29.29,60,71,55,58,48,80,68,80,74,52,68,42,50,32,90,46,88,88,62,4,46,48,46,20,74,50
+APTV,Aptiv,Consumer Discretionary,Automotive Parts & Equipment,71,58,63,-0.1295,Walks about even with the talk,0.571,30.24,48,79,41,47,67,79,82,91,78,67,16,90,45,28,21,47,61,66,45,24,37,49,50,97,89,50
+BAC,Bank of America,Financials,Diversified Banks,72,58,46,1.7383,Says more than it does,0.571,35.52,61,61,58,62,52,88,26,99,45,45,30,32,51,91,83,59,93,45,37,92,45,49,98,2,60,49
+CCL,Carnival Corporation,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",73,58,48,1.5537,Says more than it does,0.81,30.33,84,62,48,67,54,11,55,81,96,67,16,90,45,35,87,18,94,66,79,61,37,98,50,54,20,50
+CIEN,Ciena,Information Technology,Communications Equipment,74,58,56,0.2266,Walks about even with the talk,0.619,33.57,35,61,42,70,57,36,66,49,61,92,32,47,47,90,31,8,95,40,79,88,47,50,47,92,47,50
+DE,Deere & Company,Industrials,Agricultural & Farm Machinery,75,58,54,0.7588,Says more than it does,0.667,34.76,57,67,60,48,57,65,48,87,51,83,13,73,49,75,96,55,22,86,29,66,39,49,48,60,78,49
+EMR,Emerson Electric,Industrials,Electrical Components & Equipment,76,58,60,-0.7339,Walks about even with the talk,0.667,35.24,45,61,45,61,67,85,60,81,65,16,13,73,49,69,36,28,42,97,59,66,39,49,48,94,93,49
+FERG,Ferguson Enterprises,Industrials,Trading Companies & Distributors,77,58,58,-0.4877,Walks about even with the talk,0.714,34.38,40,60,62,59,52,8,90,54,65,83,87,73,49,57,98,7,74,30,29,66,98,49,48,60,55,49
+ICE,Intercontinental Exchange,Financials,Financial Exchanges & Data,78,58,63,-1.637,Does more than it promises,0.476,35.62,56,67,52,53,60,65,84,97,45,45,79,32,51,62,39,50,64,45,80,32,45,49,48,76,80,49
+JCI,Johnson Controls,Industrials,Building Products,79,58,52,0.5897,Walks about even with the talk,0.619,34.62,104,57,69,65,40,65,70,54,93,3,99,43,49,94,36,92,74,86,29,96,39,49,48,1,55,49
+KEYS,Keysight Technologies,Information Technology,Electronic Equipment & Instruments,80,58,51,0.7303,Walks about even with the talk,0.714,31.81,52,56,70,63,43,36,66,86,82,10,99,99,47,86,31,61,74,97,92,43,7,50,47,21,47,50
+LRCX,Lam Research,Information Technology,Semiconductor Materials & Equipment,81,58,48,0.8059,Says more than it does,0.714,32.76,43,41,44,87,62,84,42,49,20,9,32,78,47,3,62,42,66,90,92,88,99,50,47,82,79,50
+MSCI,MSCI,Financials,Financial Exchanges & Data,82,58,63,-1.5943,Does more than it promises,0.571,36.29,92,67,51,48,64,88,89,70,45,45,52,32,51,57,39,76,6,93,1,95,45,49,48,76,97,49
+MAR,Marriott International,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",83,58,58,-1.1717,Does more than it promises,0.571,30.81,17,53,50,63,64,79,71,52,33,32,61,28,45,90,71,7,55,38,45,85,90,49,50,93,76,50
+PEP,PepsiCo,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,84,58,59,0.0727,Walks about even with the talk,0.714,32.29,68,71,54,43,64,75,57,69,99,54,66,93,50,54,12,47,3,85,29,59,41,50,49,84,90,49
+PFE,Pfizer,Health Care,Pharmaceuticals,85,58,50,0.5477,Walks about even with the talk,0.714,32.05,68,48,63,83,39,1,26,59,84,69,58,72,49,86,98,16,86,99,84,99,45,49,47,32,15,50
+PLD,Prologis,Real Estate,Industrial REITs,86,58,61,-1.0641,Does more than it promises,0.905,29.33,50,70,67,39,55,87,92,92,47,33,62,17,97,85,85,55,42,63,73,10,8,95,50,10,72,50
+PWR,Quanta Services,Industrials,Construction & Engineering,87,58,61,-2.7794,Does more than it promises,0.667,34.9,100,52,62,57,61,53,60,97,14,35,45,9,49,85,96,86,74,9,74,87,39,49,48,89,71,49
+RJF,Raymond James Financial,Financials,Investment Banking & Brokerage,88,58,51,0.2839,Walks about even with the talk,0.667,35.24,33,49,70,63,48,52,53,51,45,45,52,76,51,95,83,66,91,12,93,75,45,49,48,76,18,49
+STX,Seagate Technology,Information Technology,"Technology Hardware, Storage & Peripherals",89,58,59,0.0369,Walks about even with the talk,0.667,31.9,45,68,59,51,56,84,66,49,82,60,32,86,47,57,62,71,10,40,79,77,47,50,47,40,93,50
+STE,Steris,Health Care,Health Care Equipment,90,58,30,3.175,Says more than it does,0.762,32.1,48,36,65,76,54,8,12,20,84,58,58,97,49,41,95,51,86,39,84,81,92,49,47,69,53,50
+WELL,Welltower,Real Estate,Health Care REITs,91,58,57,-0.5485,Walks about even with the talk,0.714,29.62,45,57,65,60,48,87,85,22,60,33,80,75,47,93,2,92,65,23,35,85,93,48,50,2,92,50
+WST,West Pharmaceutical Services,Health Care,Health Care Supplies,92,58,66,-0.9015,Does more than it promises,0.619,33.1,20,83,43,44,62,82,92,95,75,69,14,72,49,8,42,73,31,27,35,81,45,49,47,87,79,50
+YUM,Yum! Brands,Consumer Discretionary,Restaurants,93,58,53,0.7555,Says more than it does,0.714,29.95,32,62,59,63,48,79,35,52,59,84,16,68,45,90,79,56,84,66,45,85,37,49,50,5,84,50
+ZTS,Zoetis,Health Care,Pharmaceuticals,94,58,58,-0.4735,Walks about even with the talk,0.667,33.05,96,57,50,67,57,39,98,59,42,46,14,72,49,41,42,80,99,97,2,93,45,49,47,72,67,50
+ABBV,AbbVie,Health Care,Biotechnology,95,57,53,0.6823,Walks about even with the talk,0.571,33.14,24,62,53,53,61,82,47,59,42,80,75,37,96,8,42,61,31,74,35,81,45,49,47,81,79,50
+AFL,Aflac,Financials,Life & Health Insurance,96,57,61,-1.1151,Does more than it promises,0.524,36.86,20,65,49,60,54,88,78,70,45,45,30,76,51,48,39,50,55,45,80,32,90,49,48,34,89,49
+AMT,American Tower,Real Estate,Telecom Tower REITs,97,57,54,-0.6815,Walks about even with the talk,0.619,31.1,42,46,55,65,61,87,57,18,27,42,62,17,47,98,42,62,78,23,35,95,93,48,50,85,72,50
+ANET,Arista Networks,Information Technology,Communications Equipment,98,57,57,-0.3774,Walks about even with the talk,0.714,33.38,50,56,50,76,47,84,54,49,61,34,84,11,47,81,1,77,83,92,38,77,89,50,47,10,79,50
+AJG,Arthur J. Gallagher & Co.,Financials,Insurance Brokers,99,57,40,2.0567,Says more than it does,0.524,36.19,43,49,60,63,56,41,26,86,45,45,88,32,51,68,39,85,55,45,80,92,45,49,48,76,60,49
+BBY,Best Buy,Consumer Discretionary,Computer & Electronics Retail,100,57,59,-0.1132,Walks about even with the talk,0.619,31.19,61,68,54,44,61,50,82,81,96,32,39,28,45,54,90,69,99,9,1,76,37,49,50,89,66,50
+CLX,Clorox,Consumer Staples,Household Products,101,57,44,1.3708,Says more than it does,0.762,33.1,47,48,61,65,53,75,26,69,37,35,91,10,50,94,69,51,91,71,62,59,41,50,49,41,78,49
+EIX,Edison International,Utilities,Electric Utilities,102,57,55,-0.2221,Walks about even with the talk,0.714,31.19,102,54,61,51,63,95,66,47,24,40,45,32,97,76,37,79,81,47,27,5,97,45,48,76,95,50
+FSLR,First Solar,Information Technology,Semiconductors,103,57,62,-0.7191,Walks about even with the talk,0.762,34.19,111,69,33,80,47,18,54,99,99,77,8,97,47,37,8,2,74,55,95,96,82,50,47,74,12,50
+FTV,Fortive,Industrials,Industrial Machinery & Supplies & Components,104,57,55,-0.331,Walks about even with the talk,0.667,36.19,40,51,54,68,55,39,42,54,51,70,72,43,49,75,36,47,83,64,74,38,81,49,48,72,55,49
+INTC,Intel,Information Technology,Semiconductors,105,57,55,0.6489,Walks about even with the talk,0.619,33.76,59,70,53,52,52,55,66,49,98,83,60,47,47,37,98,28,34,98,38,43,47,1,47,96,68,50
+KVUE,Kenvue,Consumer Staples,Personal Care Products,106,57,49,-0.6349,Walks about even with the talk,0.762,32.19,80,31,83,61,52,22,26,69,6,31,91,96,50,99,99,65,46,54,99,16,90,50,49,81,29,49
+MRVL,Marvell Technology,Information Technology,Semiconductors,107,57,52,-0.0094,Walks about even with the talk,0.667,33.33,47,46,65,55,62,55,34,49,20,71,84,47,47,71,62,77,66,75,1,43,89,50,47,96,65,50
+MCD,McDonald's,Consumer Discretionary,Restaurants,108,57,60,-1.1717,Does more than it promises,0.524,30.67,44,65,60,41,62,79,71,52,33,91,99,28,45,54,99,37,32,66,45,24,37,49,50,86,76,50
+OMC,Omnicom Group,Communication Services,Advertising,109,57,60,-0.9282,Does more than it promises,0.429,31.0,26,66,54,51,58,88,92,58,48,42,98,48,50,19,85,21,79,46,42,42,44,48,50,44,98,50
+PG,Procter & Gamble,Consumer Staples,Personal Care Products,110,57,55,-0.035,Walks about even with the talk,0.714,33.33,47,55,56,56,60,38,37,69,37,93,66,44,50,54,47,78,41,79,62,59,41,50,49,93,57,49
+TRV,Travelers Companies (The),Financials,Property & Casualty Insurance,111,57,64,-1.4619,Does more than it promises,0.571,37.62,65,73,39,65,51,41,98,89,45,91,67,32,51,4,39,41,97,12,93,32,90,49,48,34,73,49
+WAT,Waters Corporation,Health Care,Life Sciences Tools & Services,112,57,66,-2.0781,Does more than it promises,0.619,33.48,46,77,46,43,63,82,98,59,75,69,75,37,49,15,42,61,31,51,35,14,84,49,47,72,99,50
+EBAY,eBay Inc.,Consumer Discretionary,Broadline Retail,113,57,57,-0.6318,Walks about even with the talk,0.571,31.29,31,59,59,44,65,79,71,52,59,32,84,68,45,67,51,37,32,80,45,24,37,49,50,83,95,50
+A,Agilent Technologies,Health Care,Life Sciences Tools & Services,114,56,58,-0.3299,Walks about even with the talk,0.667,33.86,62,63,57,55,51,82,66,59,98,8,14,89,49,50,42,98,73,51,95,51,4,49,47,32,79,50
+AEE,Ameren,Utilities,Multi-Utilities,115,56,48,1.2163,Says more than it does,0.714,32.0,142,58,62,65,41,60,37,76,40,79,95,90,47,47,37,55,95,16,73,98,42,2,48,94,11,50
+ACGL,Arch Capital Group,Financials,Property & Casualty Insurance,116,56,63,-1.3538,Does more than it promises,0.524,38.48,62,74,41,53,56,41,98,86,98,45,79,32,51,48,2,33,71,45,37,32,80,49,48,34,99,49
+BXP,"BXP, Inc.",Real Estate,Office REITs,117,56,35,1.9383,Says more than it does,0.762,30.9,65,28,60,75,62,12,23,58,47,2,80,17,47,78,42,97,93,63,73,55,93,98,50,42,72,50
+FDX,FedEx,Industrials,Air Freight & Logistics,118,56,52,0.8689,Says more than it does,0.619,36.05,82,69,62,53,42,65,70,93,77,39,45,43,49,90,77,68,57,49,29,38,94,49,48,10,55,49
+IFF,International Flavors & Fragrances,Materials,Specialty Chemicals,119,56,59,-1.6754,Does more than it promises,0.762,29.67,61,58,72,42,54,68,90,52,6,72,82,86,50,74,86,56,88,58,4,14,46,48,46,62,62,50
+IRM,Iron Mountain,Real Estate,Other Specialized REITs,120,56,61,-1.8281,Does more than it promises,0.619,31.81,47,67,62,43,51,37,63,83,98,53,62,75,47,62,42,85,35,95,3,30,50,48,50,85,20,50
+KKR,KKR & Co.,Financials,Asset Management & Custody Banks,121,56,54,0.6158,Walks about even with the talk,0.476,38.19,100,69,53,45,55,88,68,99,45,45,79,76,51,4,94,14,24,45,37,75,45,49,48,34,94,49
+KMB,Kimberly-Clark,Consumer Staples,Household Products,122,56,58,-1.2757,Does more than it promises,0.667,33.9,55,58,64,47,56,38,75,21,85,69,99,44,50,54,69,65,72,75,29,16,41,50,49,88,43,49
+LDOS,Leidos,Industrials,Diversified Support Services,123,56,58,-0.8003,Does more than it promises,0.714,36.24,55,63,72,37,51,65,90,54,65,43,81,83,49,96,36,89,57,9,29,10,81,49,48,52,55,49
+L,Loews Corporation,Financials,Multi-line Insurance,124,56,59,-2.502,Does more than it promises,0.619,37.38,73,53,67,55,48,7,78,89,88,2,79,99,51,68,39,66,48,45,37,99,45,49,48,76,18,49
+LULU,Lululemon Athletica,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",125,56,55,-1.0056,Does more than it promises,0.619,32.76,40,48,52,56,66,79,71,52,7,32,84,90,45,44,3,43,32,80,45,85,37,49,50,97,84,50
+MRK,Merck & Co.,Health Care,Pharmaceuticals,126,56,58,-0.594,Walks about even with the talk,0.619,35.24,70,62,48,64,48,82,66,59,98,3,97,12,49,79,42,8,93,96,35,51,45,49,47,3,93,50
+META,Meta Platforms,Communication Services,Interactive Media & Services,127,56,48,0.916,Says more than it does,0.619,32.24,31,53,50,54,66,88,42,85,48,2,71,4,50,69,35,71,2,94,42,42,92,48,50,96,85,50
+MU,Micron Technology,Information Technology,Semiconductors,128,56,36,2.8518,Says more than it does,0.81,33.95,42,52,62,50,62,55,14,22,75,92,60,91,47,45,99,28,34,40,79,8,89,50,97,89,22,50
+MSFT,Microsoft,Information Technology,Systems Software,129,56,41,1.7849,Says more than it does,0.571,34.43,37,50,67,58,47,55,25,49,86,34,32,47,47,99,88,90,66,55,38,43,89,50,47,21,65,50
+MAA,Mid-America Apartment Communities,Real Estate,Multi-Family Residential REITs,130,56,51,0.6576,Walks about even with the talk,0.619,31.43,40,57,54,62,52,63,30,32,73,88,87,17,47,62,42,72,58,23,92,85,50,48,50,92,20,50
+PSA,Public Storage,Real Estate,Self-Storage REITs,131,56,59,-0.3747,Walks about even with the talk,0.524,31.62,25,73,63,35,52,63,75,77,73,75,32,93,47,78,42,85,22,23,35,2,93,48,50,42,72,50
+XYL,Xylem Inc.,Industrials,Industrial Machinery & Supplies & Components,132,56,46,1.6555,Says more than it does,0.762,36.67,155,64,60,51,48,85,26,73,96,39,45,73,49,39,77,80,1,90,99,66,1,49,48,3,93,49
+MMM,3M,Industrials,Industrial Conglomerates,133,55,56,-1.061,Does more than it promises,0.81,37.9,123,54,55,54,57,85,90,54,41,1,13,96,99,6,36,78,57,9,29,95,81,49,98,2,87,49
+ACN,Accenture,Information Technology,IT Consulting & Other Services,134,55,60,-1.1676,Does more than it promises,0.524,35.14,50,69,68,34,48,84,99,79,51,34,60,47,47,77,88,87,34,7,38,43,47,50,47,13,79,50
+AVY,Avery Dennison,Materials,Paper & Plastic Packaging Products & Materials,135,55,57,-0.3864,Walks about even with the talk,0.619,32.33,43,62,46,57,55,80,56,52,54,66,32,42,50,94,28,32,74,98,62,4,46,48,46,52,78,50
+BRK-B,Berkshire Hathaway,Financials,Multi-Sector Holdings,136,55,57,-1.1017,Does more than it promises,0.667,38.76,77,57,55,65,43,2,40,51,92,99,88,76,51,4,39,70,43,90,5,97,90,49,48,34,34,49
+BG,Bunge Global,Consumer Staples,Agricultural Products & Services,137,55,58,-0.082,Walks about even with the talk,0.762,36.14,74,68,35,53,63,38,96,46,69,90,9,10,50,85,4,54,34,35,9,99,90,50,49,69,99,49
+CDNS,Cadence Design Systems,Information Technology,Application Software,138,55,56,-0.86,Does more than it promises,0.524,35.05,34,53,53,59,56,84,80,49,20,34,84,47,47,71,62,8,83,84,38,43,47,50,47,56,79,50
+COF,Capital One,Financials,Consumer Finance,139,55,60,-1.88,Does more than it promises,0.524,39.1,55,59,47,60,53,13,98,92,45,45,30,32,51,62,39,70,55,90,80,32,45,49,48,66,53,49
+DPZ,Domino's,Consumer Discretionary,Restaurants,140,55,32,3.06,Says more than it does,0.571,32.62,77,45,62,68,45,79,7,21,33,84,16,28,95,67,71,97,32,66,45,99,99,49,50,27,47,50
+DD,DuPont,Industrials,Industrial Conglomerates,141,55,52,-0.0039,Walks about even with the talk,0.714,37.62,123,47,62,48,63,96,48,54,33,5,45,73,49,69,77,61,8,94,1,96,39,49,48,89,78,49
+FDXF,FedEx Freight,Industrials,Cargo Ground Transportation,142,55,56,0.0832,Walks about even with the talk,0.667,37.62,44,65,62,42,51,65,70,54,51,83,45,83,49,85,36,75,46,60,59,38,5,49,48,56,55,49
+KDP,Keurig Dr Pepper,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,143,55,59,-0.9204,Does more than it promises,0.714,35.57,35,63,45,61,51,38,88,69,79,43,51,81,50,85,1,4,81,71,29,81,41,50,49,69,37,49
+MTD,Mettler Toledo,Health Care,Life Sciences Tools & Services,144,55,60,-0.1479,Walks about even with the talk,0.619,35.67,40,76,47,46,51,82,66,88,84,58,14,37,49,15,86,80,31,58,84,14,45,49,47,32,79,50
+NEE,NextEra Energy,Utilities,Multi-Utilities,145,55,60,-1.3444,Does more than it promises,0.619,34.57,73,65,40,57,58,53,82,85,24,79,32,32,47,89,37,5,71,71,45,55,42,94,48,34,63,50
+RTX,RTX Corporation,Industrials,Aerospace & Defense,146,55,53,-0.0191,Walks about even with the talk,0.571,37.81,44,52,56,63,50,97,30,23,65,43,45,43,49,63,89,47,98,49,29,38,99,49,48,94,10,49
+REG,Regency Centers,Real Estate,Retail REITs,147,55,51,-0.2312,Walks about even with the talk,0.619,32.9,41,41,61,70,47,37,37,42,60,28,32,93,47,27,93,72,78,63,73,85,50,48,50,42,43,50
+TFC,Truist Financial,Financials,Diversified Banks,148,55,56,0.3266,Walks about even with the talk,0.429,38.67,51,68,44,44,65,88,68,95,45,45,30,32,51,90,39,25,95,45,5,32,45,49,48,88,89,49
+BAX,Baxter International,Health Care,Health Care Equipment,149,54,59,-0.9004,Does more than it promises,0.667,36.71,50,62,37,73,46,39,86,59,75,49,58,12,49,2,42,61,64,91,35,81,92,49,47,32,53,50
+BDX,Becton Dickinson,Health Care,Health Care Equipment,150,54,39,1.8237,Says more than it does,0.571,36.19,52,46,56,57,57,82,12,3,42,92,58,82,49,65,42,40,86,69,35,51,45,49,47,99,39,50
+BLK,BlackRock,Financials,Asset Management & Custody Banks,151,54,36,2.1542,Says more than it does,0.571,38.67,46,43,67,47,60,65,26,32,45,45,9,91,51,78,94,81,13,90,93,32,7,49,48,89,66,49
+FLEX,Flex Ltd.,Information Technology,Electronic Manufacturing Services,152,54,47,1.1608,Says more than it does,0.762,36.86,86,60,54,58,42,5,66,79,89,60,8,11,47,71,95,95,83,75,38,88,7,50,47,1,60,50
+GRMN,Garmin,Consumer Discretionary,Consumer Electronics,153,54,55,-0.6872,Walks about even with the talk,0.619,34.05,36,56,51,66,43,79,19,6,85,91,84,28,45,44,21,86,50,80,45,76,79,49,50,27,38,50
+IDXX,Idexx Laboratories,Health Care,Health Care Equipment,154,54,43,0.8154,Says more than it does,0.571,34.86,75,37,78,50,53,39,32,20,92,1,75,89,49,86,95,73,31,87,35,51,45,49,47,91,28,50
+LVS,Las Vegas Sands,Consumer Discretionary,Casinos & Gaming,155,54,59,-0.9746,Does more than it promises,0.524,33.86,24,68,52,51,46,33,93,52,78,84,61,68,45,28,21,86,32,38,45,61,79,49,50,27,56,50
+LOW,Lowe's,Consumer Discretionary,Home Improvement Retail,156,54,35,2.3539,Says more than it does,0.667,34.05,58,45,60,57,52,79,7,10,99,32,84,28,45,61,95,47,67,9,45,85,79,49,50,73,38,50
+MLM,Martin Marietta Materials,Materials,Construction Materials,157,54,52,0.6801,Walks about even with the talk,0.667,32.62,145,65,51,48,54,26,74,94,46,86,54,42,50,84,28,46,30,6,88,68,46,48,46,72,54,50
+PNC,PNC Financial Services,Financials,Diversified Banks,158,54,58,-1.218,Does more than it promises,0.429,39.48,42,59,47,49,62,41,94,70,45,45,67,32,51,12,39,81,88,45,37,32,45,49,48,93,73,49
+RF,Regions Financial Corporation,Financials,Regional Banks,159,54,57,-1.1701,Does more than it promises,0.619,39.95,46,54,42,70,51,41,94,86,45,3,30,32,51,68,39,33,81,87,5,88,90,49,48,34,73,49
+SPGI,S&P Global,Financials,Financial Exchanges & Data,160,54,60,-1.738,Does more than it promises,0.476,39.29,62,67,64,30,54,88,89,70,45,45,30,91,51,68,94,50,24,12,37,32,45,49,48,34,89,49
+SNA,Snap-on,Industrials,Industrial Machinery & Supplies & Components,161,54,58,-1.7358,Does more than it promises,0.619,38.76,56,55,51,44,67,39,48,73,41,76,45,43,49,69,84,14,37,49,29,66,39,49,48,92,98,49
+TEL,TE Connectivity,Information Technology,Electronic Manufacturing Services,162,54,48,-0.0908,Walks about even with the talk,0.667,35.52,55,37,79,60,38,1,42,49,89,6,99,97,47,45,92,94,34,95,38,88,47,50,47,21,22,50
+WEC,WEC Energy Group,Utilities,Electric Utilities,163,54,55,0.4186,Walks about even with the talk,0.619,36.05,191,71,38,62,43,24,92,92,48,98,32,55,47,71,5,16,76,16,89,87,42,45,48,34,40,50
+WAB,Wabtec,Industrials,Construction Machinery & Heavy Transportation Equipment,164,54,54,-0.552,Walks about even with the talk,0.619,39.05,53,48,42,68,60,17,35,73,65,50,45,9,49,57,36,55,83,90,89,38,39,99,48,85,20,49
+WMT,Walmart,Consumer Staples,Consumer Staples Merchandise Retail,165,54,50,0.6624,Walks about even with the talk,0.619,36.33,58,60,56,48,51,12,40,69,85,96,29,44,50,90,90,31,25,19,62,93,41,50,49,69,37,49
+WDC,Western Digital,Information Technology,"Technology Hardware, Storage & Peripherals",166,54,51,0.4951,Walks about even with the talk,0.571,36.9,44,59,53,53,49,36,66,79,20,92,60,47,47,22,76,66,10,75,38,96,47,50,47,40,60,50
+XEL,Xcel Energy,Utilities,Multi-Utilities,167,54,57,-1.1703,Does more than it promises,0.714,34.19,95,59,56,41,62,92,76,35,24,66,60,73,47,42,92,24,63,16,37,45,42,45,98,34,85,50
+APH,Amphenol,Information Technology,Electronic Components,168,53,47,0.234,Walks about even with the talk,0.619,36.95,52,39,56,64,53,36,29,8,41,83,32,86,47,77,31,66,34,84,99,96,7,50,47,21,99,50
+CMG,Chipotle Mexican Grill,Consumer Discretionary,Restaurants,169,53,59,-1.148,Does more than it promises,0.524,34.81,29,67,54,40,52,79,93,52,33,77,16,28,45,85,51,97,32,9,45,24,90,49,50,27,84,50
+CL,Colgate-Palmolive,Consumer Staples,Household Products,170,53,59,-0.6089,Walks about even with the talk,0.667,37.67,44,73,43,51,45,38,99,69,60,99,9,44,50,43,90,21,25,85,87,16,41,50,49,41,37,49
+HLT,Hilton Worldwide,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",171,53,56,-0.9023,Does more than it promises,0.571,35.62,39,59,45,58,49,33,93,52,33,84,16,28,45,44,79,56,76,38,79,61,37,49,50,27,69,50
+MCHP,Microchip Technology,Information Technology,Semiconductors,172,53,45,1.1901,Says more than it does,0.667,37.29,56,57,63,50,41,84,18,22,93,66,32,47,47,77,95,80,99,7,38,99,7,50,47,21,37,50
+NFLX,Netflix,Communication Services,Movies & Entertainment,173,53,51,0.3694,Walks about even with the talk,0.381,34.71,7,56,58,43,55,88,42,58,48,42,71,48,50,35,85,56,40,46,42,42,44,48,50,44,85,50
+NWSA,News Corp (Class A),Communication Services,Publishing,174,53,54,-0.1031,Walks about even with the talk,0.476,34.62,20,58,52,47,55,88,54,58,48,42,8,94,50,54,35,71,94,15,42,42,44,48,50,44,85,50
+NWS,News Corp (Class B),Communication Services,Publishing,175,53,54,-0.1031,Walks about even with the talk,0.476,34.62,20,58,52,47,55,88,54,58,48,42,8,94,50,54,35,71,94,15,42,42,44,48,50,44,85,50
+NI,NiSource,Utilities,Multi-Utilities,176,53,43,0.64,Walks about even with the talk,0.81,34.62,109,37,73,56,46,56,26,15,56,34,82,55,47,94,77,85,71,71,60,76,2,45,48,76,11,50
+PCAR,Paccar,Industrials,Construction Machinery & Heavy Transportation Equipment,177,53,58,-0.4885,Walks about even with the talk,0.571,41.1,35,65,30,62,55,65,95,7,65,92,45,43,49,1,36,7,83,76,74,38,39,49,48,72,55,49
+SLB,Schlumberger,Energy,Oil & Gas Equipment & Services,178,53,44,1.1192,Says more than it does,0.619,35.29,43,48,58,48,58,93,21,31,38,55,76,24,48,67,88,48,52,86,38,26,36,48,48,83,62,50
+SNPS,Synopsys,Information Technology,Application Software,179,53,55,-0.7475,Walks about even with the talk,0.571,37.0,30,56,54,53,50,55,66,49,75,34,84,78,47,3,62,50,34,55,38,43,97,50,47,40,65,50
+TJX,TJX Companies,Consumer Discretionary,Apparel Retail,180,53,41,0.9489,Says more than it does,0.619,33.43,35,38,79,54,42,33,33,21,70,32,84,84,95,73,84,56,89,38,45,61,37,49,50,49,12,50
+TPR,"Tapestry, Inc.",Consumer Discretionary,"Apparel, Accessories & Luxury Goods",181,53,57,-2.0961,Does more than it promises,0.571,34.57,47,53,62,49,48,21,71,81,59,32,84,98,45,19,37,86,61,38,45,24,79,49,50,80,12,50
+TXT,Textron,Industrials,Aerospace & Defense,182,53,60,-1.9804,Does more than it promises,0.524,40.57,31,64,46,55,46,39,98,81,41,59,45,43,49,57,36,47,49,90,29,66,39,49,48,30,55,49
+AMD,Advanced Micro Devices,Information Technology,Semiconductors,183,52,53,-0.5571,Walks about even with the talk,0.714,37.86,42,53,56,43,57,84,73,25,75,6,75,47,47,64,76,28,1,75,6,88,47,50,47,61,79,50
+AIG,American International Group,Financials,Multi-line Insurance,184,52,51,0.5069,Walks about even with the talk,0.429,41.95,55,59,44,54,52,65,68,70,45,45,52,32,51,37,39,50,85,45,63,32,45,49,48,34,80,49
+XYZ,"Block, Inc.",Financials,Transaction & Payment Processing Services,185,52,52,0.1367,Walks about even with the talk,0.524,42.52,57,57,44,43,62,65,61,70,45,45,30,32,51,62,39,50,43,12,37,32,90,49,48,89,73,49
+CDW,CDW Corporation,Information Technology,Technology Distributors,186,52,56,-1.0909,Does more than it promises,0.429,38.81,27,56,40,53,60,84,92,49,20,34,84,47,47,15,31,18,66,28,79,43,47,50,47,74,79,50
+CME,CME Group,Financials,Financial Exchanges & Data,187,52,59,-1.9245,Does more than it promises,0.429,41.62,31,59,45,55,51,65,68,70,45,45,97,32,51,37,39,14,81,80,37,32,45,49,48,34,73,49
+CAT,Caterpillar Inc.,Industrials,Construction Machinery & Heavy Transportation Equipment,188,52,54,-0.1231,Walks about even with the talk,0.619,41.05,42,58,41,69,41,99,39,23,41,89,45,9,49,80,36,28,66,80,74,87,39,49,48,49,10,49
+CHTR,Charter Communications,Communication Services,Cable & Satellite,189,52,52,0.085,Walks about even with the talk,0.429,36.0,15,53,48,57,50,44,71,58,48,42,40,48,50,85,35,33,40,15,42,94,92,48,50,44,58,50
+CVX,Chevron Corporation,Energy,Integrated Oil & Gas,190,52,55,-0.684,Walks about even with the talk,0.714,36.9,104,59,47,42,59,17,79,79,55,64,12,57,48,48,88,31,7,79,2,86,36,48,48,67,83,50
+CPRT,Copart,Industrials,Diversified Support Services,191,52,47,1.2801,Says more than it does,0.476,41.24,18,65,51,45,46,65,26,54,93,87,81,90,49,21,36,28,22,30,95,38,39,49,48,30,55,49
+CCI,Crown Castle,Real Estate,Telecom Tower REITs,192,52,54,0.3053,Walks about even with the talk,0.381,36.81,26,67,36,40,64,87,75,58,27,88,8,50,47,40,42,28,22,63,35,30,50,48,50,85,85,50
+ETN,Eaton Corporation,Industrials,Electrical Components & Equipment,193,52,54,-0.4926,Walks about even with the talk,0.571,41.38,33,57,50,50,49,65,60,81,14,64,72,9,49,75,36,61,66,49,29,66,39,49,48,30,71,49
+ECL,Ecolab,Materials,Specialty Chemicals,194,52,54,-0.8775,Does more than it promises,0.714,35.48,93,54,44,46,63,80,68,64,28,28,68,70,50,2,28,46,58,52,62,14,46,48,46,84,86,50
+ETR,Entergy,Utilities,Electric Utilities,195,52,36,2.0066,Says more than it does,0.667,36.43,237,45,62,50,50,27,6,79,81,31,98,32,47,5,98,95,98,16,8,87,42,45,48,66,40,50
+ESS,Essex Property Trust,Real Estate,Multi-Family Residential REITs,196,52,60,-1.0652,Does more than it promises,0.524,36.14,28,73,44,34,56,87,75,58,47,97,62,50,47,48,42,17,52,23,35,10,50,48,50,42,92,50
+FIS,Fidelity National Information Services,Financials,Transaction & Payment Processing Services,197,52,59,-1.7337,Does more than it promises,0.476,41.62,25,63,44,36,66,88,68,70,45,45,30,32,51,74,39,41,24,80,37,32,7,49,48,93,89,49
+IR,Ingersoll Rand,Industrials,Industrial Machinery & Supplies & Components,198,52,58,-2.31,Does more than it promises,0.667,40.29,51,57,56,61,35,17,60,90,77,43,92,9,49,13,77,98,92,80,29,66,39,49,48,8,20,49
+MRNA,Moderna,Health Care,Biotechnology,199,52,55,-0.4675,Walks about even with the talk,0.667,38.9,48,60,50,36,60,82,66,59,42,49,88,58,3,26,42,86,31,39,2,14,92,49,47,62,93,50
+MS,Morgan Stanley,Financials,Investment Banking & Brokerage,200,52,38,1.6237,Says more than it does,0.524,41.81,50,42,63,54,47,88,26,5,45,45,52,76,51,99,39,59,98,12,37,32,90,49,48,34,53,49
+ORLY,O'Reilly Automotive,Consumer Discretionary,Automotive Retail,201,52,54,0.2335,Walks about even with the talk,0.429,37.29,27,67,37,44,58,79,55,99,70,32,39,28,45,44,21,43,76,38,45,24,37,49,50,64,76,50
+PCG,PG&E Corporation,Utilities,Multi-Utilities,202,52,47,0.3814,Walks about even with the talk,0.714,37.38,129,42,45,69,51,85,11,35,66,15,73,6,47,35,37,71,92,87,45,34,85,45,48,85,27,50
+PPL,PPL Corporation,Utilities,Electric Utilities,203,52,57,-1.1799,Does more than it promises,0.714,37.1,95,60,37,58,54,79,76,31,48,66,21,6,47,26,77,45,63,71,60,55,42,45,48,34,95,50
+PFG,Principal Financial Group,Financials,Life & Health Insurance,204,52,35,2.2501,Says more than it does,0.619,41.67,26,44,49,69,47,88,11,32,2,86,67,32,2,62,39,91,55,45,80,75,90,49,48,34,53,49
+RL,Ralph Lauren Corporation,Consumer Discretionary,"Apparel, Accessories & Luxury Goods",205,52,54,-0.1583,Walks about even with the talk,0.619,35.33,57,60,55,45,50,79,44,52,91,32,39,95,45,73,1,79,76,9,79,24,37,49,50,2,99,50
+RMD,ResMed|,Health Care,Health Care Equipment,206,52,42,0.8656,Says more than it does,0.714,38.71,40,37,54,77,39,39,8,3,42,92,82,72,49,65,2,51,73,69,71,81,92,49,47,32,15,50
+ROK,Rockwell Automation,Industrials,Electrical Components & Equipment,207,52,58,-1.1163,Does more than it promises,0.619,41.52,61,64,43,50,51,39,98,54,51,76,13,43,49,48,36,68,11,60,74,66,39,49,48,30,78,49
+NOW,ServiceNow,Information Technology,Systems Software,208,52,54,-0.1169,Walks about even with the talk,0.524,38.9,31,61,47,45,53,84,92,49,46,34,8,47,47,49,62,71,83,16,38,43,47,50,47,40,79,50
+SHW,Sherwin-Williams,Materials,Specialty Chemicals,209,52,48,-0.3557,Walks about even with the talk,0.667,35.0,81,35,58,79,35,68,36,12,6,52,32,78,50,84,28,74,98,68,88,94,46,48,46,10,20,50
+TGT,Target Corporation,Consumer Staples,Consumer Staples Merchandise Retail,210,52,46,0.511,Walks about even with the talk,0.667,37.05,36,46,73,47,42,75,46,21,6,82,91,81,50,74,96,47,51,35,29,81,41,50,49,4,57,49
+TER,Teradyne,Information Technology,Semiconductor Materials & Equipment,211,52,53,-0.1935,Walks about even with the talk,0.571,38.05,30,55,54,40,60,84,54,49,20,66,8,78,97,45,31,66,34,40,38,43,47,50,47,74,79,50
+UBER,Uber,Industrials,Passenger Ground Transportation,212,52,60,-1.4413,Does more than it promises,0.476,42.0,25,70,36,44,56,65,84,90,93,16,45,43,49,39,36,7,42,30,29,38,81,49,48,81,55,49
+UAL,United Airlines Holdings,Industrials,Passenger Airlines,213,52,39,1.8254,Says more than it does,0.571,41.19,64,49,49,48,62,65,32,36,14,96,45,43,49,92,36,28,57,64,29,10,81,49,48,85,78,49
+URI,United Rentals,Industrials,Trading Companies & Distributors,214,52,57,-0.8849,Does more than it promises,0.476,41.14,35,66,52,44,46,65,90,73,30,70,92,83,49,21,36,28,83,30,29,38,39,49,48,30,55,49
+VTR,Ventas,Real Estate,Health Care REITs,215,52,54,-0.0784,Walks about even with the talk,0.619,35.19,39,62,59,36,51,87,75,58,27,65,62,17,47,88,85,55,22,63,35,10,50,48,50,10,98,50
+VST,Vistra Corp.,Utilities,Electric Utilities,216,52,39,1.8096,Says more than it does,0.619,36.1,137,49,64,45,51,18,87,40,8,92,73,73,47,81,37,71,16,16,73,79,42,45,48,34,76,50
+VMRK,Vivmark Residential,Real Estate,Multi-Family Residential REITs,217,52,43,0.59,Walks about even with the talk,0.429,34.81,33,35,66,62,45,37,3,32,27,75,98,87,47,40,42,85,2,83,92,85,50,48,50,42,35,50
+WRB,W. R. Berkley Corporation,Financials,Property & Casualty Insurance,218,52,49,-0.7045,Walks about even with the talk,0.619,41.57,36,35,54,65,54,52,26,5,45,45,88,76,51,12,39,59,43,80,80,75,45,49,98,34,41,49
+ZBRA,Zebra Technologies,Information Technology,Electronic Equipment & Instruments,219,52,54,-0.8297,Does more than it promises,0.571,38.0,30,55,57,50,47,18,42,49,89,77,60,47,47,49,62,77,83,40,38,43,47,50,47,74,12,50
+APO,Apollo Global Management,Financials,Asset Management & Custody Banks,220,51,52,-1.4924,Does more than it promises,0.524,42.48,39,40,52,62,50,52,26,32,45,45,30,76,51,85,39,33,71,70,93,32,45,99,48,34,18,49
+AZO,AutoZone,Consumer Discretionary,Automotive Retail,221,51,49,0.5929,Walks about even with the talk,0.667,37.62,43,58,45,59,41,33,55,91,78,32,16,68,45,81,21,37,32,66,45,61,90,1,50,49,56,50
+COHR,Coherent Corp.,Information Technology,Electronic Components,222,51,57,-2.2905,Does more than it promises,0.619,39.38,40,55,54,55,40,18,54,90,20,92,8,91,47,57,62,61,83,55,38,8,89,50,47,40,12,50
+D,Dominion Energy,Utilities,Multi-Utilities,223,51,39,1.5999,Says more than it does,0.714,37.38,142,47,64,53,39,8,37,73,40,79,8,73,47,85,92,76,53,47,89,34,42,45,48,34,19,50
+EFX,Equifax,Industrials,Research & Consulting Services,224,51,51,-0.1767,Walks about even with the talk,0.571,41.95,18,48,47,55,55,65,70,73,14,16,13,43,49,31,93,55,57,67,74,38,39,49,48,56,71,49
+FAST,Fastenal,Industrials,Trading Companies & Distributors,225,51,30,2.0358,Says more than it does,0.524,40.81,48,24,71,60,50,53,13,23,14,16,45,83,49,63,89,96,22,49,95,38,98,49,48,92,10,49
+FRT,Federal Realty Investment Trust,Real Estate,Retail REITs,226,51,54,-0.6231,Walks about even with the talk,0.476,36.57,35,55,47,59,44,37,42,83,60,53,32,75,47,40,42,48,93,63,35,55,50,48,50,42,28,50
+IQV,IQVIA,Health Care,Life Sciences Tools & Services,227,51,48,0.0215,Walks about even with the talk,0.524,38.71,21,42,56,53,54,57,66,59,2,28,75,58,49,41,42,73,93,39,35,51,45,49,47,32,93,50
+KIM,Kimco Realty,Real Estate,Retail REITs,228,51,48,-0.6943,Walks about even with the talk,0.524,36.38,44,33,55,75,42,37,37,12,60,18,62,50,47,72,42,55,78,83,92,72,50,48,50,42,20,50
+RDDT,Reddit,Communication Services,Interactive Media & Services,229,51,45,-0.045,Walks about even with the talk,0.381,36.57,25,27,55,49,73,21,6,19,48,42,88,48,50,10,35,98,40,77,42,42,44,98,50,88,31,98
+APA,APA Corporation,Energy,Oil & Gas Exploration & Production,230,50,61,-3.687,Does more than it promises,0.524,37.86,74,58,56,46,42,24,69,79,79,40,43,57,48,67,40,79,64,38,38,55,36,48,48,36,26,50
+ABT,Abbott Laboratories,Health Care,Health Care Equipment,231,50,52,-0.7363,Walks about even with the talk,0.476,41.0,21,53,46,47,52,39,84,8,42,92,58,37,49,72,42,16,31,74,35,51,45,49,47,62,53,50
+AON,Aon plc,Financials,Insurance Brokers,232,50,53,-0.5415,Walks about even with the talk,0.571,43.57,33,59,54,36,51,41,94,70,45,45,98,95,2,12,39,76,11,12,80,32,45,49,48,34,73,49
+BA,Boeing,Industrials,Aerospace & Defense,233,50,45,0.489,Walks about even with the talk,0.619,43.71,60,42,44,67,46,39,40,23,14,92,72,9,49,57,36,39,92,49,89,66,39,49,48,72,10,49
+BRO,Brown & Brown,Financials,Insurance Brokers,234,50,53,-1.3957,Does more than it promises,0.524,43.29,19,50,62,34,53,23,68,70,45,45,88,76,51,24,83,50,11,70,12,32,45,49,48,76,41,49
+CHRW,C.H. Robinson,Industrials,Air Freight & Logistics,235,50,43,0.7497,Walks about even with the talk,0.524,43.24,47,40,48,57,54,65,30,23,65,16,13,43,49,63,36,86,22,71,74,38,81,49,48,85,37,49
+CBRE,CBRE Group,Real Estate,Real Estate Services,236,50,57,-0.986,Does more than it promises,0.619,38.81,26,68,40,26,64,87,92,58,27,75,8,17,47,27,98,40,42,23,35,30,2,48,50,78,92,50
+CB,Chubb Limited,Financials,Property & Casualty Insurance,237,50,47,0.253,Walks about even with the talk,0.571,42.57,72,46,63,53,40,65,43,32,1,91,79,91,51,57,39,59,55,70,63,32,45,49,48,34,18,49
+CTAS,Cintas,Industrials,Diversified Support Services,238,50,38,1.8209,Says more than it does,0.619,43.57,34,49,48,51,50,85,13,23,65,57,13,98,49,48,36,47,89,9,29,87,39,49,48,64,39,49
+COP,ConocoPhillips,Energy,Oil & Gas Exploration & Production,239,50,33,2.3384,Says more than it does,0.667,38.76,144,39,37,65,61,12,64,5,26,86,12,24,48,86,40,12,86,69,81,55,36,48,98,67,40,50
+ED,Consolidated Edison,Utilities,Multi-Utilities,240,50,41,1.2658,Says more than it does,0.81,39.0,134,43,34,68,56,5,26,89,92,5,8,73,47,15,37,24,81,47,95,34,85,94,48,85,5,50
+DTE,DTE Energy,Utilities,Multi-Utilities,241,50,53,0.4571,Walks about even with the talk,0.619,38.86,134,68,33,49,52,82,56,61,95,48,21,32,47,15,37,45,40,71,60,34,42,45,48,34,85,50
+DAL,Delta Air Lines,Industrials,Passenger Airlines,242,50,54,-0.0892,Walks about even with the talk,0.571,43.29,52,64,40,44,53,98,55,7,65,96,13,43,49,69,36,28,10,49,29,38,94,49,48,30,87,49
+FANG,Diamondback Energy,Energy,Oil & Gas Exploration & Production,243,50,56,-1.2032,Does more than it promises,0.667,38.48,94,61,46,54,40,60,95,88,55,7,67,24,48,48,40,48,76,38,81,40,36,2,48,2,98,50
+EQT,EQT Corporation,Energy,Oil & Gas Exploration & Production,244,50,47,-0.2861,Walks about even with the talk,0.524,37.95,118,37,63,63,37,24,2,5,93,60,12,93,48,93,40,90,86,38,69,86,36,48,48,36,5,50
+BEN,Franklin Resources,Financials,Asset Management & Custody Banks,245,50,52,-0.5812,Walks about even with the talk,0.524,44.43,17,48,36,55,61,65,53,32,45,45,30,32,51,4,83,14,36,80,37,75,45,49,48,99,60,49
+FCX,Freeport-McMoRan,Materials,Copper,246,50,30,2.2684,Says more than it does,0.714,36.14,239,30,65,64,40,10,10,40,82,10,32,70,50,48,98,94,30,62,98,82,46,48,46,46,12,50
+GPC,Genuine Parts Company,Consumer Discretionary,Distributors,247,50,39,0.5373,Walks about even with the talk,0.667,37.33,47,25,67,65,43,11,19,2,59,32,61,84,45,61,71,79,89,80,93,24,37,49,50,64,3,50
+HCA,HCA Healthcare,Health Care,Health Care Facilities,248,50,53,-1.0492,Does more than it promises,0.476,40.81,25,50,40,65,45,8,47,59,42,92,37,37,49,26,42,51,86,15,84,97,45,49,47,62,15,50
+HAS,Hasbro,Consumer Discretionary,Leisure Products,249,50,54,-0.8701,Does more than it promises,0.476,37.76,47,61,54,31,53,79,71,52,33,72,39,28,95,12,82,69,13,38,45,24,37,49,50,27,89,50
+DOC,Healthpeak Properties,Real Estate,Health Care REITs,250,50,49,-0.5392,Walks about even with the talk,0.667,38.1,46,41,44,67,48,12,57,12,73,53,62,17,47,53,42,40,65,90,73,55,50,48,50,42,50,50
+HWM,Howmet Aerospace,Industrials,Aerospace & Defense,251,50,44,1.163,Says more than it does,0.524,42.9,35,55,42,67,37,4,48,81,77,64,45,43,49,21,77,20,92,49,74,81,39,49,48,30,10,49
+ISRG,Intuitive Surgical,Health Care,Health Care Equipment,252,50,54,-1.7268,Does more than it promises,0.619,40.57,54,47,46,54,53,21,66,59,9,80,58,12,49,79,42,34,97,79,35,14,45,49,47,81,39,50
+SJM,J.M. Smucker Company (The),Consumer Staples,Packaged Foods & Meats,253,50,52,-0.8157,Does more than it promises,0.714,40.76,41,49,43,48,59,75,75,21,60,15,51,10,50,35,47,65,37,7,62,93,41,50,49,88,57,49
+JNJ,Johnson & Johnson,Health Care,Pharmaceuticals,254,50,40,1.1117,Says more than it does,0.619,40.52,30,41,56,50,51,82,26,59,9,28,58,12,49,79,86,51,73,83,35,14,45,49,47,32,79,50
+KHC,Kraft Heinz,Consumer Staples,Packaged Foods & Meats,255,50,51,-0.0736,Walks about even with the talk,0.762,40.38,49,56,50,34,58,75,57,69,37,43,29,10,50,54,82,78,7,19,3,59,81,50,49,54,90,49
+MKC,McCormick & Company,Consumer Staples,Packaged Foods & Meats,256,50,52,-0.0736,Walks about even with the talk,0.619,40.62,37,51,30,60,61,75,57,69,37,15,9,44,50,1,47,31,81,54,87,38,41,50,49,99,57,49
+MDT,Medtronic,Health Care,Health Care Equipment,257,50,35,1.8439,Says more than it does,0.619,40.38,34,39,57,40,62,57,26,59,9,46,93,72,49,50,42,34,31,39,35,51,45,49,97,62,53,50
+MSI,Motorola Solutions,Information Technology,Communications Equipment,258,50,37,1.8778,Says more than it does,0.571,39.62,42,49,66,36,50,84,14,8,75,63,84,47,47,90,73,55,10,40,38,43,47,50,47,65,37,50
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",259,50,36,2.0432,Says more than it does,0.667,38.1,57,47,49,53,50,79,19,2,70,67,61,68,45,61,51,7,61,38,45,85,37,49,50,64,38,50
+OKE,Oneok,Energy,Oil & Gas Storage & Transportation,260,50,42,0.4031,Walks about even with the talk,0.619,38.19,74,32,70,54,42,40,60,19,5,36,98,81,48,60,40,90,29,38,90,79,36,48,48,36,26,50
+OTIS,Otis Worldwide,Industrials,Industrial Machinery & Supplies & Components,261,50,54,-0.4374,Walks about even with the talk,0.667,43.62,49,61,38,38,63,85,70,54,14,83,13,73,49,48,36,7,34,49,63,38,5,49,48,72,96,49
+PANW,Palo Alto Networks,Information Technology,Systems Software,262,50,53,-1.1977,Does more than it promises,0.524,39.86,45,53,61,36,50,84,80,49,20,34,92,11,47,64,82,71,34,16,38,43,47,50,47,10,93,50
+PYPL,PayPal,Financials,Transaction & Payment Processing Services,263,50,54,-0.2954,Walks about even with the talk,0.571,43.33,26,62,50,43,46,65,84,70,45,45,30,32,51,82,39,66,3,12,80,75,45,49,48,5,80,49
+SPG,Simon Property Group,Real Estate,Retail REITs,264,50,54,-0.4062,Walks about even with the talk,0.476,39.1,26,62,34,46,56,63,75,58,27,88,32,50,47,27,42,5,52,23,73,30,50,48,50,72,58,50
+SBUX,Starbucks,Consumer Discretionary,Restaurants,265,50,49,0.3437,Walks about even with the talk,0.81,38.52,42,48,27,59,68,50,55,52,7,77,16,28,45,2,51,18,9,96,9,85,97,98,50,77,66,50
+STT,State Street Corporation,Financials,Asset Management & Custody Banks,266,50,42,0.7347,Walks about even with the talk,0.571,43.29,62,38,49,60,54,41,53,5,45,45,67,32,51,37,39,70,71,99,12,75,45,49,48,76,47,49
+STLD,Steel Dynamics,Materials,Steel,267,50,55,-0.5629,Walks about even with the talk,0.667,36.71,94,62,46,51,42,34,56,80,98,42,32,42,50,66,80,4,10,52,80,68,46,48,46,14,54,50
+TMUS,T-Mobile US,Communication Services,Wireless Telecommunication Services,268,50,58,-2.3472,Does more than it promises,0.524,37.62,29,61,57,28,53,21,54,94,96,42,8,48,50,90,98,48,40,15,42,42,2,48,50,96,19,50
+TMO,Thermo Fisher Scientific,Health Care,Life Sciences Tools & Services,269,50,52,-0.4902,Walks about even with the talk,0.524,40.76,33,52,43,53,51,82,66,59,42,10,14,72,49,79,42,2,73,63,35,51,45,49,47,32,79,50
+UNP,Union Pacific Corporation,Industrials,Rail Transportation,270,50,40,1.2661,Says more than it does,0.619,42.67,49,42,54,53,53,85,26,38,31,28,13,9,49,80,77,93,99,30,29,66,39,49,48,30,87,49
+VRSK,Verisk Analytics,Industrials,Research & Consulting Services,271,50,52,-0.3895,Walks about even with the talk,0.524,43.48,33,56,50,40,53,85,60,54,65,16,45,73,49,6,77,47,83,9,29,38,39,49,48,30,87,49
+VZ,Verizon,Communication Services,Integrated Telecommunication Services,272,50,53,0.1457,Walks about even with the talk,0.476,38.24,26,65,40,45,50,65,71,98,48,42,8,48,50,42,85,8,10,46,83,42,44,48,50,44,58,50
+ZBH,Zimmer Biomet,Health Care,Health Care Equipment,273,50,53,-0.2922,Walks about even with the talk,0.571,39.81,26,55,44,52,51,82,66,59,42,28,14,58,49,86,42,16,56,63,84,14,45,49,47,32,79,50
+APP,AppLovin,Communication Services,Advertising,274,49,46,-0.017,Walks about even with the talk,0.286,38.76,31,36,52,63,45,21,6,19,48,88,40,48,50,54,35,83,40,98,42,42,92,48,50,44,31,50
+BX,Blackstone Inc.,Financials,Asset Management & Custody Banks,275,49,45,0.621,Walks about even with the talk,0.476,43.9,35,46,51,53,47,11,53,32,45,91,52,32,51,24,83,66,64,45,37,75,45,49,98,34,7,49
+CAH,Cardinal Health,Health Care,Health Care Distributors,276,49,58,-0.7631,Does more than it promises,0.524,42.43,35,76,32,35,52,57,92,95,42,92,14,12,49,79,2,34,31,15,35,51,45,49,47,62,53,50
+CRL,Charles River Laboratories,Health Care,Life Sciences Tools & Services,277,49,51,-0.1357,Walks about even with the talk,0.714,42.48,50,52,34,64,45,21,37,59,75,69,58,12,49,8,42,34,56,69,99,93,1,49,47,62,15,50
+EXC,Exelon,Utilities,Electric Utilities,278,49,50,0.6518,Walks about even with the talk,0.667,40.24,93,67,34,37,59,50,76,55,87,66,32,6,47,52,37,32,47,47,15,34,42,45,48,66,85,50
+FDS,FactSet,Financials,Financial Exchanges & Data,279,49,52,-1.3957,Does more than it promises,0.524,44.71,24,49,58,48,40,23,60,70,45,45,30,95,51,32,39,98,43,12,63,32,90,49,48,34,18,49
+GE,GE Aerospace,Industrials,Aerospace & Defense,280,49,51,-0.2596,Walks about even with the talk,0.571,44.0,39,53,43,41,59,7,90,73,14,83,45,9,49,80,36,39,22,60,74,10,39,49,98,30,71,49
+GPN,Global Payments,Financials,Transaction & Payment Processing Services,281,49,46,0.6184,Walks about even with the talk,0.333,45.0,24,51,46,37,62,88,43,32,45,45,9,32,51,86,83,14,24,45,37,32,45,49,48,97,66,49
+HUM,Humana,Health Care,Managed Health Care,282,49,54,-1.0004,Does more than it promises,0.429,41.67,13,58,44,32,61,82,81,59,42,28,37,37,49,72,42,25,64,4,35,14,45,49,47,81,79,50
+IEX,IDEX Corporation,Industrials,Industrial Machinery & Supplies & Components,283,49,52,-0.8523,Does more than it promises,0.619,43.52,41,52,49,40,56,39,70,54,81,16,81,43,49,6,77,39,49,30,74,10,39,49,48,56,78,49
+ITW,Illinois Tool Works,Industrials,Industrial Machinery & Supplies & Components,284,49,46,-0.3829,Walks about even with the talk,0.571,43.95,18,33,52,54,56,39,42,54,14,16,45,83,49,31,93,14,74,60,29,66,39,49,48,79,55,49
+MGM,MGM Resorts,Consumer Discretionary,Casinos & Gaming,285,49,47,-0.9094,Does more than it promises,0.571,38.24,21,35,66,58,38,21,55,52,14,32,84,68,45,54,51,91,55,38,45,61,90,49,50,27,12,50
+PEG,Public Service Enterprise Group,Utilities,Electric Utilities,286,49,55,-1.497,Does more than it promises,0.619,39.0,123,60,60,29,48,63,95,66,66,8,60,32,47,66,92,63,16,47,27,15,42,45,48,34,63,50
+SOLV,Solventum,Health Care,Health Care Technology,287,49,44,0.3271,Walks about even with the talk,0.619,41.29,50,38,53,74,31,21,3,20,75,69,14,99,49,41,42,73,73,77,95,81,45,49,47,4,3,50
+ABNB,Airbnb,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",288,48,49,-1.1785,Does more than it promises,0.476,39.38,34,40,55,44,54,21,38,52,59,32,84,28,45,95,51,27,32,38,45,24,79,49,50,83,38,50
+AAPL,Apple Inc.,Information Technology,"Technology Hardware, Storage & Peripherals",289,48,54,-0.2194,Walks about even with the talk,0.429,43.0,13,64,35,40,53,84,92,49,61,34,60,47,47,15,31,8,34,40,38,43,47,50,47,40,79,50
+ADM,Archer Daniels Midland,Consumer Staples,Agricultural Products & Services,290,48,42,0.8124,Says more than it does,0.571,41.76,42,43,50,53,47,75,16,7,37,82,29,88,50,94,26,13,66,91,29,38,41,50,49,57,29,49
+ADSK,Autodesk,Information Technology,Application Software,291,48,38,1.6311,Says more than it does,0.429,42.48,31,46,44,62,40,5,42,90,61,34,32,47,47,28,31,82,74,65,38,43,89,50,47,40,12,50
+BKNG,Booking Holdings,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",292,48,52,-1.5075,Does more than it promises,0.476,40.1,17,51,54,44,42,50,86,52,33,32,61,28,45,44,65,79,32,38,87,24,37,49,50,7,56,50
+COR,Cencora,Health Care,Health Care Distributors,293,48,55,-0.6868,Walks about even with the talk,0.333,41.81,37,66,47,35,46,57,81,59,42,92,37,37,49,99,42,16,31,15,35,51,45,49,47,32,53,50
+CMCSA,Comcast,Communication Services,Cable & Satellite,294,48,47,0.4494,Walks about even with the talk,0.381,40.24,13,53,44,51,43,44,71,58,48,42,40,48,50,10,35,83,40,46,83,42,44,48,50,8,58,50
+CEG,Constellation Energy,Utilities,Electric Utilities,295,48,42,1.091,Says more than it does,0.714,40.86,133,48,44,50,50,21,47,69,24,79,21,32,97,42,37,37,29,95,27,15,85,45,48,66,40,50
+COO,Cooper Companies (The),Health Care,Health Care Supplies,296,48,48,-0.7188,Walks about even with the talk,0.476,41.95,30,42,61,45,44,82,12,20,84,10,37,94,49,57,42,86,31,63,35,51,45,49,47,8,64,50
+DRI,Darden Restaurants,Consumer Discretionary,Restaurants,297,48,46,-0.5012,Walks about even with the talk,0.524,39.95,49,37,55,47,52,79,19,21,33,32,61,68,45,67,21,69,1,38,96,61,37,49,50,64,47,50
+DLTR,Dollar Tree,Consumer Staples,Consumer Staples Merchandise Retail,298,48,24,2.7159,Says more than it does,0.667,41.38,47,20,58,74,41,3,12,34,37,15,74,88,50,13,90,31,81,7,93,93,97,50,49,34,24,49
+EXPD,Expeditors International,Industrials,Air Freight & Logistics,299,48,52,-2.1037,Does more than it promises,0.476,45.0,38,41,41,56,55,39,84,54,14,16,45,43,49,6,36,68,22,49,89,38,81,49,48,72,55,49
+GEV,GE Vernova,Industrials,Heavy Electrical Equipment,300,48,42,2.0614,Says more than it does,0.524,45.48,143,70,32,39,52,85,23,81,65,98,45,43,49,39,1,14,57,30,29,38,39,49,48,72,42,49
+GDDY,GoDaddy,Information Technology,Internet Services & Infrastructure,301,48,46,-0.9322,Does more than it promises,0.476,42.48,15,31,54,56,50,18,32,49,20,34,60,11,97,28,31,97,34,28,79,43,97,50,97,40,12,50
+IBKR,Interactive Brokers,Financials,Investment Banking & Brokerage,302,48,58,-2.7238,Does more than it promises,0.429,46.76,22,57,35,50,48,23,78,92,45,45,30,32,51,12,83,4,64,70,37,32,45,49,48,34,60,49
+JPM,JPMorgan Chase,Financials,Diversified Banks,303,48,40,0.9991,Says more than it does,0.429,44.81,75,43,62,40,48,65,26,32,45,45,52,32,51,48,98,88,81,45,37,32,7,49,48,34,60,49
+KEY,KeyCorp,Financials,Regional Banks,304,48,42,1.0984,Says more than it does,0.381,45.29,44,48,43,55,48,65,53,32,45,45,9,32,51,48,39,81,89,45,63,32,45,49,48,76,18,49
+LII,Lennox International,Industrials,Building Products,305,48,52,-0.9175,Does more than it promises,0.571,45.14,64,54,45,47,46,65,80,4,90,31,81,43,49,21,36,39,49,76,59,10,39,49,48,30,55,49
+NTRS,Northern Trust,Financials,Asset Management & Custody Banks,306,48,29,2.345,Says more than it does,0.619,44.43,50,31,60,54,49,7,26,32,45,45,52,76,51,84,1,99,81,12,93,75,7,49,48,66,34,49
+NVDA,Nvidia,Information Technology,Semiconductors,307,48,51,-0.4912,Walks about even with the talk,0.524,42.62,45,50,40,51,52,55,92,49,20,34,32,47,47,37,62,14,59,16,38,96,47,50,47,65,47,50
+OXY,Occidental Petroleum,Energy,Oil & Gas Exploration & Production,308,48,49,0.4422,Walks about even with the talk,0.667,40.76,119,66,55,24,45,83,50,19,79,98,43,81,48,33,40,83,2,69,10,2,36,48,48,67,14,50
+ORCL,Oracle Corporation,Information Technology,Application Software,309,48,45,0.7547,Says more than it does,0.524,42.52,32,52,39,43,60,84,42,79,20,34,60,11,47,22,31,61,34,88,38,8,47,50,47,74,79,50
+PSX,Phillips 66,Energy,Oil & Gas Refining & Marketing,310,48,51,0.1276,Walks about even with the talk,0.667,40.43,131,65,55,24,46,98,36,55,67,71,67,74,48,98,40,5,29,7,38,12,36,48,48,14,69,50
+PNW,Pinnacle West Capital,Utilities,Multi-Utilities,311,48,53,-3.8273,Does more than it promises,0.714,40.81,153,31,55,58,46,2,66,55,13,21,73,73,47,56,37,45,29,71,81,66,42,45,48,76,11,50
+QCOM,Qualcomm,Information Technology,Semiconductors,312,48,57,-2.0904,Does more than it promises,0.429,42.52,26,61,36,43,53,84,80,49,20,71,8,47,47,37,62,18,34,55,38,43,47,50,47,40,79,50
+RCL,Royal Caribbean Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",313,48,49,0.6091,Walks about even with the talk,0.476,40.81,70,62,27,49,54,79,55,52,91,32,39,28,45,12,21,18,9,90,87,24,37,49,50,27,95,50
+TRMB,Trimble Inc.,Information Technology,Application Software,314,48,55,-0.916,Does more than it promises,0.333,43.24,35,62,30,43,57,84,92,79,20,34,32,47,47,8,31,14,34,55,38,43,47,50,47,40,99,50
+LNT,Alliant Energy,Utilities,Electric Utilities,315,47,49,-0.7414,Walks about even with the talk,0.619,41.48,60,46,51,43,48,47,56,44,56,27,32,97,47,61,37,32,53,47,73,2,42,45,48,34,63,50
+C,Citigroup,Financials,Diversified Banks,316,47,34,1.6734,Says more than it does,0.524,46.14,74,37,54,52,45,65,26,5,45,45,93,32,51,48,94,4,71,45,12,88,45,49,48,34,47,49
+COST,Costco,Consumer Staples,Consumer Staples Merchandise Retail,317,47,40,0.3255,Walks about even with the talk,0.619,43.1,19,26,55,60,46,38,32,7,37,15,66,44,50,13,69,87,81,35,62,81,41,50,49,69,13,49
+ECHO,EchoStar,Communication Services,Wireless Telecommunication Services,318,47,48,0.1206,Walks about even with the talk,0.333,41.14,24,53,41,43,50,65,54,58,2,88,40,48,50,27,35,48,40,46,42,42,44,48,50,44,58,50
+HST,Host Hotels & Resorts,Real Estate,Hotel & Resort REITs,319,47,37,2.0293,Says more than it does,0.524,40.9,39,54,32,51,52,12,48,77,82,53,32,50,47,3,42,17,78,23,8,98,50,48,50,42,72,50
+HBAN,Huntington Bancshares,Financials,Regional Banks,320,47,44,0.1418,Walks about even with the talk,0.429,46.52,49,35,48,62,43,23,5,11,92,45,30,32,51,97,39,41,64,70,97,32,45,49,48,34,34,49
+JKHY,Jack Henry & Associates,Financials,Transaction & Payment Processing Services,321,47,43,-0.1936,Walks about even with the talk,0.429,46.48,14,30,58,44,55,23,5,32,45,45,67,99,51,88,39,4,24,80,37,75,2,49,48,93,34,49
+MRSH,Marsh McLennan,Financials,Insurance Brokers,322,47,48,-0.1543,Walks about even with the talk,0.524,46.0,28,49,55,39,45,7,78,70,45,45,30,91,51,88,39,33,24,12,37,32,90,49,48,63,18,49
+MCK,McKesson Corporation,Health Care,Health Care Distributors,323,47,53,-0.5878,Walks about even with the talk,0.619,44.05,48,59,31,44,54,57,81,59,42,58,14,12,49,65,42,2,8,51,35,81,45,49,47,72,53,50
+NXPI,NXP Semiconductors,Information Technology,Semiconductors,324,47,47,0.3291,Walks about even with the talk,0.667,43.0,41,55,50,37,47,55,66,93,61,2,75,78,47,15,31,55,7,55,38,77,7,50,47,40,47,50
+PNR,Pentair,Industrials,Industrial Machinery & Supplies & Components,325,47,44,-0.175,Walks about even with the talk,0.571,44.76,79,34,67,36,52,17,35,54,14,50,96,43,49,94,36,83,2,71,2,66,39,49,48,72,42,49
+PM,Philip Morris International,Consumer Staples,Tobacco,326,47,53,-1.1696,Does more than it promises,0.571,43.33,64,55,39,48,46,75,81,69,37,15,29,72,50,54,26,4,51,65,29,16,81,50,49,24,57,49
+PRU,Prudential Financial,Financials,Life & Health Insurance,327,47,39,1.7692,Says more than it does,0.524,47.1,42,57,40,51,40,65,26,5,98,91,67,32,51,24,39,25,43,87,5,75,45,49,48,34,18,49
+RVTY,Revvity,Health Care,Health Care Equipment,328,47,44,0.0242,Walks about even with the talk,0.429,43.0,27,38,62,44,43,21,3,20,92,52,37,58,49,97,42,92,73,51,35,14,45,49,47,32,35,50
+SWKS,Skyworks Solutions,Information Technology,Semiconductors,329,47,53,-0.3683,Walks about even with the talk,0.667,44.95,22,62,20,55,50,55,34,49,82,92,8,47,47,8,5,2,59,55,38,77,47,50,47,56,47,50
+SMCI,Supermicro,Information Technology,"Technology Hardware, Storage & Peripherals",330,47,36,0.6466,Walks about even with the talk,0.476,43.43,39,20,54,53,60,18,5,22,20,34,92,47,47,64,31,42,34,90,6,88,47,50,97,74,29,50
+TRGP,Targa Resources,Energy,Oil & Gas Storage & Transportation,331,47,53,-1.2969,Does more than it promises,0.619,41.9,76,54,42,39,52,36,95,69,38,31,43,98,48,5,40,21,12,38,38,71,36,48,48,88,26,50
+T,AT&T,Communication Services,Integrated Telecommunication Services,332,46,48,0.1457,Walks about even with the talk,0.381,42.62,22,53,33,48,50,44,71,58,48,42,40,48,50,2,35,21,40,15,42,98,44,48,50,44,58,50
+AMP,Ameriprise Financial,Financials,Asset Management & Custody Banks,333,46,50,-1.4258,Does more than it promises,0.524,47.05,35,46,53,40,45,2,68,70,45,45,30,76,51,48,39,76,9,12,37,97,45,49,48,34,47,49
+BIIB,Biogen,Health Care,Biotechnology,334,46,34,1.806,Says more than it does,0.429,44.14,30,43,54,43,44,82,17,3,42,69,37,58,49,65,42,73,31,51,35,51,45,49,47,32,42,50
+CI,Cigna,Health Care,Health Care Services,335,46,37,1.3598,Says more than it does,0.476,44.33,38,40,44,53,47,39,20,6,42,92,37,37,49,92,42,8,96,39,35,51,45,49,47,75,15,50
+CFG,Citizens Financial Group,Financials,Regional Banks,336,46,40,1.2421,Says more than it does,0.381,47.1,38,50,45,51,40,65,43,54,45,45,88,32,51,12,39,50,95,45,37,32,45,49,48,34,18,49
+STZ,Constellation Brands,Consumer Staples,Distillers & Vintners,337,46,41,0.6878,Walks about even with the talk,0.667,44.05,54,42,52,48,40,12,32,7,90,69,51,44,50,79,26,65,96,19,29,16,81,50,49,41,13,49
+ES,Eversource Energy,Utilities,Electric Utilities,338,46,31,2.2999,Says more than it does,0.762,42.67,208,45,61,20,56,44,2,82,87,11,60,73,47,15,77,92,5,16,2,71,5,94,48,34,53,50
+GEN,Gen Digital,Information Technology,Systems Software,339,46,48,-1.3627,Does more than it promises,0.429,44.81,27,40,45,49,49,55,42,49,20,34,8,47,47,93,31,42,99,16,38,43,47,50,47,40,60,50
+GL,Globe Life,Financials,Life & Health Insurance,340,46,53,-1.3478,Does more than it promises,0.286,47.71,14,60,47,37,40,23,68,70,92,45,9,76,51,24,39,85,24,45,37,32,45,49,48,34,18,49
+HAL,Halliburton,Energy,Oil & Gas Equipment & Services,341,46,62,-3.6416,Does more than it promises,0.333,43.9,63,71,27,31,53,88,83,79,55,48,12,24,48,33,40,5,19,38,38,26,36,48,48,36,83,50
+INVH,Invitation Homes,Real Estate,Single-Family Residential REITs,342,46,38,0.8956,Says more than it does,0.429,41.1,46,32,49,49,56,37,17,32,7,65,32,50,47,40,85,40,42,63,35,55,50,48,50,98,35,50
+LH,Labcorp,Health Care,Health Care Services,343,46,49,-0.9997,Does more than it promises,0.619,43.57,25,46,52,45,43,21,47,59,75,28,58,58,49,15,86,44,56,4,71,51,45,49,47,54,15,50
+MPC,Marathon Petroleum,Energy,Oil & Gas Refining & Marketing,344,46,41,0.4201,Walks about even with the talk,0.762,41.76,113,36,60,47,41,31,55,19,5,71,83,57,48,86,40,48,38,7,10,93,86,48,48,7,52,50
+MAS,Masco,Industrials,Building Products,345,46,53,-2.2077,Does more than it promises,0.476,47.33,23,50,39,42,53,39,98,81,14,16,45,43,49,57,36,2,74,60,29,10,39,49,48,64,55,49
+MOS,Mosaic Company (The),Materials,Fertilizers & Agricultural Chemicals,346,46,42,0.1047,Walks about even with the talk,0.667,40.14,173,32,57,46,50,90,22,2,38,6,74,82,50,22,28,84,94,38,30,68,2,48,46,72,34,50
+NDAQ,"Nasdaq, Inc.",Financials,Financial Exchanges & Data,347,46,55,-1.1151,Does more than it promises,0.19,47.95,0,65,30,37,54,88,78,70,45,45,9,32,51,24,39,25,24,45,37,32,45,49,48,34,89,49
+SW,Smurfit Westrock,Materials,Paper & Plastic Packaging Products & Materials,348,46,55,-2.2739,Does more than it promises,0.571,41.38,139,58,48,26,50,94,82,26,74,14,54,92,50,48,28,14,20,18,30,14,46,48,46,20,86,50
+LUV,Southwest Airlines,Industrials,Passenger Airlines,349,46,29,2.2375,Says more than it does,0.571,46.81,49,34,54,58,37,65,13,23,41,27,96,43,49,31,36,68,22,9,97,81,81,49,48,30,10,49
+SYY,Sysco,Consumer Staples,Food Distributors,350,46,50,-1.1041,Does more than it promises,0.571,44.57,42,47,44,34,58,75,75,43,6,35,81,10,50,24,12,90,25,35,29,38,41,50,49,50,90,49
+TROW,T. Rowe Price,Financials,Asset Management & Custody Banks,351,46,39,1.3371,Says more than it does,0.333,47.05,21,47,47,43,49,88,26,32,45,45,52,32,51,74,39,33,55,45,37,32,45,49,48,34,66,49
+USB,U.S. Bancorp,Financials,Diversified Banks,352,46,39,1.2892,Says more than it does,0.333,47.24,9,47,43,48,48,88,26,32,45,45,52,32,51,24,39,59,55,45,63,32,45,49,48,34,60,49
+VRT,Vertiv,Industrials,Electrical Components & Equipment,353,46,41,0.1075,Walks about even with the talk,0.429,46.05,32,32,71,26,53,17,4,23,81,37,87,43,49,83,89,75,22,30,29,10,39,49,48,87,33,49
+GWW,W. W. Grainger,Industrials,Industrial Machinery & Supplies & Components,354,46,49,-1.0082,Does more than it promises,0.619,47.24,35,43,39,40,63,39,90,54,14,16,13,9,49,48,99,14,74,49,29,10,39,49,48,96,71,49
+WTW,Willis Towers Watson,Financials,Insurance Brokers,355,46,33,1.6433,Says more than it does,0.619,47.24,43,32,49,45,58,41,26,5,45,45,67,76,51,1,39,59,43,70,80,32,1,49,48,86,60,49
+MO,Altria,Consumer Staples,Tobacco,356,45,51,-0.2466,Walks about even with the talk,0.714,45.1,41,61,42,35,42,75,57,69,60,43,51,72,50,29,12,40,3,54,62,16,41,50,49,7,57,49
+CSX,CSX Corporation,Industrials,Rail Transportation,357,45,48,-0.9043,Does more than it promises,0.476,48.1,54,45,39,46,50,65,53,7,65,35,45,43,49,6,36,55,96,30,29,38,39,49,48,49,55,49
+CNC,Centene Corporation,Health Care,Managed Health Care,358,45,39,0.1727,Walks about even with the talk,0.619,44.52,36,22,58,52,49,8,12,20,42,28,58,12,49,89,42,96,56,27,71,14,92,49,47,96,4,50
+DVA,DaVita,Health Care,Health Care Services,359,45,35,1.3919,Says more than it does,0.667,45.1,53,36,44,55,46,39,47,59,9,28,14,12,96,65,42,34,56,4,71,51,92,49,47,32,53,50
+DHR,Danaher Corporation,Health Care,Life Sciences Tools & Services,360,45,49,-1.7149,Does more than it promises,0.619,46.48,44,40,32,49,58,39,86,59,9,5,14,12,49,57,42,16,31,51,35,81,45,49,47,91,53,50
+DECK,Deckers Brands,Consumer Discretionary,Footwear,361,45,46,-1.1171,Does more than it promises,0.381,42.81,89,35,43,46,57,21,38,52,33,32,16,28,45,28,87,56,84,38,45,24,37,49,50,97,38,50
+DLR,Digital Realty,Real Estate,Data Center REITs,362,45,51,-0.5835,Walks about even with the talk,0.571,43.33,41,57,30,48,46,37,48,88,85,25,32,17,47,13,42,28,65,63,73,30,8,48,50,72,10,50
+EME,Emcor,Industrials,Construction & Engineering,363,45,29,3.09,Says more than it does,0.619,47.48,43,56,47,35,43,85,9,37,87,64,13,94,49,21,36,68,3,9,59,66,39,49,48,30,39,49
+ERIE,Erie Indemnity,Financials,Insurance Brokers,364,45,42,-0.2415,Walks about even with the talk,0.333,48.33,16,30,58,48,43,23,5,32,45,45,79,32,51,48,39,97,71,12,37,75,45,49,48,34,34,49
+EVRG,Evergy,Utilities,Electric Utilities,365,45,51,-1.871,Does more than it promises,0.571,43.57,75,49,46,37,48,37,66,27,73,44,82,32,47,61,37,16,29,16,45,55,42,45,48,34,63,50
+GNRC,Generac,Industrials,Heavy Electrical Equipment,366,45,32,2.1158,Says more than it does,0.524,48.33,64,44,44,60,31,4,20,98,83,16,45,43,49,88,36,2,37,96,89,38,39,49,48,5,2,49
+HRL,Hormel Foods,Consumer Staples,Packaged Foods & Meats,367,45,53,-1.1927,Does more than it promises,0.571,45.86,22,61,38,34,46,75,88,69,6,69,29,44,50,35,47,21,25,7,79,16,41,50,49,24,57,49
+LMT,Lockheed Martin,Industrials,Aerospace & Defense,368,45,39,0.9188,Says more than it does,0.429,47.71,54,41,46,46,48,39,39,23,14,89,45,43,49,97,36,7,34,30,89,38,39,49,48,72,20,49
+NSC,Norfolk Southern,Industrials,Rail Transportation,369,45,45,-0.9563,Does more than it promises,0.476,47.19,43,34,59,41,46,65,53,7,14,31,45,73,49,75,36,75,98,30,29,10,39,49,48,30,55,49
+ROL,"Rollins, Inc.",Industrials,Environmental & Facilities Services,370,45,41,0.0889,Walks about even with the talk,0.429,48.1,34,30,49,41,59,17,4,23,35,70,92,43,49,48,36,28,22,30,74,38,39,99,48,64,33,49
+WBD,Warner Bros. Discovery,Communication Services,Broadcasting,371,45,41,0.0302,Walks about even with the talk,0.429,42.1,22,29,58,62,32,4,33,19,48,42,71,48,50,94,35,48,79,46,98,42,44,48,50,8,2,50
+WMB,Williams Companies,Energy,Oil & Gas Storage & Transportation,372,45,37,1.1707,Says more than it does,0.571,43.0,87,39,48,45,49,76,21,50,38,12,93,24,48,19,40,67,45,93,38,12,36,48,48,36,62,50
+AOS,A. O. Smith,Industrials,Building Products,373,44,40,0.6924,Walks about even with the talk,0.619,50.0,61,39,38,61,36,17,4,3,93,76,45,9,49,31,77,14,46,64,89,66,39,49,48,30,3,49
+AKAM,Akamai Technologies,Information Technology,Internet Services & Infrastructure,374,44,29,1.8103,Says more than it does,0.524,45.95,22,29,52,50,45,55,21,17,20,34,60,47,47,37,31,90,66,16,79,43,47,50,47,65,12,50
+ALB,Albemarle Corporation,Materials,Specialty Chemicals,375,44,38,-0.0181,Walks about even with the talk,0.667,42.24,118,17,54,59,46,20,2,6,28,28,8,10,50,94,94,68,74,78,30,68,46,48,46,84,4,50
+ALLE,Allegion,Industrials,Building Products,376,44,48,-1.0911,Does more than it promises,0.524,48.81,47,45,48,46,37,17,48,54,65,43,72,43,49,57,36,28,66,84,29,10,39,49,48,30,10,49
+ALL,Allstate,Financials,Property & Casualty Insurance,377,44,42,0.8588,Says more than it does,0.571,49.0,70,52,51,29,45,41,53,32,45,88,52,32,51,12,83,76,81,12,12,32,7,49,48,34,47,49
+AEP,American Electric Power,Utilities,Electric Utilities,378,44,41,0.2259,Walks about even with the talk,0.619,44.43,140,35,53,48,39,40,18,5,56,58,89,97,47,26,37,24,11,16,98,71,42,45,48,34,19,50
+AME,Ametek,Industrials,Electrical Components & Equipment,379,44,39,0.4573,Walks about even with the talk,0.667,48.14,37,32,52,54,39,39,20,2,51,50,87,90,49,13,36,39,74,71,74,10,39,49,48,30,20,49
+ADP,Automatic Data Processing,Industrials,Human Resource & Employment Services,380,44,41,0.5501,Walks about even with the talk,0.476,48.67,17,43,51,29,53,85,48,54,14,16,72,9,49,85,36,55,22,49,29,38,5,49,48,30,87,49
+CTSH,Cognizant,Information Technology,IT Consulting & Other Services,381,44,53,-2.1929,Does more than it promises,0.476,46.33,24,53,43,33,48,84,80,49,20,34,32,47,47,71,31,28,55,16,38,8,47,50,47,13,79,50
+COIN,Coinbase,Financials,Financial Exchanges & Data,382,44,45,-0.2715,Walks about even with the talk,0.476,49.52,27,40,41,43,52,23,5,32,45,97,30,32,51,82,39,14,5,96,37,32,45,49,48,63,1,99
+FIX,Comfort Systems USA,Industrials,Construction & Engineering,383,44,47,-1.2664,Does more than it promises,0.524,47.24,30,41,66,36,35,17,35,54,83,16,72,43,49,69,89,75,22,9,29,81,39,49,48,11,20,49
+GLW,Corning Inc.,Information Technology,Electronic Components,384,44,51,-1.1674,Does more than it promises,0.619,46.52,50,51,34,53,40,1,42,98,41,71,32,11,47,57,31,28,59,55,95,8,47,50,47,40,12,50
+DUK,Duke Energy,Utilities,Electric Utilities,385,44,28,2.0599,Says more than it does,0.714,44.29,121,28,48,57,43,15,37,8,2,79,66,73,47,5,37,63,53,87,45,15,85,45,48,34,40,50
+ELV,Elevance Health,Health Care,Managed Health Care,386,44,40,0.897,Says more than it does,0.476,46.43,28,47,48,34,46,57,47,59,42,28,58,37,49,57,42,44,73,4,35,14,45,49,47,32,53,50
+EG,Everest Group,Financials,Reinsurance,387,44,40,0.7116,Walks about even with the talk,0.476,49.05,33,39,44,48,47,13,68,70,45,1,67,32,51,74,39,4,36,45,80,32,45,49,48,34,53,49
+GEHC,GE HealthCare,Health Care,Health Care Equipment,388,44,47,-1.8753,Does more than it promises,0.667,46.1,46,34,54,40,47,8,66,59,9,28,58,58,49,57,42,61,5,39,95,14,45,49,47,62,28,50
+HIG,Hartford (The),Financials,Property & Casualty Insurance,389,44,30,2.0088,Says more than it does,0.429,49.71,101,35,44,53,44,65,26,32,45,5,9,76,51,48,39,41,71,45,70,32,45,49,48,34,41,49
+INCY,Incyte,Health Care,Biotechnology,390,44,35,1.1744,Says more than it does,0.429,45.48,16,36,54,49,39,39,32,20,9,80,82,37,49,26,42,89,86,27,35,51,45,49,47,32,15,50
+IP,International Paper,Materials,Paper & Plastic Packaging Products & Materials,391,44,54,-0.8544,Does more than it promises,0.524,43.57,220,67,28,26,55,50,94,18,90,82,8,10,50,66,28,4,20,6,30,30,46,48,46,34,98,50
+NUE,Nucor,Materials,Steel,392,44,33,1.808,Says more than it does,0.571,43.76,69,40,38,42,54,42,10,40,46,60,8,42,50,32,70,26,58,28,30,46,46,48,46,92,34,50
+ODFL,Old Dominion,Industrials,Cargo Ground Transportation,393,44,41,0.0369,Walks about even with the talk,0.429,48.81,29,29,45,60,42,4,13,23,35,70,45,43,49,31,36,68,66,30,29,81,94,49,48,30,33,49
+PPG,PPG Industries,Materials,Specialty Chemicals,394,44,49,-1.591,Does more than it promises,0.667,42.33,69,43,44,48,43,6,56,64,28,60,32,42,50,48,80,14,46,74,4,68,46,48,46,52,20,50
+Q,Qnity Electronics,Information Technology,Semiconductor Materials & Equipment,395,44,43,0.1852,Walks about even with the talk,0.571,46.33,40,37,42,50,48,18,5,8,75,77,32,47,47,37,62,28,90,75,69,8,7,50,47,65,29,50
+REGN,Regeneron Pharmaceuticals,Health Care,Biotechnology,396,44,42,0.568,Walks about even with the talk,0.381,46.81,27,45,42,49,39,39,32,20,42,92,88,12,49,26,42,34,31,83,35,51,45,49,47,32,15,50
+ROST,Ross Stores,Consumer Discretionary,Apparel Retail,397,44,31,1.655,Says more than it does,0.524,44.1,23,31,53,42,48,50,19,21,33,32,84,68,45,44,71,7,32,38,9,93,37,49,50,77,12,50
+SBAC,SBA Communications,Real Estate,Telecom Tower REITs,398,44,49,-0.6698,Walks about even with the talk,0.429,44.0,34,53,44,37,40,37,48,58,27,97,8,75,47,53,42,40,22,23,35,55,50,48,50,42,10,50
+VICI,Vici Properties,Real Estate,Hotel & Resort REITs,399,44,37,0.786,Says more than it does,0.619,42.76,51,31,56,44,47,12,10,3,88,42,87,17,47,78,42,65,98,23,35,55,8,48,50,42,43,50
+ADBE,Adobe Inc.,Information Technology,Application Software,400,43,43,0.1191,Walks about even with the talk,0.429,47.48,29,41,43,40,48,5,54,49,61,34,32,47,47,49,31,50,34,40,38,43,47,50,47,82,12,50
+TECH,Bio-Techne,Health Care,Life Sciences Tools & Services,401,43,43,-0.6198,Walks about even with the talk,0.476,46.71,22,37,62,33,39,21,37,59,42,28,14,82,49,41,86,98,8,27,35,51,45,49,47,32,15,50
+SCHW,Charles Schwab Corporation,Financials,Investment Banking & Brokerage,402,43,42,-0.2894,Not enough to tell,0.286,50.9,14,30,33,67,43,2,26,32,45,45,9,32,51,24,39,41,91,45,80,75,45,49,48,34,34,49
+DXCM,Dexcom,Health Care,Health Care Equipment,403,43,40,0.7666,Says more than it does,0.571,47.33,42,43,42,47,40,57,17,20,42,80,93,12,3,41,42,61,31,27,35,51,92,49,47,11,42,50
+EXPE,Expedia Group,Consumer Discretionary,"Hotels, Resorts & Cruise Lines",404,43,47,-0.1963,Walks about even with the talk,0.524,45.19,16,50,42,26,54,50,82,52,33,32,16,28,45,85,51,27,13,9,45,24,37,49,50,64,56,50
+EXR,Extra Space Storage,Real Estate,Self-Storage REITs,405,43,49,-0.8133,Does more than it promises,0.571,45.14,14,51,36,36,48,12,98,58,7,82,8,75,47,27,42,17,22,63,35,10,50,48,50,42,50,50
+IT,Gartner,Information Technology,IT Consulting & Other Services,406,43,35,1.2519,Says more than it does,0.381,47.14,24,40,50,36,47,55,42,49,20,34,60,47,47,57,31,55,34,16,38,43,47,50,47,40,47,50
+GIS,General Mills,Consumer Staples,Packaged Foods & Meats,407,43,47,-0.362,Walks about even with the talk,0.524,47.29,62,51,43,32,46,75,57,69,37,15,74,44,50,29,47,13,66,35,3,16,41,50,49,24,57,49
+HII,Huntington Ingalls Industries,Industrials,Aerospace & Defense,408,43,43,-0.2765,Walks about even with the talk,0.571,49.81,51,36,46,47,42,39,13,23,51,55,13,9,49,90,36,80,57,30,29,38,81,49,48,56,10,49
+NRG,NRG Energy,Utilities,Independent Power Producers & Energy Traders,409,43,49,-0.3778,Walks about even with the talk,0.619,46.52,93,53,23,46,51,98,50,18,40,58,8,32,47,5,37,11,63,47,15,63,42,45,48,34,76,50
+PKG,Packaging Corporation of America,Materials,Paper & Plastic Packaging Products & Materials,410,43,45,0.2658,Walks about even with the talk,0.476,44.33,37,50,29,50,44,98,18,26,60,46,32,10,50,32,28,22,66,38,30,68,46,48,46,34,44,50
+PSKY,Paramount Skydance Corporation,Communication Services,Movies & Entertainment,411,43,41,0.1516,Walks about even with the talk,0.476,43.86,18,36,60,47,30,4,21,19,48,88,94,48,50,42,35,90,40,15,92,42,44,48,50,44,6,2
+UHS,Universal Health Services,Health Care,Health Care Facilities,412,43,51,-1.9742,Does more than it promises,0.476,47.62,28,51,41,28,51,8,66,59,92,28,14,72,49,26,42,44,31,15,35,14,45,49,47,96,15,50
+VLTO,Veralto,Industrials,Environmental & Facilities Services,413,43,36,0.666,Walks about even with the talk,0.524,49.62,67,25,39,60,49,17,4,23,33,50,13,43,49,13,36,80,22,90,59,92,39,49,48,99,1,49
+BR,Broadridge Financial Solutions,Industrials,Data Processing & Outsourced Services,414,42,47,-0.5454,Walks about even with the talk,0.524,51.86,14,46,21,49,53,85,60,54,14,16,13,9,49,6,36,14,83,9,74,38,39,49,48,30,87,49
+CINF,Cincinnati Financial,Financials,Property & Casualty Insurance,415,42,42,-0.1578,Walks about even with the talk,0.476,51.05,46,34,46,53,36,23,26,32,45,45,9,76,99,12,39,41,36,45,2,92,90,49,48,34,1,49
+DVN,Devon Energy,Energy,Oil & Gas Exploration & Production,416,42,28,2.2415,Says more than it does,0.619,46.33,67,37,38,50,44,60,7,19,79,21,76,24,48,5,40,36,76,7,90,40,36,48,48,36,40,50
+FOXA,Fox Corporation (Class A),Communication Services,Broadcasting,417,42,41,-0.1385,Walks about even with the talk,0.19,46.52,7,30,35,57,45,21,21,19,48,42,40,48,50,27,35,8,79,77,42,42,44,48,50,44,31,50
+FOX,Fox Corporation (Class B),Communication Services,Broadcasting,418,42,41,-0.1385,Walks about even with the talk,0.19,46.52,7,30,35,57,45,21,21,19,48,42,40,48,50,27,35,8,79,77,42,42,44,48,50,44,31,50
+GD,General Dynamics,Industrials,Aerospace & Defense,419,42,48,-0.9043,Does more than it promises,0.476,50.14,30,49,44,31,46,39,70,54,14,70,45,43,49,21,77,28,7,30,29,10,81,49,48,30,55,49
+IBM,IBM,Information Technology,IT Consulting & Other Services,420,42,36,1.226,Says more than it does,0.429,48.9,12,41,33,48,47,55,29,8,20,92,32,47,47,22,31,18,34,75,79,43,7,50,47,74,12,50
+JBL,Jabil,Information Technology,Electronic Manufacturing Services,421,42,23,2.6818,Says more than it does,0.429,48.43,45,31,50,43,42,42,11,22,75,6,32,47,47,28,62,82,34,55,38,43,47,50,47,40,24,50
+LHX,L3Harris,Industrials,Aerospace & Defense,422,42,39,0.503,Walks about even with the talk,0.571,50.76,47,38,52,32,44,39,30,23,41,55,72,43,49,99,36,14,10,80,29,38,5,49,48,49,27,49
+LIN,Linde plc,Materials,Industrial Gases,423,42,47,-0.4401,Walks about even with the talk,0.524,45.67,44,50,26,45,46,62,44,46,28,72,8,42,50,12,28,14,74,46,30,30,46,48,46,34,54,50
+LYV,Live Nation Entertainment,Communication Services,Movies & Entertainment,424,42,43,0.2316,Walks about even with the talk,0.333,45.81,12,46,38,43,41,44,33,19,48,88,40,4,50,69,35,33,40,46,42,42,44,48,50,44,12,50
+TAP,Molson Coors Beverage Company,Consumer Staples,Brewers,425,42,40,0.2664,Walks about even with the talk,0.667,47.1,81,36,56,33,44,22,3,7,96,54,29,44,50,79,69,65,13,7,62,81,3,50,49,69,3,49
+MPWR,Monolithic Power Systems,Information Technology,Semiconductors,426,42,36,0.7337,Walks about even with the talk,0.476,49.0,35,29,38,47,53,18,5,8,82,34,60,78,47,28,10,2,34,65,79,8,47,50,47,89,29,50
+NDSN,Nordson Corporation,Industrials,Industrial Machinery & Supplies & Components,427,42,41,0.0889,Walks about even with the talk,0.476,50.38,25,32,43,46,49,17,4,23,65,50,72,43,49,31,36,28,74,9,29,81,39,49,48,64,33,49
+PLTR,Palantir Technologies,Information Technology,Application Software,428,42,37,0.1697,Walks about even with the talk,0.524,48.24,38,22,48,45,53,18,5,8,46,34,84,11,47,57,31,55,74,16,38,8,89,50,47,89,29,50
+PH,Parker Hannifin,Industrials,Industrial Machinery & Supplies & Components,429,42,46,0.018,Walks about even with the talk,0.571,51.62,36,51,34,35,46,39,70,54,41,50,13,43,49,63,36,2,89,9,29,10,39,49,48,30,55,49
+PGR,Progressive Corporation,Financials,Property & Casualty Insurance,430,42,37,0.9067,Says more than it does,0.381,51.1,23,38,48,43,40,41,53,5,45,45,30,32,51,48,39,91,55,45,37,32,45,49,48,34,18,49
+SRE,Sempra,Utilities,Multi-Utilities,431,42,39,0.514,Walks about even with the talk,0.667,45.9,123,36,51,43,40,76,6,50,24,24,45,73,47,94,37,8,29,47,5,92,42,45,48,34,24,50
+TTD,Trade Desk (The),Communication Services,Advertising,432,42,36,0.4968,Walks about even with the talk,0.286,44.52,38,27,58,49,36,21,6,19,48,42,88,48,50,54,35,71,40,77,42,42,44,48,50,2,31,50
+TSN,Tyson Foods,Consumer Staples,Packaged Foods & Meats,433,42,40,0.8263,Says more than it does,0.762,48.76,31,46,32,57,33,75,43,21,37,54,29,10,50,40,47,13,57,65,62,59,41,1,49,10,57,49
+UNH,UnitedHealth Group,Health Care,Managed Health Care,434,42,42,0.6823,Walks about even with the talk,0.429,49.33,18,52,24,40,51,82,47,59,42,28,14,37,3,41,42,8,31,39,35,51,45,49,47,32,79,50
+VRSN,Verisign,Information Technology,Internet Services & Infrastructure,435,42,35,0.2723,Walks about even with the talk,0.333,47.05,14,19,67,33,50,18,14,8,20,34,32,78,47,86,62,98,34,2,38,43,47,50,47,74,29,50
+ARE,Alexandria Real Estate Equities,Real Estate,Office REITs,436,41,37,1.0729,Says more than it does,0.524,46.52,189,42,36,45,42,63,30,12,95,10,62,50,47,13,42,5,22,63,35,55,50,48,50,42,20,50
+ATO,Atmos Energy,Utilities,Gas Utilities,437,41,45,-1.7401,Does more than it promises,0.524,48.14,20,35,44,30,54,68,26,21,13,48,8,32,47,52,77,45,8,47,27,24,42,45,48,85,40,50
+BF-B,Brown–Forman,Consumer Staples,Distillers & Vintners,438,41,30,1.6522,Says more than it does,0.619,48.71,45,35,51,31,46,38,12,7,37,82,91,44,50,13,26,84,16,54,29,16,41,50,49,69,13,49
+CTVA,Corteva,Materials,Fertilizers & Agricultural Chemicals,439,41,37,0.1967,Walks about even with the talk,0.619,44.81,120,24,54,55,32,54,26,34,6,2,82,10,50,78,28,78,58,94,30,46,46,48,46,4,12,50
+FFIV,"F5, Inc.",Information Technology,Communications Equipment,440,41,44,-0.706,Walks about even with the talk,0.476,49.24,35,37,42,46,40,18,32,79,20,34,84,11,47,8,31,71,34,16,90,43,47,50,47,6,47,50
+LLY,Lilly (Eli),Health Care,Pharmaceuticals,441,41,38,0.2222,Walks about even with the talk,0.619,48.9,44,29,44,46,46,21,3,20,42,58,88,12,49,15,86,16,86,89,35,14,4,49,97,1,35,50
+MTB,M&T Bank,Financials,Regional Banks,442,41,36,0.9067,Says more than it does,0.476,52.71,34,38,42,44,40,41,43,14,45,45,79,32,51,48,39,4,24,12,63,75,45,49,48,34,18,49
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Homefurnishing Retail,443,41,42,0.6868,Walks about even with the talk,0.714,47.62,53,56,34,22,51,40,55,81,70,32,61,68,45,19,5,7,67,9,9,24,1,49,50,49,56,50
+CF,CF Industries,Materials,Fertilizers & Agricultural Chemicals,444,40,40,-0.0334,Walks about even with the talk,0.571,46.14,135,30,40,57,35,20,10,90,14,18,54,42,50,12,28,56,46,38,10,98,94,48,46,4,26,50
+CSGP,CoStar Group,Real Estate,Real Estate Services,445,40,45,-0.2954,Walks about even with the talk,0.429,48.95,14,46,26,37,49,63,63,58,27,18,8,50,47,3,42,5,8,23,73,30,50,48,50,42,55,50
+FITB,Fifth Third Bancorp,Financials,Regional Banks,446,40,42,0.0922,Walks about even with the talk,0.571,53.38,29,44,47,29,40,65,53,12,45,45,52,76,51,12,39,50,2,12,12,75,45,49,48,34,18,49
+FISV,Fiserv,Financials,Transaction & Payment Processing Services,447,40,42,0.188,Walks about even with the talk,0.381,52.9,19,48,50,23,40,65,53,32,45,45,9,32,51,95,39,76,13,12,12,32,45,49,48,34,18,49
+PODD,Insulet Corporation,Health Care,Health Care Equipment,448,40,35,0.2944,Walks about even with the talk,0.333,50.14,18,23,55,44,36,21,3,20,42,28,14,72,49,94,42,61,31,15,35,93,45,49,47,32,1,50
+IVZ,Invesco,Financials,Asset Management & Custody Banks,449,40,26,2.1542,Says more than it does,0.476,53.1,21,31,37,64,30,7,26,32,45,45,9,76,51,32,39,14,76,70,99,32,45,49,48,1,5,49
+NVR,"NVR, Inc.",Consumer Discretionary,Homebuilding,450,40,49,-2.4699,Does more than it promises,0.286,48.62,10,45,32,44,38,11,71,52,59,32,39,28,45,28,21,32,76,38,45,24,37,49,50,27,12,50
+ON,ON Semiconductor,Information Technology,Semiconductors,451,40,42,0.3291,Walks about even with the talk,0.571,50.76,52,47,31,27,56,55,66,93,20,1,32,11,47,37,3,55,34,7,38,8,47,50,47,85,47,50
+SYF,Synchrony Financial,Financials,Consumer Finance,452,40,41,-0.1936,Walks about even with the talk,0.286,53.52,26,31,34,54,43,7,26,32,45,45,9,32,51,57,39,14,76,80,37,32,45,49,48,34,34,49
+TKO,TKO Group Holdings,Communication Services,Movies & Entertainment,453,40,28,2.175,Says more than it does,0.381,48.0,14,35,32,54,41,44,21,19,48,42,71,48,50,10,2,8,94,46,42,42,44,48,50,44,12,50
+APD,Air Products,Materials,Industrial Gases,454,39,37,0.7799,Says more than it does,0.667,48.14,92,42,34,37,42,2,56,98,18,38,32,10,50,12,60,38,14,18,62,46,46,48,46,34,34,50
+AXON,Axon Enterprise,Industrials,Aerospace & Defense,455,39,41,0.3447,Walks about even with the talk,0.571,53.95,36,44,33,30,49,1,70,54,14,83,45,9,49,39,2,55,37,9,29,38,39,49,48,72,27,49
+CASY,Casey's,Consumer Staples,Food Retail,456,39,39,-0.399,Not enough to tell,0.238,51.0,24,26,40,51,39,22,3,34,16,54,29,44,50,68,26,25,91,35,29,59,41,50,49,24,24,49
+CBOE,Cboe Global Markets,Financials,Financial Exchanges & Data,457,39,39,0.046,Walks about even with the talk,0.429,55.57,17,30,24,61,40,23,5,32,45,45,30,32,2,37,39,4,24,80,80,32,90,49,48,34,18,49
+NOC,Northrop Grumman,Industrials,Aerospace & Defense,458,39,31,1.2826,Says more than it does,0.524,53.95,51,33,39,49,34,39,20,23,41,43,13,43,49,48,36,47,22,30,74,38,81,49,48,5,20,49
+TYL,Tyler Technologies,Information Technology,Application Software,459,39,46,-2.2392,Does more than it promises,0.381,51.38,12,35,37,44,40,18,54,49,20,34,92,11,47,1,31,42,66,28,38,43,47,50,47,40,12,50
+UDR,"UDR, Inc.",Real Estate,Multi-Family Residential REITs,460,39,33,0.2926,Walks about even with the talk,0.476,48.19,30,18,52,54,32,37,3,32,7,10,62,50,47,93,42,17,88,23,35,72,50,48,50,10,3,50
+UPS,United Parcel Service,Industrials,Air Freight & Logistics,461,39,45,-1.0718,Does more than it promises,0.429,54.62,43,41,26,48,41,17,35,54,14,83,13,9,49,21,36,28,57,30,29,87,39,49,48,30,27,49
+VEEV,Veeva Systems,Health Care,Health Care Technology,462,39,44,-0.9997,Does more than it promises,0.381,51.76,18,39,33,38,46,21,47,59,42,28,14,37,49,50,42,4,31,27,35,51,45,49,47,54,28,50
+AMZN,Amazon,Consumer Discretionary,Broadline Retail,463,38,30,1.3156,Says more than it does,0.476,51.05,19,26,19,66,40,40,30,21,7,32,16,28,45,5,21,1,84,38,96,76,37,49,50,27,22,50
+DG,Dollar General,Consumer Staples,Consumer Staples Merchandise Retail,464,38,36,0.3255,Walks about even with the talk,0.619,51.43,26,28,43,40,42,12,19,34,60,15,9,72,50,4,47,78,66,7,29,59,41,50,49,50,13,49
+HSIC,Henry Schein,Health Care,Health Care Distributors,465,38,41,0.1539,Walks about even with the talk,0.19,52.0,1,41,36,35,42,8,66,59,42,28,37,37,49,26,42,25,31,15,35,51,45,49,47,32,31,50
+PTC,PTC Inc.,Information Technology,Application Software,466,38,46,-1.9316,Does more than it promises,0.429,51.86,22,43,41,33,37,18,54,49,61,34,32,47,47,15,62,42,34,2,38,43,47,50,47,3,35,50
+O,Realty Income,Real Estate,Retail REITs,467,38,33,0.2377,Walks about even with the talk,0.524,48.81,23,15,51,43,45,2,17,3,47,5,32,98,47,13,42,72,22,23,35,85,50,48,50,72,3,50
+HOOD,Robinhood Markets,Financials,Investment Banking & Brokerage,468,38,38,-0.2715,Walks about even with the talk,0.286,56.05,20,25,32,49,46,23,5,5,45,45,9,32,51,37,39,25,24,45,98,32,45,49,48,76,6,49
+TXN,Texas Instruments,Information Technology,Semiconductors,469,38,45,-0.6963,Walks about even with the talk,0.429,52.62,19,46,23,45,40,36,92,49,20,34,32,47,47,3,2,8,34,28,38,77,47,50,47,6,47,50
+WYNN,Wynn Resorts,Consumer Discretionary,Casinos & Gaming,470,38,28,1.6135,Says more than it does,0.524,50.05,18,30,37,43,42,33,19,6,7,84,16,28,45,28,51,56,32,38,45,61,37,49,50,49,12,50
+AVGO,Broadcom,Information Technology,Semiconductors,471,37,34,1.0925,Says more than it does,0.476,53.48,30,42,39,31,36,36,21,17,51,83,32,47,47,57,31,18,34,40,38,43,1,50,47,21,12,50
+BLDR,Builders FirstSource,Industrials,Building Products,472,37,31,0.628,Walks about even with the talk,0.381,55.14,33,22,51,34,42,17,4,23,14,50,13,90,49,48,36,68,57,9,29,38,39,49,48,30,33,49
+CPAY,Corpay,Financials,Transaction & Payment Processing Services,473,37,39,-0.2894,Not enough to tell,0.238,56.57,37,34,40,37,37,23,26,32,45,45,67,32,51,37,39,14,24,45,37,32,45,49,48,34,3,49
+CVNA,Carvana,Consumer Discretionary,Automotive Retail,474,36,34,0.0696,Walks about even with the talk,0.381,51.71,23,22,50,30,41,21,2,21,33,32,61,68,45,78,21,27,32,9,9,61,37,49,50,27,28,50
+DASH,DoorDash,Consumer Discretionary,Specialized Consumer Services,475,36,35,-0.0442,Walks about even with the talk,0.238,52.33,19,22,34,46,41,21,2,21,33,32,61,28,45,44,21,7,32,38,45,24,90,49,50,27,28,50
+FICO,Fair Isaac,Information Technology,Application Software,476,36,32,0.1185,Walks about even with the talk,0.381,54.24,19,17,49,27,49,18,5,8,20,34,60,47,47,81,31,28,1,7,38,43,47,50,47,96,2,50
+JBHT,J.B. Hunt,Industrials,Cargo Ground Transportation,477,36,39,0.2952,Walks about even with the talk,0.476,56.57,17,45,41,22,37,39,20,23,65,76,72,43,49,6,36,39,22,9,29,10,39,49,48,30,10,49
+KR,Kroger,Consumer Staples,Food Retail,478,36,27,1.3315,Says more than it does,0.571,53.76,36,25,44,40,35,38,22,34,16,15,51,44,50,13,69,40,41,35,9,16,97,50,49,13,13,49
+LEN,Lennar,Consumer Discretionary,Homebuilding,479,36,44,-1.0648,Does more than it promises,0.476,51.86,22,46,38,22,38,11,55,97,33,32,16,28,45,12,51,79,32,9,9,24,37,49,50,27,12,50
+SNDK,Sandisk,Information Technology,"Technology Hardware, Storage & Peripherals",480,36,35,0.5953,Walks about even with the talk,0.619,55.24,35,36,29,34,43,18,5,17,46,92,75,11,47,22,10,8,59,55,3,8,47,50,47,40,29,50
+TDG,TransDigm Group,Industrials,Aerospace & Defense,481,36,34,0.5744,Walks about even with the talk,0.571,56.86,29,33,41,32,37,39,20,23,51,31,45,73,49,6,36,39,42,9,59,10,39,49,48,30,10,49
+VRTX,Vertex Pharmaceuticals,Health Care,Biotechnology,482,36,35,0.469,Walks about even with the talk,0.143,54.48,18,33,36,35,39,57,20,20,42,28,37,37,49,26,42,25,31,15,35,51,45,49,47,32,15,50
+WFC,Wells Fargo,Financials,Diversified Banks,483,36,26,2.0105,Says more than it does,0.333,57.14,6,35,35,36,40,41,11,32,45,45,52,32,51,24,39,14,55,12,37,32,45,49,48,34,18,49
+BNY,BNY Mellon,Financials,Asset Management & Custody Banks,484,35,38,-0.2415,Walks about even with the talk,0.048,58.95,4,30,30,37,43,23,5,32,45,45,9,32,51,24,39,25,24,45,37,32,45,49,48,34,34,49
+CRWD,CrowdStrike,Information Technology,Systems Software,485,35,38,-0.5529,Walks about even with the talk,0.429,55.95,23,29,33,33,44,18,25,49,20,34,8,11,47,71,31,28,34,2,38,43,47,50,47,59,12,50
+FE,FirstEnergy,Utilities,Electric Utilities,486,35,35,0.3762,Walks about even with the talk,0.476,53.29,103,33,43,28,36,31,15,2,66,53,45,32,47,35,37,63,40,16,27,15,42,45,48,34,2,50
+SYK,Stryker Corporation,Health Care,Health Care Equipment,487,35,27,1.509,Says more than it does,0.143,55.19,0,30,36,35,39,39,23,20,42,28,37,37,49,26,42,25,31,15,35,51,45,49,47,32,15,50
+TDY,Teledyne Technologies,Information Technology,Electronic Equipment & Instruments,488,35,31,0.7133,Walks about even with the talk,0.571,55.38,62,25,34,41,40,36,18,8,61,3,60,11,47,15,31,42,3,40,38,77,47,50,47,40,12,50
+VMC,Vulcan Materials Company,Materials,Construction Materials,489,35,34,0.4653,Walks about even with the talk,0.476,51.48,101,32,36,37,36,14,36,26,60,22,32,42,50,32,28,32,30,18,62,30,46,48,46,34,4,50
+CNP,CenterPoint Energy,Utilities,Multi-Utilities,490,34,36,-0.6867,Walks about even with the talk,0.619,54.38,108,28,48,22,37,68,26,24,5,18,8,32,47,81,37,82,21,16,15,15,42,45,48,2,40,50
+DHI,D. R. Horton,Consumer Discretionary,Homebuilding,491,34,36,0.028,Walks about even with the talk,0.381,53.86,27,30,36,35,35,3,19,21,33,72,61,28,45,12,51,18,32,38,45,24,37,49,50,27,1,50
+DDOG,Datadog,Information Technology,Application Software,492,34,32,0.0371,Walks about even with the talk,0.19,56.43,15,17,40,38,39,18,5,8,20,34,32,47,47,57,31,28,34,28,38,43,47,50,47,21,29,50
+XOM,ExxonMobil,Energy,Integrated Oil & Gas,493,34,32,1.1093,Says more than it does,0.19,53.9,0,38,30,31,39,7,43,36,19,86,12,24,48,33,40,26,19,38,38,26,36,48,48,36,14,50
+PAYX,Paychex,Industrials,Human Resource & Employment Services,494,34,24,1.9574,Says more than it does,0.429,58.95,15,30,35,28,43,85,13,23,14,16,13,43,49,13,36,55,22,30,74,10,2,49,48,30,39,49
+PHM,PulteGroup,Consumer Discretionary,Homebuilding,495,34,33,-0.0225,Walks about even with the talk,0.238,53.95,26,16,36,42,41,3,19,21,7,32,39,28,45,28,21,56,67,38,45,24,37,49,50,27,28,50
+DGX,Quest Diagnostics,Health Care,Health Care Services,496,34,26,1.0057,Says more than it does,0.476,56.19,48,18,40,35,43,8,32,20,2,28,14,12,49,41,42,82,31,4,84,51,4,49,47,32,35,50
+TSCO,Tractor Supply,Consumer Discretionary,Other Specialty Retail,497,34,32,0.2772,Walks about even with the talk,0.381,53.57,41,19,39,31,48,3,7,21,33,32,16,28,45,90,21,32,3,80,9,24,37,49,50,64,28,50
+CPT,Camden Property Trust,Real Estate,Multi-Family Residential REITs,498,33,31,0.457,Walks about even with the talk,0.286,54.86,14,21,30,36,45,37,10,32,7,18,32,17,47,13,42,28,5,23,73,30,50,48,50,42,35,50
+HONA,Honeywell Aerospace,Industrials,Aerospace & Defense,499,33,27,1.1762,Says more than it does,0.19,59.86,0,27,36,32,37,4,48,54,14,16,45,43,49,21,36,20,22,30,29,38,39,49,48,30,10,49
+HUBB,Hubbell Incorporated,Industrials,Industrial Machinery & Supplies & Components,500,32,32,0.0369,Walks about even with the talk,0.333,60.71,23,20,36,26,46,17,4,1,14,64,45,43,49,31,36,14,22,30,29,10,39,49,48,49,33,49
+MNST,Monster Beverage,Consumer Staples,Soft Drinks & Non-alcoholic Beverages,501,32,36,-0.3413,Walks about even with the talk,0.476,58.62,35,27,22,44,35,3,7,34,74,15,9,44,50,13,12,4,25,35,62,59,41,50,49,24,3,49
+ROP,Roper Technologies,Information Technology,Electronic Equipment & Instruments,502,32,37,0.0672,Walks about even with the talk,0.381,58.71,15,35,19,38,38,18,11,8,61,77,8,11,47,8,31,8,34,28,38,43,47,50,47,40,1,50
+KMI,Kinder Morgan,Energy,Oil & Gas Storage & Transportation,503,31,32,-0.5153,Walks about even with the talk,0.714,57.71,67,15,27,49,33,2,21,40,12,2,43,2,48,12,40,17,38,38,69,12,86,48,48,14,5,50

@@ -34,7 +34,7 @@ export default function Shell() {
         <Outlet />
       </main>
       <footer className="footer">
-        Green Liquid reads public 10-K filings and translates them into everyday language. Silence is treated as a
+        Green Liquid reads 10-K filings, Net Zero Tracker, SBTi, Climate TRACE, and CA100. Silence is treated as a
         risk. This is a research tool, not investment advice.
       </footer>
     </>

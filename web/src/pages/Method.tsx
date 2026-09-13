@@ -15,7 +15,7 @@ export default function Method() {
       </section>
 
       <div className="recipe" aria-label="The Green Liquid recipe">
-        <span>📄 Read the 10-K</span>
+        <span>📄 10-K + climate files</span>
         <span className="arrow" aria-hidden="true">→</span>
         <span>⚖️ Vs the industry</span>
         <span className="arrow" aria-hidden="true">→</span>
@@ -44,9 +44,9 @@ export default function Method() {
           <h3>The homework</h3>
           <ul>
             <li>Every S&amp;P 500 company files a <strong>10-K</strong>.</li>
-            <li>Public. Yearly. Legally serious.</li>
-            <li>We pulled the sustainability passages — then scored <strong>21 everyday factors</strong>.</li>
-            <li><em>Got real carbon numbers later?</em> Drop them in. The app stays.</li>
+            <li>Climate numbers come from <strong>Net Zero Tracker, SBTi, Climate TRACE, and CA100</strong>.</li>
+            <li>People, money, and trust still read the filing. Planet starts with the ledgers.</li>
+            <li>Then we score <strong>21 everyday factors</strong> against the industry.</li>
           </ul>
         </article>
 
@@ -77,8 +77,8 @@ export default function Method() {
           <div className="emoji" aria-hidden="true">🙊</div>
           <h3>Say vs do</h3>
           <ul>
-            <li><strong>Say:</strong> “we will,” “net-zero by 2050,” “committed to…”</li>
-            <li><strong>Do:</strong> “we reduced,” “achieved,” “bought renewable power.”</li>
+            <li><strong>Say:</strong> a public pledge — net-zero by 2050, “committed to…”</li>
+            <li><strong>Do:</strong> an SBTi target that is actually set, scopes covered, emissions not rising.</li>
             <li>A wide gap = 🚩 <em>talking louder than acting</em>.</li>
             <li>A warning. Not a moral verdict.</li>
           </ul>
@@ -144,8 +144,8 @@ export default function Method() {
           <div className="emoji" aria-hidden="true">🚧</div>
           <h3>Limits we’ll say out loud</h3>
           <ul>
-            <li>10-Ks are written by <em>lawyers</em>.</li>
-            <li>More words ≠ more impact.</li>
+            <li>10-Ks are written by <em>lawyers</em>. Climate TRACE inventories are incomplete ownership chains, not Scope 1/2/3.</li>
+            <li>More words ≠ more impact. A pledge ≠ a cut.</li>
             <li>This is a public score first, a portfolio second.</li>
             <li><strong>Not investment advice.</strong> A map. 🗺️</li>
           </ul>

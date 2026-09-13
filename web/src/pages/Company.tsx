@@ -12,6 +12,12 @@ import { PillarBars, ScoreMark } from "../components/Widgets";
 import RecentSignals from "../components/RecentSignals";
 import { gapTone, gradeFromScore, vsTypical, withScores } from "../lib/scoring";
 
+function tonnes(n: number): string {
+  if (n >= 1_000_000) return `${(n / 1_000_000).toFixed(1)} million tCO₂e`;
+  if (n >= 1_000) return `${Math.round(n / 1_000)} thousand tCO₂e`;
+  return `${Math.round(n).toLocaleString()} tCO₂e`;
+}
+
 export default function CompanyPage() {
   const { ticker } = useParams();
   const { dataset, weights } = useDataset();
@@ -109,6 +115,68 @@ export default function CompanyPage() {
         </section>
       </div>
 
+      {company.measured ? (
+        <section className="card" style={{ marginTop: 16 }}>
+          <p className="kicker">The ledgers</p>
+          <h3>Numbers from the climate files, not the adjectives</h3>
+          <div className="fact-grid">
+            {company.measured.credibilityScore != null ? (
+              <div>
+                <p className="kicker">Target credibility</p>
+                <strong>{company.measured.credibilityScore}</strong>
+                <p className="tiny">{company.measured.credibilityTier ?? "Net Zero Tracker + SBTi"}</p>
+              </div>
+            ) : null}
+            {company.measured.nztTargetType ? (
+              <div>
+                <p className="kicker">Public target</p>
+                <strong>{company.measured.nztTargetType}</strong>
+                <p className="tiny">
+                  {company.measured.nztTargetYear ? `By ${company.measured.nztTargetYear}` : "No year published"}
+                  {company.measured.nztInterimYear ? ` · interim ${company.measured.nztInterimYear}` : ""}
+                </p>
+              </div>
+            ) : null}
+            {company.measured.sbtiNearTerm ? (
+              <div>
+                <p className="kicker">SBTi near-term</p>
+                <strong>{company.measured.sbtiNearTerm}</strong>
+                <p className="tiny">{company.measured.sbtiNearClass ?? company.measured.sbtiNetZero ?? ""}</p>
+              </div>
+            ) : null}
+            <div>
+              <p className="kicker">Scopes covered</p>
+              <strong>
+                1 {company.measured.scope1 ?? "—"} · 2 {company.measured.scope2 ?? "—"} · 3 {company.measured.scope3 ?? "—"}
+              </strong>
+              <p className="tiny">From the Net Zero Tracker match</p>
+            </div>
+            {company.measured.emissionsTco2e != null ? (
+              <div>
+                <p className="kicker">Linked inventory {company.measured.emissionsYear ?? ""}</p>
+                <strong>{tonnes(company.measured.emissionsTco2e)}</strong>
+                <p className="tiny">
+                  Climate TRACE USA ownership chain — not a full corporate Scope 1/2/3 footprint.
+                  {company.measured.emissionsChangePct != null
+                    ? ` Change vs first year: ${company.measured.emissionsChangePct > 0 ? "+" : ""}${company.measured.emissionsChangePct}%.`
+                    : ""}
+                </p>
+              </div>
+            ) : null}
+            {company.measured.ca100Rate != null ? (
+              <div>
+                <p className="kicker">CA100 assessment</p>
+                <strong>{Math.round(company.measured.ca100Rate * 100)}%</strong>
+                <p className="tiny">
+                  Yes or partial on the latest Climate Action 100+ indicators
+                  {company.measured.ca100Round ? ` (${company.measured.ca100Round})` : ""}.
+                </p>
+              </div>
+            ) : null}
+          </div>
+        </section>
+      ) : null}
+
       <section className="card" style={{ marginTop: 16 }}>
         <h3>Every factor, in plain words</h3>
         <table>
@@ -127,7 +195,11 @@ export default function CompanyPage() {
                 <tr key={f.id}>
                   <td>
                     {f.label}
-                    {pack.missing ? <div className="tiny">Silent in the filing</div> : null}
+                    {pack.missing ? (
+                      <div className="tiny">No measured value</div>
+                    ) : company.overrideFactors.includes(f.id) ? (
+                      <div className="tiny">From the climate files</div>
+                    ) : null}
                   </td>
                   <td>{f.plain}</td>
                   <td>{pack.score}</td>

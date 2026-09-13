@@ -44,8 +44,8 @@ export default function Home() {
           <p className="kicker">Right now</p>
           <div className="score-lg">{dataset.companyCount}</div>
           <p>
-            companies, scored from public filings. <strong>50</strong> is typical for the industry.{" "}
-            <em>Higher means ahead of peers.</em>
+            companies, scored from 10-Ks plus Net Zero Tracker, SBTi, and Climate TRACE. <strong>50</strong> is typical
+            for the industry. <em>Higher means ahead of peers.</em>
           </p>
         </div>
       </section>
@@ -71,7 +71,7 @@ export default function Home() {
           <h3>Say vs do</h3>
           <ul>
             <li>A net-zero pledge is not a cut in emissions.</li>
-            <li>We read the <strong>promise</strong> and the <strong>proof</strong>.</li>
+            <li>We read the <strong>promise</strong> (NZT) and the <strong>proof</strong> (SBTi + scopes).</li>
             <li>Talking louder than acting? That’s a 🚩 — <em>not a moral verdict</em>.</li>
           </ul>
         </article>
