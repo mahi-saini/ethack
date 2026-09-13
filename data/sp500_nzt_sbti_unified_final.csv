@@ -1,0 +1,504 @@
+Ticker,Security,GICS Sector,NZT Match,SBTi Match,NZT Target Type,NZT Target Year,NZT Interim Year,Scope 1 Coverage,Scope 2 Coverage,Scope 3 Coverage,SBTi Near-Term Status,SBTi Near-Term Classification,SBTi Near-Term Year,SBTi Long-Term Status,SBTi Long-Term Classification,SBTi Long-Term Year,SBTi Net-Zero Status,SBTi Net-Zero Year,Target Credibility Tier,Target Credibility Score
+MMM,3M,Industrials,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AOS,A. O. Smith,Industrials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+ABT,Abbott Laboratories,Health Care,Exact,Substring,Emissions reduction target,2030.0,,Yes,Yes,No,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ABBV,AbbVie,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ACN,Accenture,Information Technology,Exact,Exact,Net zero,2025.0,,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ADBE,Adobe Inc.,Information Technology,Exact,Exact,Net zero,2050.0,2030.0,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AMD,Advanced Micro Devices,Information Technology,Exact,Exact,Emissions reduction target,2030.0,2022.0,Yes,Yes,Yes,Targets set,Well-below 2°C,2020,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AES,AES Corporation,Utilities,Exact,Fuzzy,Net zero,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AFL,Aflac,Financials,Exact,Fuzzy,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2045,Targets set,FY2045,Tier 1: Comprehensive Science Target (Near + Long Term),100
+A,Agilent Technologies,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+APD,Air Products,Materials,Substring,Fuzzy,Climate neutral,2050.0,2035.0,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ABNB,Airbnb,Consumer Discretionary,None,Exact,,,,,,,Targets set,1.5°C,2030,,,,,,Tier 2: Near-Term Science Target Only,50
+AKAM,Akamai Technologies,Information Technology,Exact,Exact,Net zero,2030.0,,Yes,Yes,Partial,Commitment removed,,,,,,Commitment removed,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+ALB,Albemarle Corporation,Materials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+ARE,Alexandria Real Estate Equities,Real Estate,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+ALGN,Align Technology,Health Care,Exact,Substring,No target,,,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ALLE,Allegion,Industrials,Fuzzy,Fuzzy,No target,,,,,,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LNT,Alliant Energy,Utilities,Exact,Fuzzy,Net zero,2050.0,2030.0,Yes,Yes,Not Specified,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ALL,Allstate,Financials,Exact,None,Net zero,2030.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+GOOGL,Alphabet Inc. (Class A),Communication Services,Exact,Exact,Net zero,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+GOOG,Alphabet Inc. (Class C),Communication Services,Exact,Exact,Net zero,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MO,Altria,Consumer Staples,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AMZN,Amazon,Consumer Discretionary,Exact,Exact,Net zero,2040.0,,Yes,Yes,Not Specified,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+AMCR,Amcor,Materials,Exact,Exact,Net zero,2050.0,2033.0,Yes,Yes,Yes,Targets set,1.5°C,FY2033,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AEE,Ameren,Utilities,Exact,None,Net zero,2045.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+AEP,American Electric Power,Utilities,Exact,None,Net zero,2045.0,2030.0,Yes,Yes,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+AXP,American Express,Financials,Exact,Exact,Net zero,2050.0,2033.0,Yes,Yes,Yes,Targets set,1.5°C,2033,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AIG,American International Group,Financials,Exact,Fuzzy,Net zero,2050.0,,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AMT,American Tower,Real Estate,Exact,Exact,Emissions reduction target,2035.0,,Yes,Yes,Yes,Targets set,Well-below 2°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AWK,American Water Works,Utilities,Exact,Substring,Net zero,2050.0,2025.0,Yes,Yes,No,Targets set,1.5°C,2028,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+AMP,Ameriprise Financial,Financials,Exact,Substring,No target,,,No,No,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AME,Ametek,Industrials,Exact,None,Emissions reduction target,2035.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+AMGN,Amgen,Health Care,Exact,Exact,Carbon neutral(ity),2027.0,,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+APH,Amphenol,Information Technology,Substring,None,Emissions reduction target,2030.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+ADI,Analog Devices,Information Technology,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+AON,Aon plc,Financials,Exact,Exact,Net zero,2030.0,,Yes,Yes,No,Targets set,1.5°C,2032,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+APA,APA Corporation,Energy,None,Fuzzy,,,,,,,Targets set,1.5°C,FY2031,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+APO,Apollo Global Management,Financials,Exact,None,No target,,,Yes,Yes,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+AAPL,Apple Inc.,Information Technology,Exact,Exact,Carbon neutral(ity),2030.0,,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AMAT,Applied Materials,Information Technology,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+APP,AppLovin,Communication Services,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+APTV,Aptiv,Consumer Discretionary,Exact,Exact,Carbon neutral(ity),2040.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ACGL,Arch Capital Group,Financials,Exact,Substring,Net zero,2030.0,,Yes,Yes,No,Targets set,1.5°C,2030,Targets set,1.5°C,2045,Targets set,2045,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ADM,Archer Daniels Midland,Consumer Staples,Exact,Exact,Emissions reduction target,2035.0,,Yes,Yes,Yes,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+ARES,Ares Management,Financials,Fuzzy,Fuzzy,Emissions reduction target,2031.0,2032.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ANET,Arista Networks,Information Technology,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AJG,Arthur J. Gallagher & Co.,Financials,Substring,None,Net zero,2050.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+AIZ,Assurant,Financials,Exact,Substring,Emissions reduction target,2030.0,,Yes,Yes,No,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+T,AT&T,Communication Services,Exact,Exact,Carbon neutral(ity),2035.0,2030.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ATO,Atmos Energy,Utilities,Exact,None,Emissions reduction target,2035.0,,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+ADSK,Autodesk,Information Technology,Exact,Exact,Net zero,2050.0,,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,FY2031,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ADP,Automatic Data Processing,Industrials,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AZO,AutoZone,Consumer Discretionary,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,No,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AVY,Avery Dennison,Materials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AXON,Axon Enterprise,Industrials,Fuzzy,Substring,Carbon neutral(ity),2034.0,,Not Specified,Not Specified,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+BKR,Baker Hughes,Energy,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+BALL,Ball Corporation,Materials,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+BAC,Bank of America,Financials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+BAX,Baxter International,Health Care,Exact,Fuzzy,Carbon neutral(ity),2040.0,2030.0,Yes,Yes,No,Targets set,1.5°C,FY2034,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+BDX,Becton Dickinson,Health Care,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+BRK-B,Berkshire Hathaway,Financials,Exact,None,No target,,,No,No,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+BBY,Best Buy,Consumer Discretionary,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TECH,Bio-Techne,Health Care,None,Exact,,,,,,,Targets set,1.5°C,FY2031,,,,,,Tier 2: Near-Term Science Target Only,50
+BIIB,Biogen,Health Care,Exact,Exact,Net zero,2040.0,2032.0,Yes,Yes,Yes,Commitment removed,,,,,,Commitment removed,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+BLK,BlackRock,Financials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+BX,Blackstone Inc.,Financials,Exact,None,Other,2024.0,,No,No,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+XYZ,"Block, Inc.",Financials,Exact,Exact,Net zero,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+BNY,BNY Mellon,Financials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+BA,Boeing,Industrials,Exact,Fuzzy,Emissions reduction target,2030.0,,Yes,Yes,No,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+BKNG,Booking Holdings,Consumer Discretionary,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+BSX,Boston Scientific,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+BMY,Bristol Myers Squibb,Health Care,Exact,Exact,Net zero,2050.0,2033.0,Yes,Yes,Yes,Targets set,1.5°C,2033,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+AVGO,Broadcom,Information Technology,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,No,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+BR,Broadridge Financial Solutions,Industrials,Exact,Exact,Net zero,2050.0,2033.0,Yes,Yes,Yes,Targets set,1.5°C,FY2033,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+BRO,Brown & Brown,Financials,Exact,Substring,No target,,,,,,Targets set,1.5°C,FY2031,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+BF-B,Brown–Forman,Consumer Staples,Exact,None,Emissions reduction target,2045.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+BLDR,Builders FirstSource,Industrials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+BG,Bunge Global,Consumer Staples,Substring,Substring,Emissions reduction target,2030.0,2026.0,Yes,Yes,Partial,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+BXP,"BXP, Inc.",Real Estate,Fuzzy,Exact,Net zero,2050.0,2025.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+CHRW,C.H. Robinson,Industrials,Exact,None,Emissions intensity target,2025.0,,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CDNS,Cadence Design Systems,Information Technology,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CPT,Camden Property Trust,Real Estate,Substring,Substring,No target,,,,,,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+COF,Capital One,Financials,Substring,Substring,Emissions reduction target,2030.0,,Yes,No,Partial,Targets set,1.5°C,2030,Targets set,1.5°C,2045,Targets set,2045,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CAH,Cardinal Health,Health Care,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CCL,Carnival Corporation,Consumer Discretionary,Exact,Fuzzy,Net zero,2050.0,2030.0,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CARR,Carrier Global,Industrials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CVNA,Carvana,Consumer Discretionary,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+CASY,Casey's,Consumer Staples,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+CAT,Caterpillar Inc.,Industrials,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CBOE,Cboe Global Markets,Financials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+CBRE,CBRE Group,Real Estate,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CDW,CDW Corporation,Information Technology,Exact,Exact,Emissions reduction target,2030.0,2028.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+COR,Cencora,Health Care,Exact,Exact,Emissions reduction target,2032.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2032,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CNC,Centene Corporation,Health Care,Exact,None,No target,,,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CNP,CenterPoint Energy,Utilities,Exact,None,Net zero,2035.0,2026.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CF,CF Industries,Materials,Fuzzy,Fuzzy,No target,,,,,,Commitment removed,,,,,,Commitment removed,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+CRL,Charles River Laboratories,Health Care,None,Exact,,,,,,,Targets set,1.5°C,2030,,,,,,Tier 2: Near-Term Science Target Only,50
+SCHW,Charles Schwab Corporation,Financials,Exact,None,No target,,,No,No,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CHTR,Charter Communications,Communication Services,Exact,Substring,Carbon neutral(ity),2035.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CVX,Chevron Corporation,Energy,Exact,Substring,Net zero,2050.0,2028.0,Yes,Yes,Not Specified,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CMG,Chipotle Mexican Grill,Consumer Discretionary,Exact,Exact,Emissions reduction target,2030.0,2024.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CB,Chubb Limited,Financials,Exact,Substring,Emissions reduction target,2035.0,2025.0,Yes,Yes,Partial,Committed,,,,,,Committed,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CHD,Church & Dwight,Consumer Staples,Exact,Exact,Emissions reduction target,2031.0,,Yes,Yes,No,Targets set,1.5°C,2031,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CIEN,Ciena,Information Technology,Fuzzy,Exact,Carbon neutral(ity),2040.0,2030.0,Yes,Yes,No,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CI,Cigna,Health Care,Exact,Exact,Carbon neutral(ity),2040.0,2030.0,Yes,Yes,No,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CINF,Cincinnati Financial,Financials,Exact,None,No target,,,,,,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CTAS,Cintas,Industrials,Exact,None,Net zero,2050.0,,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CSCO,Cisco,Information Technology,Exact,Exact,Net zero,2040.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+C,Citigroup,Financials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CFG,Citizens Financial Group,Financials,Exact,None,Carbon neutral(ity),2035.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CLX,Clorox,Consumer Staples,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+CME,CME Group,Financials,Exact,Fuzzy,No target,,,Yes,Yes,Partial,Targets set,1.5°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CMS,CMS Energy,Utilities,Exact,Fuzzy,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+KO,Coca-Cola Company (The),Consumer Staples,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CTSH,Cognizant,Information Technology,Exact,Substring,Emissions reduction target,2040.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+COHR,Coherent Corp.,Information Technology,None,Substring,,,,,,,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+COIN,Coinbase,Financials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+CL,Colgate-Palmolive,Consumer Staples,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CMCSA,Comcast,Communication Services,Exact,Exact,Carbon neutral(ity),2035.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+FIX,Comfort Systems USA,Industrials,None,Substring,,,,,,,Targets set,1.5°C,2030,,,,,,Tier 2: Near-Term Science Target Only,50
+COP,ConocoPhillips,Energy,Exact,None,Net zero,2030.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+ED,Consolidated Edison,Utilities,Exact,Substring,Net zero,2040.0,2030.0,Yes,No,Partial,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+STZ,Constellation Brands,Consumer Staples,Exact,Substring,Emissions reduction target,2028.0,,Yes,Yes,No,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CEG,Constellation Energy,Utilities,Exact,Substring,Emissions reduction target,2040.0,2030.0,Yes,Yes,Yes,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+COO,Cooper Companies (The),Health Care,Exact,None,No target,,,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CPRT,Copart,Industrials,Exact,Substring,Net zero,2050.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2034,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+GLW,Corning Inc.,Information Technology,Exact,Exact,No target,,,No,No,No,Targets set,1.5°C,2028,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CPAY,Corpay,Financials,Exact,None,No target,,,,,,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CTVA,Corteva,Materials,Exact,Substring,Emissions intensity target,2030.0,,Yes,Yes,No,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+CSGP,CoStar Group,Real Estate,Exact,Exact,Net zero,2050.0,2033.0,Yes,Yes,Partial,Targets set,1.5°C,2033,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+COST,Costco,Consumer Staples,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+CRH,CRH plc,Materials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CRWD,CrowdStrike,Information Technology,None,Exact,,,,,,,Targets set,1.5°C,FY2031,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+CCI,Crown Castle,Real Estate,Substring,Substring,Net zero,2040.0,,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CSX,CSX Corporation,Industrials,Exact,Exact,Emissions reduction target,2034.0,2029.0,Yes,Yes,Partial,Targets set,Well-below 2°C,2029,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CMI,Cummins,Industrials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CVS,CVS Health,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DHR,Danaher Corporation,Health Care,Exact,Exact,Emissions reduction target,2032.0,2024.0,Yes,Yes,No,Targets set,1.5°C,2035,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DRI,Darden Restaurants,Consumer Discretionary,Exact,None,No target,,,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+DDOG,Datadog,Information Technology,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+DVA,DaVita,Health Care,Exact,Exact,Net zero,2050.0,2025.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DECK,Deckers Brands,Consumer Discretionary,None,Exact,,,,,,,Targets set,1.5°C,FY2030,,,,,,Tier 2: Near-Term Science Target Only,50
+DE,Deere & Company,Industrials,Exact,Exact,Zero emissions,2050.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DELL,Dell Technologies,Information Technology,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2031,Targets set,1.5°C,FY2051,Targets set,FY2051,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DAL,Delta Air Lines,Industrials,Exact,Exact,Net zero,2050.0,2035.0,Yes,Yes,Yes,Targets set,Well-below 2°C,2035,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DVN,Devon Energy,Energy,Fuzzy,Substring,Net zero,2050.0,2030.0,Yes,Yes,No,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+DXCM,Dexcom,Health Care,Exact,Exact,Emissions reduction target,2033.0,,Yes,Yes,Partial,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+FANG,Diamondback Energy,Energy,Exact,Substring,Emissions intensity target,2030.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DLR,Digital Realty,Real Estate,Exact,Exact,No target,,,,,,Targets set,1.5°C,2030,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DG,Dollar General,Consumer Staples,Exact,None,Emissions reduction target,2031.0,2026.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+DLTR,Dollar Tree,Consumer Staples,Exact,None,Net zero,2050.0,2032.0,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+D,Dominion Energy,Utilities,Exact,None,Net zero,2050.0,,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+DPZ,Domino's,Consumer Discretionary,Substring,Substring,Net zero,2050.0,2031.0,Yes,Yes,Yes,Commitment removed,,,,,,Commitment removed,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+DASH,DoorDash,Consumer Discretionary,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+DOV,Dover Corporation,Industrials,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DOW,Dow Inc.,Materials,Exact,None,Carbon neutral(ity),2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+DHI,D. R. Horton,Consumer Discretionary,Exact,None,No target,,,No,No,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+DTE,DTE Energy,Utilities,Exact,Fuzzy,Net zero,2050.0,2028.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DUK,Duke Energy,Utilities,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+DD,DuPont,Industrials,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ETN,Eaton Corporation,Industrials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EBAY,eBay Inc.,Consumer Discretionary,Exact,Exact,Net zero,2045.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2045,Targets set,2045,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ECHO,EchoStar,Communication Services,Fuzzy,Fuzzy,Net zero,2050.0,2033.0,Yes,Yes,Partial,Targets set,1.5°C,2033,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ECL,Ecolab,Materials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EIX,Edison International,Utilities,Exact,Fuzzy,Net zero,2045.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EW,Edwards Lifesciences,Health Care,Exact,Exact,Emissions reduction target,2030.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ELV,Elevance Health,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EME,Emcor,Industrials,Fuzzy,Exact,Net zero,2050.0,2033.0,Yes,Yes,Yes,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+EMR,Emerson Electric,Industrials,Exact,Exact,Net zero,2045.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2045,Targets set,FY2045,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ETR,Entergy,Utilities,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+EOG,EOG Resources,Energy,Exact,Fuzzy,Net zero,2040.0,2025.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EQT,EQT Corporation,Energy,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+EFX,Equifax,Industrials,Exact,Exact,Net zero,2040.0,2032.0,Yes,Yes,Partial,Targets set,1.5°C,2032,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EQIX,Equinix,Real Estate,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ERIE,Erie Indemnity,Financials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+ESS,Essex Property Trust,Real Estate,Exact,Exact,Emissions reduction target,2034.0,,Yes,Yes,Yes,Targets set,1.5°C,2034,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EL,Estée Lauder Companies (The),Consumer Staples,Fuzzy,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EG,Everest Group,Financials,Substring,Substring,Net zero,2050.0,,Yes,No,Partial,Targets set,1.5°C,2029,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EVRG,Evergy,Utilities,Exact,Fuzzy,Net zero,2045.0,2030.0,Yes,Yes,No,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ES,Eversource Energy,Utilities,Exact,Exact,Net zero,2050.0,2035.0,Yes,Yes,Yes,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+EXC,Exelon,Utilities,Exact,Fuzzy,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EXE,Expand Energy,Energy,Exact,Substring,Net zero,2035.0,2025.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EXPE,Expedia Group,Consumer Discretionary,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EXPD,Expeditors International,Industrials,Exact,Substring,Emissions intensity target,2035.0,,Yes,Yes,No,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+EXR,Extra Space Storage,Real Estate,Exact,Substring,Emissions reduction target,2025.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+XOM,ExxonMobil,Energy,Fuzzy,None,Net zero,2050.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+FFIV,"F5, Inc.",Information Technology,None,Exact,,,,,,,Targets set,1.5°C,FY2030,,,,,,Tier 2: Near-Term Science Target Only,50
+FDS,FactSet,Financials,None,Substring,,,,,,,Targets set,1.5°C,FY2030,,,,,,Tier 2: Near-Term Science Target Only,50
+FICO,Fair Isaac,Information Technology,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+FAST,Fastenal,Industrials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+FRT,Federal Realty Investment Trust,Real Estate,None,Exact,,,,,,,Targets set,1.5°C,2030,,,,,,Tier 2: Near-Term Science Target Only,50
+FDX,FedEx,Industrials,Exact,Exact,Carbon neutral(ity),2040.0,2035.0,Yes,Yes,Partial,Targets set,1.5°C,FY2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+FDXF,FedEx Freight,Industrials,Substring,Substring,Carbon neutral(ity),2040.0,2035.0,Yes,Yes,Partial,Targets set,1.5°C,FY2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+FERG,Ferguson Enterprises,Industrials,Substring,Substring,Emissions intensity target,2030.0,,Yes,No,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+FIS,Fidelity National Information Services,Financials,Exact,Substring,No target,,,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+FITB,Fifth Third Bancorp,Financials,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+FSLR,First Solar,Information Technology,None,Exact,,,,,,,Targets set,1.5°C,2028,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+FE,FirstEnergy,Utilities,Exact,None,Carbon neutral(ity),2050.0,2030.0,Yes,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+FISV,Fiserv,Financials,Exact,None,Emissions reduction target,2030.0,2025.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+FLEX,Flex Ltd.,Information Technology,Exact,Exact,Net zero,2040.0,2030.0,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+F,Ford Motor Company,Consumer Discretionary,Exact,Exact,Carbon neutral(ity),2050.0,2035.0,Yes,Yes,Yes,Targets set,1.5°C/Well-below 2°C,2035,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+FTNT,Fortinet,Information Technology,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+FTV,Fortive,Industrials,Exact,Fuzzy,Emissions reduction target,2029.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+FOXA,Fox Corporation (Class A),Communication Services,Exact,None,No target,,,,,,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+FOX,Fox Corporation (Class B),Communication Services,Exact,None,No target,,,,,,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+BEN,Franklin Resources,Financials,Exact,None,Emissions reduction target,2030.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+FCX,Freeport-McMoRan,Materials,Substring,Exact,Net zero,2050.0,2030.0,Yes,Yes,No,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+GRMN,Garmin,Consumer Discretionary,Exact,None,No target,,,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+IT,Gartner,Information Technology,Fuzzy,Exact,Net zero,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2029,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+GE,GE Aerospace,Industrials,Exact,Substring,Emissions reduction target,2030.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+GEHC,GE HealthCare,Health Care,Fuzzy,Exact,No target,,,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+GEV,GE Vernova,Industrials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+GEN,Gen Digital,Information Technology,Exact,Substring,No target,,,Yes,Yes,Partial,Targets set,1.5°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+GNRC,Generac,Industrials,Fuzzy,None,Net zero,2040.0,2025.0,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+GD,General Dynamics,Industrials,Exact,Substring,Emissions reduction target,2034.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+GIS,General Mills,Consumer Staples,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+GM,General Motors,Consumer Discretionary,Exact,Exact,Carbon neutral(ity),2040.0,2035.0,Yes,Yes,Partial,Targets set,1.5°C/Well-below 2°C,2035,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+GPC,Genuine Parts Company,Consumer Discretionary,Exact,None,No target,,,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+GILD,Gilead Sciences,Health Care,Exact,Exact,Net zero,2030.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+GPN,Global Payments,Financials,Exact,None,Net zero,2040.0,,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+GL,Globe Life,Financials,Exact,Substring,No target,,,,,,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+GDDY,GoDaddy,Information Technology,None,Substring,,,,,,,Targets set,1.5°C,2030,,,,,,Tier 2: Near-Term Science Target Only,50
+GS,Goldman Sachs,Financials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+HAL,Halliburton,Energy,Exact,Substring,Emissions reduction target,2035.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HIG,Hartford (The),Financials,Substring,None,Net zero,2050.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+HAS,Hasbro,Consumer Discretionary,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HCA,HCA Healthcare,Health Care,Exact,Substring,No target,,,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DOC,Healthpeak Properties,Real Estate,Exact,Exact,Emissions reduction target,2033.0,,Yes,Yes,No,Targets set,Well-below 2°C,2033,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HSIC,Henry Schein,Health Care,Exact,Exact,Net zero,2050.0,,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HSY,Hershey Company (The),Consumer Staples,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HPE,Hewlett Packard Enterprise,Information Technology,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HLT,Hilton Worldwide,Consumer Discretionary,Exact,Substring,Emissions intensity target,2030.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HD,Home Depot (The),Consumer Discretionary,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HONA,Honeywell Aerospace,Industrials,Fuzzy,Substring,Net zero,2050.0,2024.0,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HON,Honeywell Technologies,Industrials,Substring,Substring,Carbon neutral(ity),2035.0,2024.0,Yes,Yes,Partial,Targets set,Well-below 2°C,2037,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HRL,Hormel Foods,Consumer Staples,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HST,Host Hotels & Resorts,Real Estate,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HWM,Howmet Aerospace,Industrials,Exact,Substring,Net zero,2050.0,2024.0,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HPQ,HP Inc.,Information Technology,Exact,Exact,Net zero,2040.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HUBB,Hubbell Incorporated,Industrials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+HUM,Humana,Health Care,Exact,Exact,Emissions reduction target,2032.0,,Yes,Yes,Yes,Targets set,1.5°C,2029,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+HBAN,Huntington Bancshares,Financials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+HII,Huntington Ingalls Industries,Industrials,Exact,None,No target,,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+IBM,IBM,Information Technology,Exact,None,Net zero,2030.0,2025.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+IEX,IDEX Corporation,Industrials,Exact,Substring,Emissions intensity target,2035.0,,Yes,Yes,No,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+IDXX,Idexx Laboratories,Health Care,Exact,Fuzzy,Emissions reduction target,2030.0,,Yes,Yes,No,Committed,,,,,,Committed,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+ITW,Illinois Tool Works,Industrials,Exact,Substring,Emissions reduction target,2030.0,,Yes,Yes,No,Targets set,1.5°C,2028,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+INCY,Incyte,Health Care,Exact,None,Carbon neutral(ity),2025.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+IR,Ingersoll Rand,Industrials,None,Exact,,,,,,,Targets set,1.5°C,2034,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PODD,Insulet Corporation,Health Care,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+INTC,Intel,Information Technology,Exact,Substring,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+IBKR,Interactive Brokers,Financials,Exact,Substring,No target,,,,,,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ICE,Intercontinental Exchange,Financials,Fuzzy,Substring,No target,2032.0,,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+IFF,International Flavors & Fragrances,Materials,Substring,Exact,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+IP,International Paper,Materials,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+INTU,Intuit,Information Technology,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ISRG,Intuitive Surgical,Health Care,Exact,Substring,No target,,,,,,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+IVZ,Invesco,Financials,Exact,None,Net zero,2050.0,,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+INVH,Invitation Homes,Real Estate,Exact,None,No target,,,,,,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+IQV,IQVIA,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+IRM,Iron Mountain,Real Estate,None,Exact,,,,,,,Targets set,1.5°C,2033,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+JBHT,J.B. Hunt,Industrials,Substring,None,Emissions intensity target,2034.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+JBL,Jabil,Information Technology,Substring,Exact,Carbon neutral(ity),2045.0,2025.0,Yes,Yes,Not Specified,Commitment removed,,,,,,Commitment removed,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+JKHY,Jack Henry & Associates,Financials,None,Fuzzy,,,,,,,Commitment removed,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+J,Jacobs Solutions,Industrials,None,Substring,,,,,,,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+JNJ,Johnson & Johnson,Health Care,Exact,Exact,Net zero,2045.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+JCI,Johnson Controls,Industrials,Substring,Substring,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+JPM,JPMorgan Chase,Financials,Fuzzy,Substring,Net zero,2050.0,2030.0,Yes,Yes,Partial,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+KVUE,Kenvue,Consumer Staples,None,Exact,,,,,,,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+KDP,Keurig Dr Pepper,Consumer Staples,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+KEY,KeyCorp,Financials,Exact,None,Carbon neutral(ity),2030.0,,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+KEYS,Keysight Technologies,Information Technology,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,No,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+KMB,Kimberly-Clark,Consumer Staples,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+KIM,Kimco Realty,Real Estate,None,Exact,,,,,,,Targets set,Well-below 2°C,2030,,,,,,Tier 2: Near-Term Science Target Only,50
+KMI,Kinder Morgan,Energy,Exact,Substring,No target,,2024.0,Not Specified,Not Specified,No,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+KKR,KKR & Co.,Financials,Exact,Fuzzy,Net zero,2050.0,,Yes,Yes,Yes,Targets set,1.5°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+KLAC,KLA Corporation,Information Technology,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+KHC,Kraft Heinz,Consumer Staples,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+KR,Kroger,Consumer Staples,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Partial,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+LHX,L3Harris,Industrials,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+LH,Labcorp,Health Care,Exact,Exact,No target,,,,,,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LRCX,Lam Research,Information Technology,Exact,Exact,Net zero,2050.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,2034,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LVS,Las Vegas Sands,Consumer Discretionary,Exact,Exact,Emissions reduction target,2030.0,2025.0,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LDOS,Leidos,Industrials,Exact,Substring,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LEN,Lennar,Consumer Discretionary,Exact,Fuzzy,No target,,,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2033,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LII,Lennox International,Industrials,Substring,Exact,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,Well-below 2°C,2034,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LLY,Lilly (Eli),Health Care,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+LIN,Linde plc,Materials,Exact,Exact,Climate neutral,2050.0,2028.0,Yes,Yes,Not Specified,Targets set,Well-below 2°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LYV,Live Nation Entertainment,Communication Services,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+LMT,Lockheed Martin,Industrials,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+L,Loews Corporation,Financials,Exact,Fuzzy,No target,,,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2034,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LOW,Lowe's,Consumer Discretionary,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,Yes,Commitment removed,,,,,,Commitment removed,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+LULU,Lululemon Athletica,Consumer Discretionary,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LITE,Lumentum,Information Technology,Substring,Exact,Emissions reduction target,2033.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LYB,LyondellBasell,Materials,Substring,Substring,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2031,Targets set,1.5°C,FY2051,Targets set,FY2051,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MTB,M&T Bank,Financials,Exact,None,Carbon neutral(ity),2035.0,2027.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+MPC,Marathon Petroleum,Energy,Exact,None,Emissions intensity target,2035.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+MAR,Marriott International,Consumer Discretionary,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MRSH,Marsh McLennan,Financials,Exact,Exact,Net zero,2050.0,2030.0,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MLM,Martin Marietta Materials,Materials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,No,Targets set,1.5°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MRVL,Marvell Technology,Information Technology,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+MAS,Masco,Industrials,Exact,Substring,Emissions reduction target,2030.0,,Yes,Yes,No,Targets set,1.5°C,2034,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MA,Mastercard,Financials,Exact,Exact,Net zero,2040.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MKC,McCormick & Company,Consumer Staples,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MCD,McDonald's,Consumer Discretionary,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MCK,McKesson Corporation,Health Care,Exact,Exact,Emissions reduction target,2032.0,2027.0,Yes,Yes,Partial,Targets set,1.5°C,FY2032,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MDT,Medtronic,Health Care,Exact,Exact,Net zero,2045.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,FY2034,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+MRK,Merck & Co.,Health Care,Exact,Exact,Net zero,2045.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2045,Targets set,2045,Tier 1: Comprehensive Science Target (Near + Long Term),100
+META,Meta Platforms,Communication Services,Exact,Exact,Net zero,2030.0,2031.0,Yes,Yes,Yes,Targets set,1.5°C,2031,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+MET,MetLife,Financials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+MTD,Mettler Toledo,Health Care,Substring,Substring,Carbon neutral(ity),2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MGM,MGM Resorts,Consumer Discretionary,Exact,Substring,No target,,,,,,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MCHP,Microchip Technology,Information Technology,Exact,None,Net zero,2040.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+MU,Micron Technology,Information Technology,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,Partial,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+MSFT,Microsoft,Information Technology,Exact,Exact,Carbon negative,2050.0,2025.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+MAA,Mid-America Apartment Communities,Real Estate,Exact,None,Emissions intensity target,2028.0,,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+MRNA,Moderna,Health Care,Exact,Exact,Net zero,2045.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2045,Targets set,2045,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TAP,Molson Coors Beverage Company,Consumer Staples,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+MDLZ,Mondelez International,Consumer Staples,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MPWR,Monolithic Power Systems,Information Technology,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+MNST,Monster Beverage,Consumer Staples,Exact,Exact,No target,,,Not Specified,Not Specified,Not Specified,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+MCO,Moody's Corporation,Financials,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+MS,Morgan Stanley,Financials,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,Yes,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+MOS,Mosaic Company (The),Materials,Exact,None,Net zero,2040.0,2025.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+MSI,Motorola Solutions,Information Technology,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+MSCI,MSCI,Financials,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NDAQ,"Nasdaq, Inc.",Financials,Exact,Exact,Net zero,2050.0,2032.0,Yes,Yes,Yes,Targets set,1.5°C,2032,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NTAP,NetApp,Information Technology,Exact,Exact,Absolute emissions target,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NFLX,Netflix,Communication Services,Exact,Exact,Net zero,2022.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+NEM,Newmont,Materials,Substring,Exact,Carbon neutral(ity),2050.0,2030.0,Yes,Yes,Yes,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NWSA,News Corp (Class A),Communication Services,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NWS,News Corp (Class B),Communication Services,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NEE,NextEra Energy,Utilities,Exact,Substring,Zero carbon,2045.0,2025.0,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NKE,"Nike, Inc.",Consumer Discretionary,Exact,Exact,Emissions reduction target,2030.0,2025.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NI,NiSource,Utilities,Exact,None,Net zero,2040.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+NDSN,Nordson Corporation,Industrials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+NSC,Norfolk Southern,Industrials,Exact,Exact,Emissions intensity target,2034.0,,Yes,Yes,Partial,Targets set,Well-below 2°C,2034,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NTRS,Northern Trust,Financials,Exact,Exact,Net zero,2050.0,,Not Specified,Not Specified,Not Specified,Committed,,,,,,Committed,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+NOC,Northrop Grumman,Industrials,Exact,None,Net zero,2035.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+NCLH,Norwegian Cruise Line Holdings,Consumer Discretionary,Exact,None,Net zero,2050.0,2026.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+NRG,NRG Energy,Utilities,Exact,Exact,Net zero,2050.0,2025.0,Yes,Yes,Partial,Targets set,1.5°C,2025,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+NUE,Nucor,Materials,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,Yes,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+NVDA,Nvidia,Information Technology,Exact,Exact,Emissions reduction target,2030.0,2026.0,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NVR,"NVR, Inc.",Consumer Discretionary,Exact,Fuzzy,No target,,,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2032,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+NXPI,NXP Semiconductors,Information Technology,Exact,Exact,Carbon neutral(ity),2035.0,2027.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ORLY,O'Reilly Automotive,Consumer Discretionary,Exact,Substring,GHG neutral(ity),2050.0,2026.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+OXY,Occidental Petroleum,Energy,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+ODFL,Old Dominion,Industrials,Substring,None,No target,,,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+OMC,Omnicom Group,Communication Services,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ON,ON Semiconductor,Information Technology,Fuzzy,Substring,Carbon neutral(ity),2035.0,2027.0,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+OKE,Oneok,Energy,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+ORCL,Oracle Corporation,Information Technology,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+OTIS,Otis Worldwide,Industrials,Exact,Exact,Emissions reduction target,2033.0,,Yes,Yes,Yes,Targets set,1.5°C,2033,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PCAR,Paccar,Industrials,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PKG,Packaging Corporation of America,Materials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+PLTR,Palantir Technologies,Information Technology,None,Exact,,,,,,,Commitment removed,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+PANW,Palo Alto Networks,Information Technology,Exact,Exact,Net zero,2040.0,2027.0,Yes,Yes,Yes,Targets set,1.5°C,FY2027,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PSKY,Paramount Skydance Corporation,Communication Services,Substring,Substring,No target,,,No,No,No,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+PH,Parker Hannifin,Industrials,Exact,Exact,Climate neutral,2040.0,2030.0,Yes,Yes,No,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PAYX,Paychex,Industrials,Exact,None,Net zero,2050.0,2040.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+PYPL,PayPal,Financials,Exact,Exact,Net zero,2040.0,2025.0,Yes,Yes,Partial,Targets set,1.5°C,2025,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PNR,Pentair,Industrials,None,Fuzzy,,,,,,,Targets set,1.5°C,2030,,,,,,Tier 2: Near-Term Science Target Only,50
+PEP,PepsiCo,Consumer Staples,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PFE,Pfizer,Health Care,Exact,Exact,No target,,,No,No,No,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+PCG,PG&E Corporation,Utilities,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+PM,Philip Morris International,Consumer Staples,Exact,Exact,Net zero,2040.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PSX,Phillips 66,Energy,Exact,None,Emissions intensity target,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+PNW,Pinnacle West Capital,Utilities,Exact,Substring,No target,,,No,No,No,Targets set,1.5°C,2030,Targets set,1.5°C,2045,Targets set,2045,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PNC,PNC Financial Services,Financials,Exact,Fuzzy,Emissions reduction target,2030.0,2025.0,Yes,Yes,No,Targets set,1.5°C,FY2027,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PPG,PPG Industries,Materials,Exact,Exact,No target,,,No,No,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PPL,PPL Corporation,Utilities,Exact,Exact,Net zero,2050.0,2035.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PFG,Principal Financial Group,Financials,Exact,Exact,Net zero,2050.0,2034.0,Yes,Yes,Yes,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+PG,Procter & Gamble,Consumer Staples,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+PGR,Progressive Corporation,Financials,Exact,None,Carbon neutral(ity),2025.0,2022.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+PLD,Prologis,Real Estate,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PRU,Prudential Financial,Financials,Substring,None,Net zero,2050.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+PEG,Public Service Enterprise Group,Utilities,Exact,Substring,Net zero,2030.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PTC,PTC Inc.,Information Technology,None,Exact,,,,,,,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PSA,Public Storage,Real Estate,Exact,Substring,Emissions reduction target,2032.0,2025.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+PHM,PulteGroup,Consumer Discretionary,Exact,None,No target,,,No,No,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+PWR,Quanta Services,Industrials,Exact,Substring,No target,,,Yes,Yes,Not Specified,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+QCOM,Qualcomm,Information Technology,Exact,Exact,Emissions reduction target,2040.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+DGX,Quest Diagnostics,Health Care,Exact,None,Other,2025.0,,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+Q,Qnity Electronics,Information Technology,None,Fuzzy,,,,,,,Committed,,,,,,Committed,,Tier 4: No Public Targets / Silent / All commitment,10
+RL,Ralph Lauren Corporation,Consumer Discretionary,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+RJF,Raymond James Financial,Financials,Exact,None,Other,2022.0,,Yes,Yes,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+RDDT,Reddit,Communication Services,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+RTX,RTX Corporation,Industrials,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+O,Realty Income,Real Estate,Exact,None,No target,,,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+REG,Regency Centers,Real Estate,None,Exact,,,,,,,Targets set,Well-below 2°C,2030,,,,,,Tier 2: Near-Term Science Target Only,50
+REGN,Regeneron Pharmaceuticals,Health Care,Exact,Substring,Emissions reduction target,2025.0,2030.0,Yes,Yes,No,Committed,,,,,,Committed,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+RF,Regions Financial Corporation,Financials,Exact,Fuzzy,Emissions reduction target,2030.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+RSG,Republic Services,Industrials,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,No,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+RMD,ResMed|,Health Care,Exact,Exact,No target,2050.0,,Yes,Yes,No,Commitment removed,,,,,,Commitment removed,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+RVTY,Revvity,Health Care,None,Exact,,,,,,,Commitment removed,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+HOOD,Robinhood Markets,Financials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+ROK,Rockwell Automation,Industrials,Exact,Exact,Carbon neutral(ity),2030.0,,Yes,Yes,No,Targets set,1.5°C,FY2033,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ROL,"Rollins, Inc.",Industrials,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+ROP,Roper Technologies,Information Technology,Exact,Exact,No target,,,,,,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+ROST,Ross Stores,Consumer Discretionary,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+RCL,Royal Caribbean Group,Consumer Discretionary,Substring,Substring,Net zero,2050.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SPGI,S&P Global,Financials,Exact,Exact,Net zero,2040.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,2025,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+CRM,Salesforce,Information Technology,Substring,Substring,Net zero,2050.0,2031.0,Yes,Yes,Yes,Targets set,1.5°C,FY2031,Targets set,1.5°C,FY2041,Targets set,FY2041,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SNDK,Sandisk,Information Technology,None,Exact,,,,,,,Committed,,,,,,Committed,,Tier 4: No Public Targets / Silent / All commitment,10
+SBAC,SBA Communications,Real Estate,Exact,Exact,No target,,,,,,Targets set,1.5°C,FY2033,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SLB,Schlumberger,Energy,Exact,None,Net zero,2050.0,2025.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+STX,Seagate Technology,Information Technology,Exact,Exact,Carbon neutral(ity),2040.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SRE,Sempra,Utilities,Substring,None,Net zero,2050.0,2035.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+NOW,ServiceNow,Information Technology,Exact,Exact,Net zero,2030.0,2026.0,Yes,Yes,Yes,Targets set,1.5°C,2026,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SHW,Sherwin-Williams,Materials,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+SPG,Simon Property Group,Real Estate,Exact,Exact,Emissions reduction target,2035.0,,Yes,Yes,Partial,Targets set,1.5°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SWKS,Skyworks Solutions,Information Technology,Exact,Substring,Emissions reduction target,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,2028,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+SJM,J.M. Smucker Company (The),Consumer Staples,Fuzzy,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SW,Smurfit Westrock,Materials,Substring,Substring,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,Well-below 2°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SNA,Snap-on,Industrials,Exact,Substring,No target,,,Yes,Yes,No,Targets set,1.5°C,2025,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SOLV,Solventum,Health Care,None,Exact,,,,,,,Committed,,,,,,Committed,,Tier 4: No Public Targets / Silent / All commitment,10
+SO,Southern Company,Utilities,Exact,Substring,Net zero,2050.0,2030.0,Yes,No,No,Targets set,1.5°C,2035,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+LUV,Southwest Airlines,Industrials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Partial,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+SWK,Stanley Black & Decker,Industrials,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SBUX,Starbucks,Consumer Discretionary,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+STT,State Street Corporation,Financials,Exact,None,Emissions reduction target,2030.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+STLD,Steel Dynamics,Materials,Exact,Substring,Other,2050.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+STE,Steris,Health Care,Exact,Exact,Net zero,2045.0,,Not Specified,Not Specified,Not Specified,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+SYK,Stryker Corporation,Health Care,Exact,Exact,Carbon neutral(ity),2030.0,2024.0,Yes,Yes,No,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+SMCI,Supermicro,Information Technology,None,Fuzzy,,,,,,,Committed,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+SYF,Synchrony Financial,Financials,Exact,None,No target,,,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+SNPS,Synopsys,Information Technology,Exact,Exact,Emissions reduction target,2032.0,,Yes,Yes,Partial,Targets set,1.5°C,2032,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+SYY,Sysco,Consumer Staples,Exact,Exact,Emissions reduction target,2030.0,2026.0,Yes,Yes,Yes,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TMUS,T-Mobile US,Communication Services,None,Substring,,,,,,,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TROW,T. Rowe Price,Financials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+TTWO,Take-Two Interactive,Communication Services,Substring,Substring,Emissions reduction target,2033.0,,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TPR,"Tapestry, Inc.",Consumer Discretionary,None,Exact,,,,,,,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2050,Targets set,FY2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TRGP,Targa Resources,Energy,Exact,Fuzzy,Emissions intensity target,2025.0,2025.0,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TGT,Target Corporation,Consumer Staples,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Yes,Targets set,2°C,2030,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TEL,TE Connectivity,Information Technology,Exact,Exact,No target,,,No,No,No,Targets set,1.5°C,2032,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TDY,Teledyne Technologies,Information Technology,Exact,None,Emissions reduction target,2040.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+TER,Teradyne,Information Technology,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TSLA,"Tesla, Inc.",Consumer Discretionary,Substring,Exact,Net zero,2040.0,,Yes,Yes,Yes,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+TXN,Texas Instruments,Information Technology,Exact,Exact,Emissions reduction target,2025.0,,Yes,Yes,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TPL,Texas Pacific Land Corporation,Energy,Substring,None,Carbon neutral(ity),2060.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+TXT,Textron,Industrials,Exact,Substring,Emissions intensity target,2025.0,,Yes,Yes,No,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TMO,Thermo Fisher Scientific,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TJX,TJX Companies,Consumer Discretionary,Exact,None,Net zero,2040.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+TKO,TKO Group Holdings,Communication Services,Fuzzy,None,Carbon neutral(ity),2050.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+TTD,Trade Desk (The),Communication Services,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+TSCO,Tractor Supply,Consumer Discretionary,Exact,Exact,No target,,,No,No,No,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+TT,Trane Technologies,Industrials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,No,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TDG,TransDigm Group,Industrials,Exact,None,Emissions reduction target,2031.0,,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+TRV,Travelers Companies (The),Financials,Substring,Substring,Carbon neutral(ity),2030.0,,Yes,Yes,No,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TRMB,Trimble Inc.,Information Technology,Exact,Exact,Emissions reduction target,2030.0,,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TFC,Truist Financial,Financials,Exact,Fuzzy,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2028,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TYL,Tyler Technologies,Information Technology,None,Substring,,,,,,,Targets set,1.5°C,2035,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+TSN,Tyson Foods,Consumer Staples,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+USB,U.S. Bancorp,Financials,Exact,None,Net zero,2050.0,2029.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+UBER,Uber,Industrials,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+UDR,"UDR, Inc.",Real Estate,None,Exact,,,,,,,Commitment removed,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+ULTA,Ulta Beauty,Consumer Discretionary,Exact,Exact,Emissions reduction target,2030.0,2027.0,Yes,Yes,Yes,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+UNP,Union Pacific Corporation,Industrials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+UAL,United Airlines Holdings,Industrials,Exact,Exact,Net zero,2050.0,2035.0,Yes,Yes,Partial,Targets set,Well-below 2°C,2035,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+UPS,United Parcel Service,Industrials,None,Substring,,,,,,,Targets set,1.5°C,2030,,,,Committed,,Tier 2: Near-Term Science Target Only,50
+URI,United Rentals,Industrials,Exact,Substring,Emissions intensity target,2030.0,,Yes,Yes,Partial,Targets set,1.5°C,2030,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+UNH,UnitedHealth Group,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+UHS,Universal Health Services,Health Care,Exact,Substring,No target,,,Not Specified,Not Specified,Not Specified,Targets set,1.5°C,2030,Targets set,1.5°C,2040,Targets set,2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+VLO,Valero Energy,Energy,Exact,None,Carbon negative,2050.0,2025.0,Yes,Yes,Yes,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+VEEV,Veeva Systems,Health Care,Exact,Exact,No target,,,,,,Targets set,1.5°C,FY2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+VTR,Ventas,Real Estate,Exact,Exact,Net zero,2040.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+VLTO,Veralto,Industrials,None,Exact,,,,,,,Committed,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+VRSN,Verisign,Information Technology,Exact,None,No target,,,,,,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+VRSK,Verisk Analytics,Industrials,Exact,Exact,Net zero,2050.0,2034.0,Yes,Yes,Yes,Targets set,1.5°C,2034,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+VZ,Verizon,Communication Services,Exact,Exact,Net zero,2035.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,2035,,,,Committed,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+VRTX,Vertex Pharmaceuticals,Health Care,Exact,Substring,Emissions reduction target,2032.0,,Yes,Yes,Partial,Committed,,,,,,Committed,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+VRT,Vertiv,Industrials,None,Fuzzy,,,,,,,Committed,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+VTRS,Viatris,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+VICI,Vici Properties,Real Estate,Exact,Substring,No target,,,Yes,Yes,No,Commitment removed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+V,Visa Inc.,Financials,Exact,Exact,Net zero,2040.0,,Yes,Yes,Yes,Targets set,1.5°C,FY2030,Targets set,1.5°C,FY2040,Targets set,FY2040,Tier 1: Comprehensive Science Target (Near + Long Term),100
+VST,Vistra Corp.,Utilities,Exact,Exact,Net zero,2050.0,2028.0,Yes,Yes,Partial,Targets set,1.5°C,2028,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+VMRK,Vivmark Residential,Real Estate,None,None,,,,,,,,,,,,,,,Tier 4: No Public Targets / Silent / All commitment,10
+VMC,Vulcan Materials Company,Materials,Exact,None,Other,2030.0,,Not Specified,Not Specified,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+WRB,W. R. Berkley Corporation,Financials,Exact,None,No target,,,Yes,Yes,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+GWW,W. W. Grainger,Industrials,Fuzzy,Substring,Emissions reduction target,2030.0,,Yes,Yes,No,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WAB,Wabtec,Industrials,None,Fuzzy,,,,,,,Targets set,1.5°C,2030,,,,,,Tier 2: Near-Term Science Target Only,50
+WMT,Walmart,Consumer Staples,Exact,Exact,Zero emissions,2040.0,2025.0,Yes,Yes,No,Targets set,1.5°C,FY2031,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+DIS,Walt Disney Company (The),Communication Services,Exact,Exact,Net zero,2030.0,2030.0,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WBD,Warner Bros. Discovery,Communication Services,Exact,Substring,No target,2030.0,,No,No,No,Committed,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+WM,Waste Management,Industrials,Exact,Fuzzy,Emissions reduction target,2031.0,2032.0,Yes,Yes,No,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WAT,Waters Corporation,Health Care,Exact,Exact,Emissions reduction target,2025.0,,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WEC,WEC Energy Group,Utilities,Exact,Fuzzy,Carbon neutral(ity),2050.0,2030.0,Yes,Not Specified,No,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WFC,Wells Fargo,Financials,Exact,Substring,Net zero,2050.0,2030.0,Yes,Yes,No,Commitment removed,,,,,,Commitment removed,,Tier 3: Unsubstantiated Long-Term Pledge with Near-term Commitment Removed / Lapsed with ,20
+WELL,Welltower,Real Estate,Exact,Exact,Emissions reduction target,2030.0,2025.0,Yes,Yes,Yes,Targets set,Well-below 2°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WST,West Pharmaceutical Services,Health Care,Fuzzy,Exact,Emissions reduction target,2030.0,2025.0,Yes,Yes,Yes,Targets set,1.5°C,2035,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WDC,Western Digital,Information Technology,Exact,Exact,Net zero,2032.0,2030.0,Yes,Yes,No,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WY,Weyerhaeuser,Real Estate,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+WSM,"Williams-Sonoma, Inc.",Consumer Discretionary,Substring,Exact,Net zero,2050.0,2028.0,Yes,Yes,Not Specified,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WMB,Williams Companies,Energy,Substring,None,Net zero,2050.0,2028.0,Yes,Yes,Not Specified,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+WTW,Willis Towers Watson,Financials,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+WDAY,"Workday, Inc.",Information Technology,Exact,Exact,Net zero,2021.0,,Yes,Yes,Partial,Targets set,1.5°C,FY2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+WYNN,Wynn Resorts,Consumer Discretionary,Exact,None,Net zero,2050.0,2030.0,Yes,Yes,No,,,,,,,,,Tier 3: Unsubstantiated Long-Term Pledge (No Near-Term Validation),30
+XEL,Xcel Energy,Utilities,Exact,Fuzzy,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+XYL,Xylem Inc.,Industrials,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+YUM,Yum! Brands,Consumer Discretionary,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,,,,Commitment removed,,Tier 3: Near-Term Science Target with Net-zero/Long-Term Commitment Removed / Lapsed ,40
+ZBRA,Zebra Technologies,Information Technology,Exact,Exact,No target,,,,,,Targets set,1.5°C,2030,,,,,,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ZBH,Zimmer Biomet,Health Care,Exact,Exact,Net zero,2050.0,2030.0,Yes,Yes,Yes,Targets set,1.5°C,2030,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
+ZTS,Zoetis,Health Care,Exact,Fuzzy,Carbon neutral(ity),2030.0,2025.0,Yes,Yes,No,Targets set,1.5°C,2033,Targets set,1.5°C,2050,Targets set,2050,Tier 1: Comprehensive Science Target (Near + Long Term),100
