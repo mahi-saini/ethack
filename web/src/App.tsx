@@ -8,6 +8,7 @@ import Rankings from "./pages/Rankings";
 import Compare from "./pages/Compare";
 import Studio from "./pages/Studio";
 import Advisor from "./pages/Advisor";
+import NetZero from "./pages/NetZero";
 import Method from "./pages/Method";
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
             <Route path="/studio" element={<Studio />} />
             <Route path="/advisor" element={<Advisor />} />
             <Route path="/calculator" element={<Navigate to="/advisor" replace />} />
+            <Route path="/net-zero" element={<NetZero />} />
             <Route path="/method" element={<Method />} />
             <Route path="*" element={<Navigate to="/" replace />} />
           </Route>

@@ -1,15 +1,7 @@
 import type { Company, Dataset } from "../types";
-import { ENABLER_INDUSTRY, HIGH_CARBON_SECTORS } from "./scoring";
+import { allocateNetZero, dollars, MONEY, type Holding } from "./portfolio";
 
-export type Holding = {
-  ticker: string;
-  name: string;
-  sector: string;
-  amount: number;
-  weight: number;
-  sleeve: string;
-  why: string;
-};
+export type { Holding };
 
 export type AgentReply = {
   title: string;
@@ -17,16 +9,6 @@ export type AgentReply = {
   holdings?: Holding[];
   companies?: Company[];
 };
-
-const MONEY = 1_000_000_000;
-const NAME_CAP = 0.035;
-const SECTOR_CAP = 0.18;
-
-function dollars(n: number): string {
-  if (n >= 1_000_000_000) return `$${(n / 1_000_000_000).toFixed(2)}B`;
-  if (n >= 1_000_000) return `$${Math.round(n / 1_000_000)}M`;
-  return `$${Math.round(n).toLocaleString()}`;
-}
 
 function findCompanies(dataset: Dataset, text: string): Company[] {
   const low = text.toLowerCase();
@@ -39,100 +21,6 @@ function findCompanies(dataset: Dataset, text: string): Company[] {
   }
   const unique = new Map(hits.map((c) => [c.ticker, c]));
   return [...unique.values()].slice(0, 6);
-}
-
-function allocate(dataset: Dataset): Holding[] {
-  const eligible = dataset.companies.filter((c) => c.passages > 0 && c.completeness >= 0.35);
-  const leaders = [...eligible]
-    .sort((a, b) => b.netZeroFitness - a.netZeroFitness || a.sayDoGap - b.sayDoGap)
-    .filter((c) => c.sayDoGap < 1.1)
-    .slice(0, 40);
-
-  const transition = [...eligible]
-    .filter((c) => HIGH_CARBON_SECTORS.has(c.sector))
-    .sort((a, b) => b.doScore - a.doScore || b.pillars.environmental.score - a.pillars.environmental.score)
-    .filter((c) => c.doScore >= 52 && c.sayDoGap < 0.9)
-    .slice(0, 24);
-
-  const enablers = [...eligible]
-    .filter((c) => ENABLER_INDUSTRY.test(c.industry) || c.factors.cleanEnergy.score >= 70)
-    .sort((a, b) => b.factors.cleanEnergy.score - a.factors.cleanEnergy.score)
-    .slice(0, 20);
-
-  const sleeves: { name: string; share: number; pool: Company[]; why: (c: Company) => string }[] = [
-    {
-      name: "Climate leaders",
-      share: 0.4,
-      pool: leaders,
-      why: (c) =>
-        `Already among the strongest on climate follow-through (${c.netZeroFitness}/100 fit). Say-do: ${c.sayDoLabel.toLowerCase()}.`,
-    },
-    {
-      name: "Transition doers",
-      share: 0.3,
-      pool: transition,
-      why: (c) =>
-        `A ${c.sector.toLowerCase()} company whose filings show more proof than most peers (proof score ${c.doScore}).`,
-    },
-    {
-      name: "Enablers",
-      share: 0.2,
-      pool: enablers,
-      why: (c) =>
-        `Helps other companies decarbonize — ${c.industry.toLowerCase()}, clean-energy shift ${c.factors.cleanEnergy.score}.`,
-    },
-    {
-      name: "Resilience buffer",
-      share: 0.1,
-      pool: [...eligible]
-        .sort(
-          (a, b) =>
-            b.pillars.economic.score + b.pillars.governance.score - (a.pillars.economic.score + a.pillars.governance.score),
-        )
-        .slice(0, 16),
-      why: (c) =>
-        `Sturdy enough to keep funding the work (stability ${c.pillars.economic.score}, trust ${c.pillars.governance.score}).`,
-    },
-  ];
-
-  const picked = new Map<string, Holding>();
-  const sectorUsed: Record<string, number> = {};
-
-  const tryAdd = (company: Company, sleeve: string, budget: number, why: string) => {
-    if (picked.has(company.ticker)) return 0;
-    const used = sectorUsed[company.sector] ?? 0;
-    const room = Math.min(NAME_CAP * MONEY, (SECTOR_CAP * MONEY) - used, budget);
-    if (room < MONEY * 0.008) return 0;
-    const amount = Math.round(room / 1_000_000) * 1_000_000;
-    if (amount <= 0) return 0;
-    picked.set(company.ticker, {
-      ticker: company.ticker,
-      name: company.name,
-      sector: company.sector,
-      amount,
-      weight: amount / MONEY,
-      sleeve,
-      why,
-    });
-    sectorUsed[company.sector] = used + amount;
-    return amount;
-  };
-
-  for (const sleeve of sleeves) {
-    let budget = sleeve.share * MONEY;
-    for (const company of sleeve.pool) {
-      if (budget < MONEY * 0.008) break;
-      const spent = tryAdd(company, sleeve.name, budget, sleeve.why(company));
-      budget -= spent;
-    }
-  }
-
-  const holdings = [...picked.values()].sort((a, b) => b.amount - a.amount);
-  const spent = holdings.reduce((sum, h) => sum + h.amount, 0);
-  if (spent < MONEY && holdings.length) {
-    holdings[0] = { ...holdings[0], amount: holdings[0].amount + (MONEY - spent) };
-  }
-  return holdings.map((h) => ({ ...h, weight: h.amount / MONEY }));
 }
 
 function describePortfolio(holdings: Holding[]): string {
@@ -164,6 +52,8 @@ function describePortfolio(holdings: Holding[]): string {
     sectorLines,
     "",
     "We keep a slice in heavier industries on purpose. A just transition still needs steel, power, and freight — but only from the names whose filings show they are already doing the work, not just promising it.",
+    "",
+    "To change the split, open the Net-zero page and finish the sentences with the dropdowns.",
   ].join("\n");
 }
 
@@ -216,7 +106,7 @@ export function answer(dataset: Dataset, input: string): AgentReply {
   const wantsStrategy = /should|change|improve|fix|advice|strategy|recommend/i.test(lower);
 
   if (wantsPortfolio || /bonus|tomorrow the world/i.test(lower)) {
-    const holdings = allocate(dataset);
+    const holdings = allocateNetZero(dataset);
     return {
       title: "A $1 billion net-zero portfolio",
       body: describePortfolio(holdings),
@@ -281,7 +171,7 @@ export function answer(dataset: Dataset, input: string): AgentReply {
       "This is a calculator. I will not invent a company, a number, or next year’s price.",
       "Ask in everyday language. I only read the Green Liquid scores.",
       "Try:",
-      "• The world just committed to net-zero. Allocate my $1 billion.",
+      "• Compare Apple and Microsoft.",
       "• Compare Apple and Microsoft.",
       "• What should Exxon change first?",
       "• Who in Energy is actually walking the talk?",

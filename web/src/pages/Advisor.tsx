@@ -4,7 +4,6 @@ import { useDataset } from "../dataset";
 import { answer } from "../lib/agent";
 
 const PROMPTS = [
-  "The world just committed to net-zero. Allocate my $1 billion.",
   "Who in Energy is actually walking the talk?",
   "Compare Apple and Exxon.",
   "What should 3M change first?",
@@ -43,14 +42,18 @@ export default function Advisor() {
       <p className="kicker">🧮 Calculator</p>
       <h1>Ask in your own words. The numbers stay honest.</h1>
       <p className="lede">
-        This is a <strong>calculator</strong>, not a chatbot. It only reads Green Liquid scores — so a $1 billion split
-        is arithmetic, <em>not a guess</em>. No model is inventing companies in the background.
+        This is a <strong>calculator</strong>, not a chatbot. It only reads Green Liquid scores. For the $1 billion
+        net-zero split, use the <Link to="/net-zero">Net-zero page</Link> — <em>dropdowns, not a chat prompt</em>. No
+        model is inventing companies in the background.
       </p>
       <div className="card" style={{ marginBottom: 16 }}>
-        <strong>What it will do:</strong> look up a name, compare two companies, rank a sector, or allocate $1B from the
-        scores. <em>What it will not do:</em> hallucinate a number, or pretend to know next year’s stock price.
+        <strong>What it will do:</strong> look up a name, compare two companies, or rank a sector from the scores.{" "}
+        <em>What it will not do:</em> hallucinate a number, or pretend to know next year’s stock price.
       </div>
       <div className="prompts">
+        <Link className="chip" to="/net-zero">
+          Shape a $1 billion net-zero portfolio
+        </Link>
         {PROMPTS.map((p) => (
           <button key={p} className="chip" onClick={() => ask(p)}>
             {p}
@@ -100,7 +103,7 @@ export default function Advisor() {
           className="search"
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Ask a company, a sector, or the $1B fund"
+          placeholder="Ask a company or a sector"
           aria-label="Ask the calculator"
         />
         <button className="btn" type="submit">

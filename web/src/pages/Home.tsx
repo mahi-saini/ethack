@@ -31,6 +31,9 @@ export default function Home() {
             <Link className="btn" to="/explore">
               🔍 Explore companies
             </Link>
+            <Link className="btn ghost" to="/net-zero">
+              💸 $1B net-zero
+            </Link>
             <Link className="btn ghost" to="/advisor">
               🧮 Open the calculator
             </Link>

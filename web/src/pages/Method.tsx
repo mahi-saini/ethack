@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 export default function Method() {
   return (
     <div className="page">
@@ -110,8 +112,20 @@ export default function Method() {
           <ul>
             <li>Ask in your own words. The <strong>numbers never invent themselves</strong>.</li>
             <li>It only reads the <em>same scores</em> as the rest of the site.</li>
-            <li>Try the $1 billion net-zero split. 💸</li>
             <li>Not a chatbot. Arithmetic you can check.</li>
+          </ul>
+        </article>
+
+        <article className="fun-card">
+          <div className="emoji" aria-hidden="true">💸</div>
+          <h3>A $1 billion net-zero mix</h3>
+          <ul>
+            <li>Finish the sentences. <strong>Dropdowns, not a prompt.</strong></li>
+            <li>The circle is a <em>$1 billion</em> split from the same scores.</li>
+            <li>Change a sector, a cap, or how we treat heavy industry — the pie moves.</li>
+            <li>
+              Not a stock pick. <Link to="/net-zero">Open the net-zero mix</Link>.
+            </li>
           </ul>
         </article>
 
