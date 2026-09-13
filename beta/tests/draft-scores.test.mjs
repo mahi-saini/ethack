@@ -1,0 +1,7 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+const scores=JSON.parse(readFileSync('lib/research/draft-scores.json')),baseline=JSON.parse(readFileSync('lib/research/baseline.json'));
+test('every stock has bounded draft pillars with explicitly separate observed coverage',()=>{for(const c of baseline.companies){const d=scores[c.cik];assert.ok(d,c.ticker);assert.equal(d.scores.length,4);assert.ok(d.scores.every(v=>Number.isFinite(v)&&v>=0&&v<=100));assert.equal(d.coverage,d.observedScores.reduce((a,s,i)=>a+(s===null?0:[30,30,20,20][i]),0));d.observedScores.forEach((v,i)=>assert.equal(d.scores[i],v??50));assert.ok(d.observedScores[0]===null || Number.isFinite(d.observedScores[0]));assert.ok(d.limitations.length)}});
+test('3M missing climate evidence is imputed and does not inflate evidence coverage',()=>{const d=scores[baseline.companies.find(c=>c.ticker==='MMM').cik];assert.equal(d.coverage,20);assert.equal(d.confidence,'Low');assert.deepEqual(d.observedScores,[null,null,9,null]);});
+test('financial comparison uses matched period records and sufficiently large sector group',()=>{for(const d of Object.values(scores))for(const x of d.inputs.filter(x=>x.pillar===2)){assert.equal(x.records.length,2);assert.equal(x.records[0].period,x.records[1].period);assert.ok(x.peers>=5);assert.ok(x.records.every(r=>r.sourceId&&r.recordId&&r.location))}});

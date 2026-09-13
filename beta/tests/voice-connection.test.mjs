@@ -1,0 +1,18 @@
+import {mkdir} from 'node:fs/promises';
+import {build} from 'esbuild';
+import assert from 'node:assert/strict';
+await mkdir('work',{recursive:true});
+const states=[],sent=[];let connection;
+await build({entryPoints:['components/hypergreen/use-voice.ts'],bundle:true,platform:'node',format:'esm',outfile:'work/voice-hook.bundle.mjs',plugins:[{name:'browser-mocks',setup(b){b.onResolve({filter:/^react$/},()=>({path:'react',namespace:'m'}));b.onResolve({filter:/client-api$/},()=>({path:'api',namespace:'m'}));b.onLoad({filter:/.*/,namespace:'m'},a=>({contents:a.path==='react'?'export const useRef=v=>({current:v}); export const useEffect=()=>{}; export const useState=v=>[v,x=>globalThis.states.push(x)];':'export const apiJson=async p=>p.includes("config")?{iceServers:[]}:{sdp:"answer"};'}));}}]});
+globalThis.states=states;
+const track={enabled:true,stop(){}};
+Object.defineProperty(globalThis,'navigator',{value:{mediaDevices:{getUserMedia:async()=>({getAudioTracks:()=>[track],getTracks:()=>[track]})}},configurable:true});
+globalThis.Audio=class {pause(){}};
+globalThis.RTCPeerConnection=class {iceGatheringState='complete';constructor(){connection=this}addTrack(){}createDataChannel(){return this.dc={readyState:'open',send:x=>sent.push(JSON.parse(x))}}async createOffer(){return {sdp:'offer'}}async setLocalDescription(d){this.localDescription=d}async setRemoteDescription(){}close(){}};
+const {useVoice}=await import('../work/voice-hook.bundle.mjs');let asked=0;
+const voice=useVoice({ask:async()=>{asked++;return {answer:'retrieved actual evidence',dataset:{id:'research'}}},stopResearch(){}});
+await voice.start();assert.equal(track.enabled,false);connection.dc.onopen();assert.equal(sent[0].type,'session.update');assert.ok(sent[0].session.tools.some(t=>t.name==='ask_hypergreen'));assert.ok(!states.includes('active'));
+await connection.dc.onmessage({data:JSON.stringify({type:'session.updated',session:{tools:[{name:'ask_hypergreen'}]}})});assert.equal(track.enabled,true);assert.ok(states.includes('active'));
+const call={type:'response.function_call_arguments.done',name:'ask_hypergreen',call_id:'one',arguments:'{"question":"Read dataset"}'};await connection.dc.onmessage({data:JSON.stringify(call)});await connection.dc.onmessage({data:JSON.stringify(call)});assert.equal(asked,1);assert.equal(sent[1].item.type,'function_call_output');voice.stop();
+const bad=useVoice({ask:async()=>{throw Error('not expected')},stopResearch(){}});await bad.start();connection.dc.onopen();await connection.dc.onmessage({data:JSON.stringify({type:'session.updated',session:{tools:[]}})});assert.equal(track.enabled,false);assert.ok(states.some(s=>typeof s==='string'&&s.includes('research tools were not connected')));bad.stop();
+console.log('PASS voice hook registers tool before enabling microphone, rejects missing registration, delegates research once and sends the answer back.');

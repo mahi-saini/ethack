@@ -1,0 +1,1 @@
+{"id":"server-companyReportedEmissions","parts":[{"path":"server-companyReportedEmissions/0000.json.gz","count":11,"keys":["CIK:0000066740","CIK:0000874761"],"bytes":631,"decodedBytes":5573,"sha256":"c5e6fba7497f7ad29c6bbf4baa3848822a8d70bfac92336fb3dbd1ce28284340"}],"companyCounts":{"CIK:0000066740":5,"CIK:0000874761":6}}

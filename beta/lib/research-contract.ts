@@ -1,0 +1,5 @@
+export type LibraryCollection={id:string;label:string;group:string;count:number;parts:number;bytes:number;notes:string[];index:string};
+export type LibraryManifest={id:string;label:string;collectedAt:string;collections:LibraryCollection[];totalRecords:number;companies:number;workspaceCompanies:number;limitations:string[];sources:{name:string;url:string;terms:string}[];archives:{label:string;status:string;documents?:number}[]};
+export type LibraryCompany={id:string;cik:string;name:string;tickers:string[];firstQuarter:string;lastQuarter:string;inLatestSnapshot:boolean;netZeroMapping?:string};
+export type LibraryRow={recordId:string;keys:string[];label:string;period:string|null;availableDate:string|null;value:unknown;unit:string|null;basis:string;eligible:boolean;dateAnomaly:boolean;sourceId:string|null;url:string|null;record:Record<string,unknown>;location:{collection:string;part:number;index:number}};
+export type LibraryPage={collection:LibraryCollection;rows:LibraryRow[];next:string|null;scanned:number;scopeCount:number|null;note:string};
