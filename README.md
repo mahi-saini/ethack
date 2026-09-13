@@ -22,3 +22,9 @@ npm run dev
 ```
 
 Open the local URL, then demo: Explore → a company → Rankings (move the sliders) → Charts (say vs do) → Advisor (“The world just committed to net-zero. Allocate my $1 billion.”).
+
+## Deploy on Vercel
+
+The site lives in `web/`. The repo-root `vercel.json` tells Vercel to install and build there and to serve `web/dist`. Client routes (`/explore`, `/net-zero`, `/company/XOM`) are rewritten to `index.html`.
+
+If you set the Vercel **Root Directory** to `web` in the dashboard instead, leave that setting — `web/vercel.json` still handles the SPA rewrites.
